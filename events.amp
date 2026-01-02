@@ -1,14 +1,26 @@
 homeEvents{
 
-^eventDate{10 January 2026}
-^event{Traditional First Steam GTG}{Wiggertal Live Steam Group. 11:00-17:00}{Register with		 ^mail{edwin.burkhardt@bluewin.ch}}
+^eventDate{28 February 2026 - 1 March 2026}
+^event{^link{Midlands Garden Rail Show}{https://www.meridienneexhibitions.co.uk/events/midlands-garden-rail-show}}{Warwickshire Event Centre, ^postcode{CV31}{1XN}}{Carding Road track courtesy of the Midland Group}
 
+^eventDate{10 January 2026}
+^event{Yorkshire Group New Year running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:30-15.30; meals available}
+
+^eventDate{21 February 2026}
+^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:30-15.30; meals available}
 
 ^eventDate{28 February - 1 March 2026}
 ^event{^link{Midlands Garden Rail Show}{https://www.meridienneexhibitions.co.uk/events/midlands-garden-rail-show}}{Warwickshire Event Centre, ^postcode{CV31}{1XN}}{Carding Road track courtesy of the Midland Group}
 
 ^eventDate{4 - 8 March 2026}
 ^event{^link{Steam over Spencer}{https://thetraindepartment.com/collections/steam-over-spencer-registration}}{N.C. Transportation Museum 1 Samuel Spencer Dr. Spencer, NC 28159 USA }{Gathering of friends for a week of steaming with four Gauge 1 tracks available}
+
+^eventDate{21 March 2026}
+^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:30-15.30; meals available}
+
+^eventDate{18 April 2026}
+^event{G1MRA Spring Meeting}{Statfold Country Park ^postcode{B79}{0BU}}{Anglia Roads courtesy of the East Anglian Group and Carding Road courtesy of the Midland Group, plustrade support}
+
 }
 
 futureEvents{
@@ -56,53 +68,3 @@ Exeter ^postcode{EX2}{8FD}}{}
 
 }
 
-(* Awaiting formatting 
-
-Yorkshire Group Dec newsletter
-
-Saturday 17th Jan 2026 Ridings at Drax Sports & Social CMlubalcolm High New Year bash
-Saturday 21st Feb 2026 Ridings at Drax Sports & Social CMlubalcolm High
-Saturday 21st March 2026 Ridings at Drax Sports & Social CMlubalcolm High This will be the AGM
-Other dates you might be interested in
-TBA Hinckley Kevin West westkev58@gmail.com
-TBA Don Valley Railway Alan Bullock Alan will e mail final date
-Until next Spring Trowell David Lowth davidblowth@googlemail.com
-TBA York SMEE Trevor Boulton 01904634962
-Sunday 14th Dec Midlands Group Penkridge
-7th and 8th February 2026 Festival of Model Railways Doncaster Racecourse
-Saturday 28th March Ashover Peter Vincent 01246 590259
-Saturday April 18th G1 Spring Meet Statfold Barn Malcolm High
-
-www.g1mra.com at 15 Dec 2025
-
-10th January 2026 - Traditional First Steam GTG
-
-Traditional First Steam GTG at Wiggertal Live Steam Group. 11:00-17:00. Register at edwin.burkhardt@bluewin.ch 28th February 2026 - Midlands Garden Rail Show
-
-Midlands Garden Rail Show – February 28/March 1. Warwickshire Event Centre, Leamington Spa. Midlands Group Carding Road layout. 4th March 2026 - 8th March 2026 Steam over Spencer
-@ Spencer, NC 28159, USA
-Gathering of friends for a week of steaming. 4 - Gauge 1 tracks available with both 32mm and 45mm available. Dates are March 4th - March 8th 2026 Location N.C. Transportation Museum 1 Samuel Spencer Dr. Spencer, NC 28159 USA 21st March 2026 - 22nd March 2026 London Festival of Model Railways
-
-London Festival of Model Railways. Alexandra Palace, London. G1MRA display and stand. 21st March 2026 - 22nd March 2026 International Gauge 0 and Gauge 1
-
-International Gauge 0 and Gauge 1, Giessen, Germany. G1MRA Germany layout expected to attend. 18th April 2026 - G1MRA Spring Show
-
-G1MRA Spring Show. Statfold Barn Railway, Tamworth. Anglia Roads - East Anglian Group, Carding Road - Midlands Group, plus all the major traders. 24th April 2026 - 25th April 2026 G1MRA France - Live Steam Show Montélimar
-
-G1MRA France - Live Steam Show Montélimar. Palais des Bonbons et du Nougat, 100 Rte de Valence, 26200 Montélimar, ce https://g1mra.ch/home?b=100452&c=EL,ED1000468&s=djEtd6llrery6Xt6x71j6cuceBOLAvGWxtA4bXXATsnEt4o 25th April 2026 - National Garden Railway Show
-
-National Garden Railway Show. National Agricultural Centre, Stoneleigh Park. Anglia Roads - East Anglian Group layout 25th April 2026 - 26th April 2026 Biannual Great British Train Show
-
-Biannual Great British Train Show. Saturday 25 April 10:00am to 4:00pm, Sunday 26 April 10:00am to 3:00pm. Jim Archdekin Recreation Centre. 292 Conestoga Drive, Brampton, Ontario, L6Z 3M1, Canada. G1MRA Southern Ontario display. 25th April 2026 - 26th April 2026 Biannual Great British Train Show
-
-Biannual Great British Train Show. Saturday 25 April 10:00am to 4:00pm, Sunday 26 April 10:00am to 3:00pm. Jim Archdekin Recreation Centre. 292 Conestoga Drive, Brampton, Ontario, L6Z 3M1, Canada. G1MRA Southern Ontario display. 9th May 2026 - 10th May 2026 Model Engineering Show
-
-Model Engineering Show. Statfold Barn Railway, Tamworth. Stanley Midland Midland Group layout 23rd May 2026 - 25th May 2026 Model Railway Exhibition Burgdorf
-
-Model Railway Exhibition Burgdorf, Tennishalle Burgdorf AG, Zähringerstrasse 39, 3400 Burgdorf. Switzerland. Swiss Group aims to be present with children’s activities. 30th May 2026 - 31st May 2026 Arbon Classics 2026
-
-Arbon Classics 2026. Arbon, Switzerland. 10th anniversary edition. G1MRA Bern group is expected to participate with its large layout. 11th July 2026 - Gauge 1 North
-@ Agricultural Business Centre, Bakewell, Derbyshire.
-Gauge 1 North will return to Bakewell on 11 July 2026 (note change of date to earlier weekend this year). 
-
-*)

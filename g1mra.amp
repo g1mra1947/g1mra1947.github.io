@@ -323,20 +323,19 @@ members{
       ^tbox{
         <h1>G1MRA members' area</h1>
         ^PAR{
-This members' area contains encrypted files. To access them, click on the link to download a copy to your device, and then open the file. You will be asked for a password which you will find on page 666 of Newsletter and Journal issue 667.
+This members' area contains encrypted files. To access them, click on the link to download a copy to your device, and then open the file. You will be asked for a password which you will in the current Newsletter and Journal issue.
 
 ^h1{Do not share these files or passwords}
 ^h2{Books}
 ^PAR{^link{Volume 1: Electric Propulsion}{encrypted/electric.zip} 
 
-Other books are available for purchase.}
+Other books are available for purchase via our ^link{market place}{marketplace_^lang.html}.}
 ^h2{Newsletter and Journal issues}
 ^h3{1947-49}
 ^PAR{
 ^nlj{001}
 ^nlj{002}
 }
-
 ^h3{1950-59}
 ^PAR{
 ^nlj{003}
@@ -385,6 +384,9 @@ Other books are available for purchase.}
 ^nlj{042}
 ^nlj{043}
 ^nlj{044}
+}
+^h3{1960-69}
+^PAR{
 ^nlj{045}
 ^nlj{046}
 ^nlj{047}
@@ -418,6 +420,9 @@ Other books are available for purchase.}
 ^nlj{072}
 ^nlj{073}
 ^nlj{074}
+}
+^h3{1970-79}
+^PAR{
 ^nlj{075}
 ^nlj{076}
 ^nlj{077}
@@ -452,6 +457,9 @@ Other books are available for purchase.}
 ^nlj{103}
 ^nlj{104}
 ^nlj{105}
+}
+^h3{1980-89}
+^PAR{
 ^nlj{106}
 ^nlj{107}
 ^nlj{108}
@@ -495,6 +503,9 @@ Other books are available for purchase.}
 ^nlj{142}
 ^nlj{143}
 ^nlj{144}
+}
+^h3{1990-99}
+^PAR{
 ^nlj{145}
 ^nlj{146}
 ^nlj{147}
@@ -539,6 +550,9 @@ Other books are available for purchase.}
 ^nlj{182}
 ^nlj{183}
 ^nlj{184}
+}
+^h3{2000-09}
+^PAR{
 ^nlj{185}
 ^nlj{186}
 ^nlj{187}
@@ -583,6 +597,9 @@ Other books are available for purchase.}
 ^nlj{222}
 ^nlj{223}
 ^nlj{224}
+}
+^h3{2010-19}
+^PAR{
 ^nlj{225}
 ^nlj{226}
 ^nlj{227}
@@ -627,6 +644,9 @@ Other books are available for purchase.}
 ^nlj{262}
 ^nlj{263}
 ^nlj{264}
+}
+^h3{2020-}
+^PAR{
 ^nlj{265}
 ^nlj{266}
 ^nlj{267}
@@ -675,15 +695,17 @@ contact{
 
           Technical officer: ^g1mail{technical}
 
-          Supplier liaison officer: ^g1mail{supplier-liason}
+          Supplier liaison officer: ^g1mail{suppliers}
 
-          Group liason officer: ^g1mail{group-liason}
+          Group liason officer: ^g1mail{groups}
 
           Newletter and Journal editor: ^g1mail{nljeditor}
 
-          Diary and event listing: ^g1mail{events-diary}
+          Diary and event listing: ^g1mail{diary}
 
-          Show organisation and liason: ^g1mail{events-organisation}
+          Show organisation and liason: ^g1mail{events}
+
+          Member to member sales: ^g1mail{marketplace}
 
           Book sales: ^g1mail{books}
 
