@@ -273,6 +273,7 @@ resources{
     <a href="members_en.html">Tracks</a>
     <a href="contact_en.html">Suppliers</a>
     <a href="join_en.html">Friends</a>
+    <a href="join_en.html">Gauge 2</a>
   }	
 }
 </div>
@@ -287,6 +288,7 @@ resources{
 <h2>Our tracks</h2>
 <h2>Suppliers</h2>
 <h2>Friends and links</h2>
+<h2>Gauge 2</h2>
       }
     }
   }
@@ -333,6 +335,10 @@ Other books are available for purchase.}
 ^PAR{
 ^nlj{001}
 ^nlj{002}
+}
+
+^h3{1950-59}
+^PAR{
 ^nlj{003}
 ^nlj{004}
 ^nlj{005}
@@ -648,14 +654,6 @@ Other books are available for purchase.}
 ^nlj{287}
 ^nlj{288}
 }
-^h3{1950-59}
-^h3{1960-69}
-^h3{1970-79}
-^h3{1980-89}
-^h3{1990-99}
-^h3{2000-09}
-^h3{2010-19}
-^h3{2020-}
 }
       }
     }
