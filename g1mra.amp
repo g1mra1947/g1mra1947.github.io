@@ -72,9 +72,8 @@ navbar{<div class=navbar>
     <a href="events_^lang.html">Events</a>
     <a href="groups_^lang.html">Groups</a>
     <a href="resources_^lang.html">Resources</a>
-    <a href="shop_^lang.html">Shop</a>
-    <a href="sales_^lang.html">Sales and wants</a>
-    <a href="members_^lang.html">Members area</a>
+    <a href="marketpace_^lang.html">Marketplace</a>
+    <a href="members_^lang.html">Members</a>
     <a href="contact_^lang.html">Contacts</a>
     <a href="join_^lang.html">Join or renew</a>
   </div><!-- close navMenu -->
@@ -293,31 +292,19 @@ resources{
   }
 }
 
-shop{
+marketplace{
   ^page{
     ^navbar
     ^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
     ^content{
       ^tbox{
-    <h1>The G1MRA shop</h1>
+    <h1>The G1MRA marketplace</h1>
 
 <h2>Books</h2>
 <h2>Parts</h2>
 <h2>Complete kits</h2>
 <h2>Clothing</h2>
-      }
-    }
-  }
-}
-
-sales{
-  ^page{
-    ^navbar
-    ^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
-    ^content{
-      ^tbox{
     <h1>Member to member sales and wants</h1>
-
 <h2>For sale</h2>
 <h2>Wanted</h2>
       }
@@ -745,8 +732,7 @@ To join, please complete <a href="images/joiningForm.pdf">this form</a> and send
 'groups_^lang.html' "^groups" 
 'events_^lang.html' "^events" 
 'resources_^lang.html' "^resources"
-'shop_^lang.html' "^shop"
-'sales_^lang.html' "^sales"
+'marketplace_^lang.html' "^marketplace"
 'members_^lang.html' "^members"
 'contact_^lang.html' "^contact"
 'join_^lang.html' "^join"
