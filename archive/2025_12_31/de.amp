@@ -1,0 +1,36 @@
+lang{de}
+
+// Startseite
+ht{G1MRA Startseite}
+hc{Startseite der Gauge One Model Railway Association}
+hw{Willkommen bei der Gauge One Model Railway Association}
+
+hb1{
+Spur-1-Modelleisenbahnen fahren auf Gleisen mit einem Schienenabstand von 45 mm oder 1¾ Zoll. Bei Normalspur entspricht dies einem Maßstab von 1:32 oder etwa 10 mm pro Fuß.
+
+Die Gebrüder Märklin boten als Erste ein komplettes System von Modelleisenbahn-Gleisen mit Weichen, Gleisverbindungen und Kurven an. Auf der Leipziger Frühjahrsausstellung 1891 präsentierten sie eine Achterbahnanlage, und ihre Idee für standardisierte Spurweiten wurde schnell von anderen Herstellern aufgegriffen. 1895 war Spur 1 zusammen mit der benachbarten Spur 2 mit 2 Zoll die kleinste der ursprünglichen Märklin-Spurweiten. Einige Jahre später wurde die Spurweite Null (oder O-Spur) mit 1¼ Zoll eingeführt.
+
+Eine Spur-1-Lokomotive ist fünfmal länger als ihr N-Spur-Pendant und hat ein 625-mal größeres Volumen. Das ermöglicht beeindruckende Modelle, erfordert aber auch viel Platz – Kurvenradien von mindestens 3 Metern sind typisch für einen realistischen Betrieb. Zwischen den Weltkriegen ließ das Interesse an diesen größeren Modellen, die auf unrealistisch engen Kurven fuhren, nach, da maßstabsgetreue Modelle in kleineren Spurweiten erhältlich waren: Es war schlichtweg nicht praktikabel, realistische Landschaftsanlagen in den meisten Haushalten unterzubringen, obwohl einige Spur-1-Gartenanlagen erhalten geblieben sind.
+
+Im Frühjahr 1947 schloss sich eine kleine Gruppe von Enthusiasten zusammen, um den Geist der Spur 1 am Leben zu erhalten, und die erste Ausgabe der Zeitschrift der G1MRA erschien im darauffolgenden April. Seitdem sind wir zu einem internationalen Verband mit rund 2.000 Mitgliedern in über zwanzig Ländern gewachsen.
+
+Wir betreiben Modelle, die mit Bordbatterien, Gleisstrom oder echtem Dampf mit mit Alkohol, Gas oder Kohle befeuerten Kesseln angetrieben werden. Sogar Uhrwerklokomotiven sind gelegentlich noch zu sehen.
+}
+
+hb2{
+Die Größe der Spur-1-Modelle ermöglicht einen hohen Detailgrad bei feinen Modellen, und die Verfügbarkeit robuster, vereinfachter Modelle macht diese Spurweite ideal für Kinder und Jugendliche. Über die vielfältigen Aktivitäten der G1MRA können Sie sich in unserer Willkommensbroschüre und einer Leseprobe unserer Vierteljahreszeitschrift informieren.
+}
+
+hb3{
+Wir wünschen Ihnen viel Spaß beim Erkunden dieser Website. Unsere Mitglieder bilden eine begeisterte und sachkundige Gemeinschaft, die ihr Wissen von 130 Jahre alten Uhrwerkkonstruktionen bis hin zu modernsten 3D-Druck- und computergestützten Steuerungstechniken teilt. Neue Mitglieder sind jederzeit herzlich willkommen: Weitere Informationen finden Sie unter ^link{diese Seite}{join_en.html}.
+}
+
+// Veranstaltungsseite
+et{G1MRA-Veranstaltungen}
+ec{Veranstaltungsseite der Gauge One Model Railway Association}
+ew{Veranstaltungen}
+
+eb1{Die G1MRA organisiert jedes Jahr ein öffentliches Frühjahrstreffen und eine Herbst-Mitgliederversammlung mit Ausstellung. Wir nehmen außerdem auf Einladung an anderen öffentlichen Ausstellungen teil, oft mit einer unserer transportablen Anlagen.
+
+G1MRA-Gruppen organisieren darüber hinaus zahlreiche Treffen, viele davon in privaten Gärten. Da dies eine öffentliche Website ist, veröffentlichen wir keine Namen oder Adressen für diese Veranstaltungen. Am besten informieren Sie sich über Aktivitäten in Ihrer Nähe, indem Sie die nächstgelegene Gruppe ausfindig machen und den Gruppenkontakt unter Angabe Ihrer Mitgliedsnummer per E-Mail an die allgemeine Adresse in der untenstehenden Tabelle senden. Sie können auch den G1MRA-Gruppenbeauftragten unter ^g1mail{groups} kontaktieren.
+}

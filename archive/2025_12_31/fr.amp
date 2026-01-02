@@ -1,0 +1,37 @@
+lang{fr}
+
+// Page d'accueil
+ht{Accueil G1MRA}
+
+hc{Page d'accueil de la Gauge One Model Railway Association}
+
+hw{Bienvenue à la Gauge One Model Railway Association}
+
+hb1{ Les réseaux de modélisme ferroviaire à l'échelle 1 fonctionnent sur des voies dont les rails sont espacés de 45 mm (1¾ pouce). Pour l'écartement standard, cela correspond à une échelle de 1:32, soit environ 10 mm par pied.
+
+Les frères Märklin furent les premiers à proposer un système complet de sections de voie pour trains miniatures, avec aiguillages, croisements et courbes. Ils présentèrent un réseau en forme de 8 à la Foire de Printemps de Leipzig en 1891, et leur idée d'écartements standardisés fut rapidement adoptée par d'autres fabricants. En 1895, l'écartement 1 était le plus petit des écartements Märklin d'origine, avec son proche voisin l'écartement 2 (2 pouces). Quelques années plus tard, l'échelle zéro (ou échelle O) fut ajoutée à 1¼ pouce.
+
+Une locomotive à l'échelle 1 est cinq fois plus longue que son équivalent à l'échelle N et son volume est 625 fois supérieur. Cela permet de réaliser des modèles impressionnants, mais exige aussi beaucoup d'espace : des courbes d'un rayon minimal d'environ 3 mètres sont typiques pour un fonctionnement réaliste. Entre les deux guerres, l'intérêt pour ces grands modèles circulant sur des courbes incroyablement serrées diminua avec l'arrivée sur le marché de modèles réduits précis à des échelles plus petites : il était tout simplement impossible d'aménager des réseaux miniatures réalistes dans la plupart des foyers, même s'il subsistait quelques circuits de jardin à l'échelle 1.
+
+Au printemps 1947, un petit groupe de passionnés se réunit pour perpétuer l'esprit de l'échelle 1, et le premier numéro de la revue de la G1MRA parut en avril suivant. Depuis, nous sommes devenus une association internationale comptant environ 2 000 membres dans plus de vingt pays.
+
+Nous utilisons des modèles alimentés par des batteries embarquées, par le courant fourni par la voie et par la vapeur vive, avec des chaudières à alcool, à gaz ou à charbon. Même les locomotives à remontage mécanique font encore quelques apparitions occasionnelles.
+}
+
+hb2{
+La taille des modèles à l'échelle 1 permet un niveau de détail exceptionnel, et la disponibilité de modèles robustes et simplifiés en fait une échelle idéale pour les jeunes. Vous pouvez découvrir la diversité des activités de la G1MRA en téléchargeant notre brochure de bienvenue et un extrait de notre magazine trimestriel.
+}
+
+hb3{
+Nous espérons que vous apprécierez la visite de ce site. Nos membres forment une communauté enthousiaste et compétente qui partage son expertise, de la conception de mécanismes d'horlogerie vieux de 130 ans aux techniques les plus modernes d'impression 3D et de contrôle informatisé. Les nouveaux membres sont toujours les bienvenus : veuillez consulter ^link{cette page}{join_fr.html} pour plus d'informations.
+}
+
+// Page Événements
+et{Événements G1MRA}
+ec{Page Événements de la Gauge One Model Railway Association}
+ew{Événements}
+
+eb1{La G1MRA organise chaque année une réunion publique au printemps, ainsi qu'une assemblée générale annuelle et une exposition en automne. Nous participons également à d'autres salons publics sur invitation, souvent avec l'un de nos réseaux portables.
+
+Les groupes G1MRA organisent aussi de nombreuses réunions, dont beaucoup se tiennent dans des jardins privés. Ce site web étant public, nous ne publions ni les noms ni les adresses de ces événements. Pour vous renseigner sur les activités près de chez vous, le mieux est de trouver le groupe le plus proche et de contacter son responsable par courriel à l'adresse générique indiquée dans le tableau ci-dessous, en précisant votre numéro de membre. Vous pouvez également contacter le responsable des groupes de la G1MRA par courriel à ^g1mail{groups}.
+}
