@@ -1,13 +1,26 @@
 homeEvents{
 
-^eventDate{28 February 2026 - 1 March 2026}
-^event{^link{Midlands Garden Rail Show}{https://www.meridienneexhibitions.co.uk/events/midlands-garden-rail-show}}{Warwickshire Event Centre, ^postcode{CV31}{1XN}}{Carding Road track courtesy of the Midland Group}
-
 ^eventDate{10 January 2026}
-^event{Yorkshire Group New Year running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:30-15.30; meals available}
+^eventMO{Traditional First Steam GTG}{^g1mail{wiggertal-live-steam-group}}{11.00-17.00}
+
+^eventDate{11 January 2026}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+^eventDate{13 January 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{17 January 2026}
+^event{Yorkshire Group New Year's running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+
+^eventDate{8 February 2026}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+^eventDate{10 February 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
 ^eventDate{21 February 2026}
-^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:30-15.30; meals available}
+^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+
+^eventDate{21-22 February 2026}
+^event{^link{Tenterden Model Railway Show}{https://www.mytenterden.co.uk/events/tenterden-model-railway-exhibition-listing-602-124492.aspx}}{Homewood School, Ashford Road ^postcode{TN30}{6LT}}{Invicta track courtesy of South East Group}
 
 ^eventDate{28 February - 1 March 2026}
 ^event{^link{Midlands Garden Rail Show}{https://www.meridienneexhibitions.co.uk/events/midlands-garden-rail-show}}{Warwickshire Event Centre, ^postcode{CV31}{1XN}}{Carding Road track courtesy of the Midland Group}
@@ -15,15 +28,75 @@ homeEvents{
 ^eventDate{4 - 8 March 2026}
 ^event{^link{Steam over Spencer}{https://thetraindepartment.com/collections/steam-over-spencer-registration}}{N.C. Transportation Museum 1 Samuel Spencer Dr. Spencer, NC 28159 USA }{Gathering of friends for a week of steaming with four Gauge 1 tracks available}
 
+^eventDate{8 March 2026}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+
+^eventDate{10 March 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
 ^eventDate{21 March 2026}
-^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:30-15.30; meals available}
+^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
-^eventDate{18 April 2026}
-^event{G1MRA Spring Meeting}{Statfold Country Park ^postcode{B79}{0BU}}{Anglia Roads courtesy of the East Anglian Group and Carding Road courtesy of the Midland Group, plustrade support}
+^eventDate{21-22 March 2026}
+^event{London Festival of Model Railways}{Alexandra Palace ^postcode{N22}{7AY}}{G1MRA display and stand}
 
+^eventDate{21-22 March 2026}
+^event{^link{International Gauge 0 and Gauge 1 Days}{https://www.internationale-spur-0-tage.de/}}{Hessenhallen in Gießen, Germany^nl(~70km north of Frankfurt)}{Multiple G1 exhibits and traders}
 }
 
 futureEvents{
+^eventDate{14 April 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{18 April 2026}
+^event{G1MRA Spring Meeting}{Statfold Country Park ^postcode{B79}{0BU}}{Anglia Roads courtesy of the East Anglian Group, Carding Road courtesy of the Midland Group and Moordale courtsy of the Yorkshire Group, plus trade support}
+
+^eventDate{25-26 April 2026}
+^event{^link{Live Steam Up Show}{https://palais-bonbons.com/2025/02/25/live-steam-up-show/}}{
+Palace of Sweets and Nougat
+100 Rte de Valence, 26200 Montélimar
+}{G1 live steam and activities}
+
+^eventDate{25-26 April 2026}
+^event{Biannual Great British Train Show}{Jim Archdekin Recreation Centre. 292 Conestoga Drive, Brampton, Ontario, L6Z 3M1, Canada}{ G1MRA Southern Ontario display^nl Saturday 10:00 to 16:00^nl Sunday 26 April 10:00 to 15:00}
+
+^eventDate{25 April 2026}
+^event{^link{National Garden Railway Show}{https://www.nationalgardenrailwayshow.org.uk/}}{National Agricultural Centre, Stoneleigh ^postcode{CV8}{2RG}}{ Anglia Roads courtesy of the East Anglian Group}
+
+^eventDate{9-10 May 2026}
+^event{Model Engineering Show}{Statfold Country Park ^postcode{B79}{0BU}}{Stanley Midland courtesy of the Midland Group}
+
+^eventDate{12 May 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{23-25 May 2026}
+^event{Model Railway Exhibition Burgdof}{Tennishalle Burgdorf AG, Zähringerstrasse 39, 3400 Burgdorf, Switzerland}{Swiss Group with children’s activities}
+
+^eventDate{20-31 May 2026}
+^event{^link{Arbon Classics 2026}{https://arbon-classics.ch/}}{Arbon, Switzerland}{G1MRA Bern group layout}
+
+^eventDate{9 June 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{11 July 2026} 
+^event{Gauge One North}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH}^nl^g1mail{yorkshire-group}}{Ridings track plus around 30 traders}
+
+^eventDate{14 July 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{11 August 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{8 September 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{11 October 2026}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+
+^eventDate{13 October 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{10 November 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{8 December 2026} ^eventMO{Surrey Group GTG and AGM}{^g1mail{surrey-group}}{}
+
+^eventDate{13 December 2026}
+^eventMO{Midland Group Christmas running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; Christmas buffet; tea and coffee all day}
+
 }
 
 pastEvents{
@@ -45,7 +118,7 @@ Marsh Barton Ind Estate
 Exeter ^postcode{EX2}{8FD}}{}
 
 ^eventDate{1 November 2025} 
-^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:30-15.30; meals available}
+^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 ^event{North West Group running day}{Nazareth Unitarian Church,Church St,Padiham ^postcode{BB12}{8JH}^nl^g1mail{northwest-group}}{Withnell Junction, layouts from other gauges and Hornby Dublo}
 
@@ -63,8 +136,7 @@ Exeter ^postcode{EX2}{8FD}}{}
 ^event{^link{National Festival of Railway Modelling}{https://www.rmweb.co.uk/shows/nfrm/}}{NEC, Birmingham ^postcode{B40}{1NT}}{Ridings track courtesy of the Yorkshire Group}
 
 ^eventDate{29 November 2025} 
-^event{Yorkshire Group Christmas running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}}{Ridings track 09:30-15.30; food available at the bar<br>
-^g1mail{yorkshire-group}}
+^event{Yorkshire Group Christmas running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 }
 

@@ -1,0 +1,5 @@
+lang{en}
+
+test(name){^OUT{^name!group^lang.html}{Placeholder page for ^name group}}
+
+"^test{Surrey}"

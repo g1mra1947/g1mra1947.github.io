@@ -124,6 +124,7 @@ home{
 // Events page
 eventDate(date){^hrule^h3{^date}}
 event(title location text){<p><b>^title</b>^nl^location^nl<em>^text</em></p>}
+eventMO(title location text){<p><b>^title (Members only)</b>^nl^location^nl<em>^text</em></p>}
 // homeEvents(){} and futureEvents(){} defined in events.amp 
 events{
   ^page{
@@ -731,19 +732,32 @@ join{
 <div class="hbox">
 <div><a href="images/Recruiting-brochure-7.pdf"><img src="images/welcomeToGauge1.jpg" height="130" style="padding:20px 10px"></a></div>
 <div><a href="images/G1MRA_229.pdf"><img src="images/G1MRA_229_cover.jpg" height="130"  style="padding:20px 10px"></a></div>
-<div> <p  style="padding:0px 10px"> We run models powered by on-board batteries, by track-supplied current and by live steam with boilers fired by alcohol, gas or coal. Even clockwork engines still make occasional appearances.You can read about the breadth of activity within G1MRA by downloading these copies of our welcome brochure and a sample of our quarterly magazine.</p></div>
+<div> <p  style="padding:0px 10px"> We run models powered by on-board batteries, by track-supplied current and by live steam with boilers fired by alcohol, gas or coal. Even clockwork engines still make occasional appearances. You can read about the breadth of activity within G1MRA by downloading these copies of our welcome brochure and a sample of our quarterly magazine.</p></div>
 </div>
 
-        ^h2{Subscriptions}
-        ^PAR{UK annual membership: £30.00;  Europe: £32.00; rest of the world: £36.00
+        ^h2{Current subscription rates}
+        ^PAR{UK adult individual annual membership: £30.00;  Europe: £32.00; rest of the world: £36.00
 
-Family membership fee is an additional £5.00 a year, but does not include an additional magazine or voting rights.
-
+Family membership is an additional £5.00 a year, but does not include an additional magazine or voting rights.
 For under 18 juniors and full-time students, membership is £10 a year and includes the magazine, but not voting rights.
 
-To join, please complete <a href="images/joiningForm.pdf">this form</a> and send to ^g1mail{membership}.}
-      }
-    }
+The membership year runs from 1st January to 31st December. New members joining up to 30th November
+will receive all of the back numbers for that year. Members joining after 30th November will receive the December issue in addition to the complete following
+year’s issues
+}
+
+^h2{For new members}
+^PAR{To join, please complete <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCoBaQbw5ZEAoqFHoGM0an39_Jkso504Sps-j3Wf1xYC_Thw/viewform?usp=publish-editor
+">this form</a>. 
+You may pay via direct bank transfer or PayPal (with a supplement to cover PayPal fees); you will then receive a new members pack and membership number in the post
+}
+
+^h2{Renewal of existing membership	}
+^PAR{To renew an existing subscription, please complete <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-TQWWBqXx_GmmY1R6Dq4GKdi6xssszcm_g14AaeknNtYrwQ/viewform?usp=publish-editor">this form</a>.
+You may pay via direct bank transfer or PayPal (with a supplement to cover PayPal fees).
+}
+}
+}      
   }
 }
 
