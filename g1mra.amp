@@ -55,7 +55,7 @@ caption(txt){alt="^txt" title="^txt"}
 page(body) {<!DOCTYPE html>
 <!-- G1MRA pages by Adrian Johnstone a.johnstone@rhul.ac.uk built ^NOW -->
 <head>
-<link rel="stylesheet" href="G1MRA.css">
+<link rel="stylesheet" href="g1mra.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 <html lang="^lang">
@@ -300,15 +300,6 @@ resources{
     ^content{
       ^tbox{
     <h1>Resources</h1>
-
-<h2>Safety</h2>
-<h2>Standards</h2>
-<h2>History</h2>
-<h2>Designs</h2>
-<h2>Our tracks</h2>
-<h2>Suppliers</h2>
-<h2>Friends and links</h2>
-<h2>Gauge 2</h2>
       }
     }
   }

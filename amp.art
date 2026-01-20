@@ -1,0 +1,169 @@
+(*******************************************************************************
+*
+* amp - a macro processor V1.0 (c) Adrian Johnstone November 2025
+*
+* id paramatersOpt body - define a macro called id
+*
+* ^id agumentsOpt - expand id with arguments bound to paramaters
+*
+* Predefined macros:
+* ^PAR{body} - apply HTML<P></P> processing to body so that paagraphs separated by blank lines are formatted for HTML
+* ^NOW - rewrite to current date and time
+* ^OUT{filename}{body} expand body and write to file namd filename; rewrite to empty string
+*
+*******************************************************************************)
+
+!support 
+!! 
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Set;
+import java.util.Stack;
+!!
+!! 
+  Map<String, Map<String, String>> macros = new HashMap<>();
+  Stack<String> macrosInUse = new Stack<>();
+  Set<String> macrosNestable = new HashSet<>();
+  String currentMacroName;
+  Map<String, String> currentMacro;
+  String expansionString;
+  boolean trace = false;
+
+  void fatal(String str) {
+    System.err.println(str);
+    System.exit(1);
+  }
+
+  String argumentsToString(LinkedList<String> arguments) {
+    StringBuilder sb = new StringBuilder();
+    for (var a : arguments)
+      sb.append("{" + a + "}");
+    return sb.toString();
+  }
+
+  void expand(PrintStream printStream, String str, Map<String, String> parameterBindings) {
+    printStream.print(expand(str, parameterBindings));
+  }
+
+  String expand(String str, Map<String, String> parameterBindings) {
+    if (trace) System.err.println("Expanding " + str);
+    StringBuilder sb = new StringBuilder(str);
+    while (true) {
+      // 1. Find first instance
+      int start = sb.indexOf("^");
+      if (start == -1) return sb.toString(); // No instances left; nothing to do
+
+      // 2. Collect instance id
+      int end = start + 1;
+      while (end < sb.length() && Character.isJavaIdentifierPart(sb.charAt(end)))
+        end++;
+      String id = sb.substring(start + 1, end);
+      if (trace) System.err.println("Found " + str);
+
+      // 3. Check to see if this instance is a parameter; if so simple replacement as there can be no parameters to a parameter
+      String replacement = parameterBindings == null ? null : parameterBindings.get(id);
+      if (replacement != null) {
+        if (trace) System.err.println(id + "is a parameter, so replacing parameter with binding " + replacement);
+        sb.replace(start, end, replacement);
+        continue;
+      }
+
+      // 4. Collect any instance arguments
+      LinkedList<String> arguments = new LinkedList<>();
+      if (end < sb.length()) {
+        char c = sb.charAt(end);
+
+        while (end < sb.length() && sb.charAt(end) == '{') { // Iterate over repeated arguments
+          int argumentStart = end + 1;
+
+          int nestLevel = 0;
+          do {
+            if (end >= sb.length()) fatal("^" + id + " unterminated argument");
+            if (sb.charAt(end) == '{') nestLevel++;
+            if (sb.charAt(end) == '}') nestLevel--;
+            if (sb.charAt(end) == '\\') end++; // Allow escapes
+            end++;
+          } while (nestLevel > 0);
+
+          String arg = sb.substring(argumentStart, end - 1); // Pull out the 'lexeme'
+          // Util.debug("Found argument " + arg);
+          arguments.add(arg);
+        }
+      }
+
+      // 5. Check for system macros
+      switch (id) {
+      case "OUT": {
+        String filename = "???";
+        try { expand(new PrintStream(filename = expand(arguments.get(0), parameterBindings)), arguments.get(1), parameterBindings);
+        } catch (FileNotFoundException e) { fatal("Unable to open output file: " + filename); }
+        sb.replace(start, end, "");
+        } continue;
+      case "NOW":
+        sb.replace(start, end, Util.timestamp());
+        continue;
+      case "PAR": {
+        String arg = arguments.getFirst();
+        String exp = expand(arg, parameterBindings);
+        String rep = exp.replaceAll("\r?\n\r?\n", "</p>\n<p>");
+        sb.replace(start, end, "<p>" + rep + "</p>");
+        } continue;
+      }
+
+      // 6. Check for undefined macro, recursive instance and arity match
+      if (!macros.keySet().contains(id)) fatal("Macro " + "'^" + id + argumentsToString(arguments) + "' not defined");
+      if (!macrosNestable.contains(id) && macrosInUse.contains(id)) fatal("Recursive macro call ^" + id + "\nMacro call stack " + macrosInUse + "\nNestable macros" + macrosNestable);
+      macrosInUse.push(id);
+      if (macros.get(id).size() != arguments.size() + 1) // Add one for the body definition
+        fatal("^" + id + argumentsToString(arguments) + " incorrect arity " + arguments.size() + ": expecting " + (macros.get(id).size() - 1));
+
+      // 7. Bind expanded arguments to macro parameters - note we do not allow recursion so only one set of bindings is sufficient
+      Map<String, String> newParameterBindings = new HashMap<>();
+      int i = 0;
+      for (var m : macros.get(id).keySet())
+        if (!m.equals("")) newParameterBindings.put(m, expand(arguments.get(i++), parameterBindings)); // Last element keyed on "" is the macro body, not a
+                                                                                                       // parameter
+
+      // 8. Expand instance, and then go round again...
+      replacement = expand(macros.get(id).get(""), newParameterBindings);
+      sb.replace(start, end, replacement);
+    
+      macrosInUse.pop();
+    }
+  }
+!!
+
+!traceLevel 0
+!whitespace &SIMPLE_WHITESPACE, &COMMENT_NEST_ART, &COMMENT_LINE_C 
+!interpreter attributeAction
+
+text ::= define text | expand text | #
+ 
+define ::= 
+  &ID                 !! currentMacroName = lexeme(); 
+                         if(macros.keySet().contains(currentMacroName)) fatal("Doubly defined macro " + currentMacroName);
+                         macros.put(currentMacroName, new LinkedHashMap<String, String>()); currentMacro = macros.get(lexeme()); !!
+  starOpt             // star uses currentMacroName to add recursive property
+  paramatersOpt       // semantics use currentMacro to add parameters
+  &STRING_BRACE_NEST  !! currentMacro.put("", lexeme()); !!
+
+starOpt ::= # | '*'   !! macrosNestable.add(currentMacroName); !!
+paramatersOpt ::= # | '(' parameters ')'
+
+parameters ::= 
+  &ID                 !! currentMacro.put(lexeme(), null); !! parameters  // Add parameter to paramater list for current macro
+| #                   // Allow empty parameter list
+
+expand ::= 
+ '^' &ID              !! expansionString = "^" + lexeme(); !! 
+ argumentsOpt         !! expand(System.out, expansionString, null); !!
+
+argumentsOpt ::= #  | &STRING_BRACE_NEST !! expansionString += "{" + lexeme() + "}"; !! argumentsOpt
+
+  
+
