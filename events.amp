@@ -1,16 +1,5 @@
 homeEvents{
 
-^eventDate{10 January 2026}
-^eventMO{Traditional First Steam GTG}{^g1mail{wiggertal-live-steam-group}}{11.00-17.00}
-
-^eventDate{11 January 2026}
-^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
-
-^eventDate{13 January 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
-
-^eventDate{17 January 2026}
-^event{Yorkshire Group New Year's running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
-
 ^eventDate{8 February 2026}
 ^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
 
@@ -31,8 +20,8 @@ homeEvents{
 ^eventDate{8 March 2026}
 ^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
 
-
-^eventDate{10 March 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+^eventDate{10 March 2026} 
+^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
 ^eventDate{21 March 2026}
 ^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
@@ -138,5 +127,14 @@ Exeter ^postcode{EX2}{8FD}}{}
 ^eventDate{29 November 2025} 
 ^event{Yorkshire Group Christmas running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
-}
+^eventDate{10 January 2026}
+^eventMO{Traditional First Steam GTG}{^g1mail{wiggertal-live-steam-group}}{11.00-17.00}
 
+^eventDate{11 January 2026}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+^eventDate{13 January 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{17 January 2026}
+^event{Yorkshire Group New Year's running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+}

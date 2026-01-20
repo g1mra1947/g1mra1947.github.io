@@ -16,6 +16,10 @@ a:hover {background-color: #ddd; }
 .sbox h1 {margin:12px 0px 0px 0px;}
 .sbox h3 {font-size: 14px; margin:10px 0px 0px 0px;}
 .sbox p {font-size: 13px; margin:3px 0px 3px 0px;}
+.ebox {              flex-direction:column; max-width:700px; min-width:350px; padding: 0px 10px; background-color:#eeedcf; line-height:1.4}
+.ebox h1 {margin:12px 0px 0px 0px;}
+.ebox h3 {font-size: 14px; margin:10px 0px 0px 0px;}
+.ebox p {font-size: 13px; margin:3px 0px 3px 0px;}
 .content {display: flex; max-width:100%; flex-wrap: wrap; justify-content:space-between; justify-content:space-around}
 
 .navbar  {background-color: #165f4b; display: flex; max-width:100%; padding: 2px 2px;}
