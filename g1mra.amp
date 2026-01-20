@@ -285,13 +285,12 @@ resources{
     ^navbar
 <div class="navbar">
 ^cbox{
-  ^hbox{
+  ^hbox{Resources: 
     <a href="safety_en.html">Safety</a>
     <a href="standards_en.html">Standards</a>
     <a href="history_en.html">History</a>
     <a href="designs_en.html">Designs</a>
     <a href="tracks_en.html">Tracks</a>
-    <a href="suppliers_en.html">Suppliers</a>
     <a href="friends_en.html">Friends</a>
     <a href="gauge2_en.html">Gauge 2</a>
   }	
@@ -327,18 +326,21 @@ supplierPage{
 marketplace{
   ^page{
     ^navbar
-    ^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
+<div class="navbar">
+^cbox{
+  ^hbox{Marketplace:
+    <a href="books_en.html">Books</a>
+    <a href="parts_en.html">Parts</a>
+    <a href="kits_en.html">Kits</a>
+    <a href="clothing_en.html">Clothing</a>
+    <a href="memberToMember_en.html">MemberToMember</a>
+    <a href="suppliers_en.html">Suppliers</a>
+  }	
+}
+</div>
     ^content{
       ^tbox{
     <h1>The G1MRA marketplace</h1>
-
-<h2>Books</h2>
-<h2>Parts</h2>
-<h2>Complete kits</h2>
-<h2>Clothing</h2>
-    <h1>Member to member sales and wants</h1>
-<h2>For sale</h2>
-<h2>Wanted</h2>
       }
     }
   }
