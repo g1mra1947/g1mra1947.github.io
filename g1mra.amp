@@ -304,6 +304,23 @@ resources{
   }
 }
 
+friend(webAddress name info){
+^hrule
+^h3{^name}
+^PAR{
+^link{^webAddress}{https://^webAddress}
+
+^info
+}
+}
+
+friendsPage{
+  ^page{
+    ^navbar
+    ^content{^ebox{^friends}}
+  }
+}
+
 supplier(name info webAddress emailAddress){
 ^hrule
 ^h3{^name}
@@ -440,6 +457,7 @@ Payment may be made by direct bank transfer, cheque or by <a target="_blank" rel
 ^OUT{events_^lang.html}{^eventsPage} 
 ^OUT{pastEvents_^lang.html}{^pastEventsPage} 
 ^OUT{resources_^lang.html}{^resources}
+^OUT{friends_^lang.html}{^friendsPage}
 ^OUT{suppliers_^lang.html}{^supplierPage}
 ^OUT{marketplace_^lang.html}{^marketplace}
 ^OUT{contact_^lang.html}{^contact}
