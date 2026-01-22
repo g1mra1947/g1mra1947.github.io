@@ -1,5 +1,5 @@
 @echo off
-call amp en.amp events.amp suppliers.amp friends.amp g1mra.amp 
+call amp en.amp events.amp suppliers.amp links.amp g1mra.amp 
 rem call amp fr.amp events.amp g1mra.amp
 rem call amp de.amp events.amp g1mra.amp
 copy home_en.html index.html > nul
