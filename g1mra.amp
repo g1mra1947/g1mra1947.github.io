@@ -57,7 +57,7 @@ page(body) {<!DOCTYPE html>
 </html>}
 
 (* G1MRA menus *)
-active(body){<div style="background-color:mediumseagreen;">^body</div>}
+active(body){<div style="color:mediumseagreen;">^body</div>}
 
 // Home page menus
 homePrimary{
