@@ -12,7 +12,7 @@ a:hover {background-color: #ddd; }
 .hbox {display:flex; flex-direction:row;}
 .cbox {display:flex; justify-content:center;}
 .tbox {display:flex; flex-direction:column; max-width:700px; min-width:350px; font-size:17px; line-height:1.4;}
-.sbox {              flex-direction:column; max-width:300px; min-width:300px; padding: 0px 10px; background-color:#eeedcf; line-height:1.4}
+.sbox {              flex-direction:column; max-width:290px; min-width:290px; padding: 0px 10px; background-color:#eeedcf; line-height:1.4}
 .sbox h1 {margin:12px 0px 0px 0px;}
 .sbox h3 {font-size: 14px; margin:10px 0px 0px 0px;}
 .sbox p {font-size: 13px; margin:3px 0px 3px 0px;}
@@ -22,7 +22,7 @@ a:hover {background-color: #ddd; }
 .ebox p {font-size: 13px; margin:3px 0px 3px 0px;}
 .content {display: flex; max-width:100%; flex-wrap: wrap; justify-content:space-between; justify-content:space-around}
 
-.navbar  {background-color: #165f4b; display: flex; max-width:100%; padding: 2px 2px;}
+.navbar  {background-color: #165f4b; display: flex; width: 1000px; padding: 2px 2px;}
 .navbar  a {float: left; color: #f2f2f2; text-align: center; padding: 0px 8px; font-size: 20px;}
 .navbar  a:hover {background-color: #ddd; color: black;} /* Change the color of links on hover */
 .navbar  a.active {background-color: #04AA6D; color: white;} /* Add a color to the active/current link */

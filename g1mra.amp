@@ -394,7 +394,7 @@ We also have <a href="#flag_ww">global special interest groups</a> such as the G
   } 
 }
 
-(* Rsources pages *)
+(* Resources pages *)
 resources{
   ^page{
     ^navbar{^resourcesPrimary}{^resourcesSecondary}
@@ -445,10 +445,9 @@ supplierPage{
 sales{
   ^page{
     ^navbar{^salesPrimary}{^salesSecondary}
-</div>
     ^content{
       ^tbox{
-    <h1>-</h1>
+    <h1>Sales</h1>
       }
     }
   }
