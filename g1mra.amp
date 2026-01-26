@@ -106,12 +106,24 @@ groupsSecondary{
   <a href="#flag_ww"><img src="images/Globe_icon.svg.png" ^caption{Jump to global special-interest groups}></a>
 </div>
 }
+
 resourcesPrimary{^menEl{Events}^menEl{Groups}^menElA{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
 resourcesSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}}
+designsSecondary{^menEl{Safety}^menEl{Standards}^menElA{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}}
+tracksSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menElA{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}}
+historySecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menElA{History}^menEl{Gauge2}^menEl{Connections}}
+gauge2Secondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menElA{Gauge2}^menEl{Connections}}
 connectionsSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menElA{Connections}}
+
 salesPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menElA{Sales}^menEl{Contact}^menEl{Join}}
 salesSecondary{^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
+booksSecondary{^menElA{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
+partsSecondary{^menEl{Books}^menElA{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
+kitsSecondary{^menEl{Books}^menEl{Parts}^menElA{Kits}^menEl{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
+clothingSecondary{^menEl{Books}^menEl{Parts}^menEl{Kits}^menElA{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
+marketplaceSecondary{^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menElA{Marketplace}^menEl{Suppliers}}
 suppliersSecondary{^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Marketplace}^menElA{Suppliers}}
+
 contactPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menElA{Contact}^menEl{Join}}
 joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menElA{Join}}
 
@@ -154,7 +166,7 @@ joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Con
 ^ebox{^h1{^ew}^PAR{^eb1}^homeEvents^futureEvents}
 }
 
-^page{PastEvents_^lang.html}{^eventsPrimary}{^empty}{
+^page{PastEvents}{^eventsPrimary}{^empty}{
 ^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
 ^ebox{^h1{^epw}^pastEvents}
 }
@@ -264,6 +276,12 @@ We also have <a href="#flag_ww">global special interest groups</a> such as the G
 ^tbox{<h1>Resources</h1>}
 }
 
+^page{Designs}{^resourcesPrimary}{^designsSecondary}{^ebox{^h1{Designs}}}
+^page{Tracks}{^resourcesPrimary}{^tracksSecondary}{^ebox{^h1{Tracks}}}
+^page{History}{^resourcesPrimary}{^historySecondary}{^ebox{^h1{History}}}
+^page{Gauge2}{^resourcesPrimary}{^gauge2Secondary}{^ebox{^h1{Gauge 2}}}
+
+(* Connections page *)
 connection(webAddress name info){
 ^hrule
 ^h3{^name}
@@ -274,9 +292,18 @@ connection(webAddress name info){
 }
 }
 
-(* Connections page *)
 ^page{Connections}{^resourcesPrimary}{^connectionsSecondary}{^ebox{^connections}}
 
+(* Sales page *)
+^page{Sales}{^salesPrimary}{^salesSecondary}{^ebox{^h1{Sales}}}
+
+^page{Books}{^salesPrimary}{^booksSecondary}{^ebox{^h1{Books}}}
+^page{Kits}{^salesPrimary}{^kitsSecondary}{^ebox{^h1{Kits}}}
+^page{Parts}{^salesPrimary}{^partsSecondary}{^ebox{^h1{Parts}}}
+^page{Clothing}{^salesPrimary}{^clothingSecondary}{^ebox{^h1{Clothing}}}
+^page{Marketplace}{^salesPrimary}{^marketplaceSecondary}{^ebox{^h1{Member to member maketplace}}}
+
+(* Suppliers page*)
 supplier(name info webAddress emailAddress){
 ^hrule
 ^h3{^name}
@@ -289,11 +316,8 @@ supplier(name info webAddress emailAddress){
 }
 }
 
-(* Suppliers page*)
 ^page{Suppliers}{^salesPrimary}{^suppliersSecondary}{^ebox{^suppliers}}
 
-(* Sales page *)
-^page{Sales}{^salesPrimary}{^salesSecondary}{^tbox{<h1>Sales</h1>}}
 
 (* Contact page *)
 ^page{Contact}{^contactPrimary}{^empty}{
@@ -372,3 +396,4 @@ Payment may be made by direct bank transfer, cheque or by <a target="_blank" rel
 }
 }
 }
+
