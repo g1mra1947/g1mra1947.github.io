@@ -1,5 +1,5 @@
 (*
- G1MRA website macro definitions (c) Adrian Johnstone 2025, 26
+ G1MRA website macro definitions (c) Adrian Johnstone 2025, 2026
  Also see:
   events.amp for event lists
   links.amp for links
@@ -19,9 +19,10 @@ h3(str){<h3>^str</h3>}
 nl{<br>}                                  // new line
 hgap{<p style="padding-right:20px"></p>}  // padding space
 quad{&emsp;}                              // fixed space
-hrule{<hr>}                               // horizontal rule
+hrule{<div style="flex-basis:100%"><hr></div>}                               // horizontal rule
 
 (* Box layout *)
+pagebox(body){<div class=pagebox>^body</div><!-- close pagebox -->} // Page wrapper
 hbox*(body){<div class=hbox>^body</div><!-- close hbox -->} // Horizontally flowing box
 vbox*(body){<div class=vbox>^body</div><!-- close vbox -->} // Vertically flowing box
 cbox*(body){<div class=cbox>^body</div><!-- close cbox -->} // Centred box
@@ -29,6 +30,7 @@ tbox*(body){<div class=tbox>^body</div><!-- close tbox -->} // Main text block o
 sbox(body){<div class=sbox>^body</div><!-- close sbox -->}  // Sidebar box 300px
 ebox(body){<div class=ebox>^body</div><!-- close ebox -->}  // Events text box 300px
 content(body){<div class="content">^body</div>}             // Content wraps tbox and sbox - move to page?
+filler{<div class="filler"></div>}
 
 (* Links *)
 link(label target){<a href="^target">^label</a>}
@@ -40,8 +42,16 @@ mail(address){<a href="mailto:^address">^address</a>}
 postcode(maj min){^link{^maj ^min}{https://www.google.co.uk/maps/search/^maj+^min}}
 caption(txt){alt="^txt" title="^txt"}
 
+(* Events *)
+eventDate(date){^hrule^h3{^date}}
+event(title location text){<p><b>^title</b>^nl^location^nl<em>^text</em></p>}
+eventMO(title location text){<p><b>^title (Members only)</b>^nl^location^nl<em>^text</em></p>}
+
+(* Image banner *)
+banner(b1 b2 b3){<div class="banner">^b1 ^b2 ^b3 </div><!-- close banner -->}
+
 (* G1MRA page setup *)
-page(body) {<!DOCTYPE html>
+page(filename menuPrim menuSec body){^OUT{^filename}{
 <!-- G1MRA page by Adrian Johnstone a.johnstone@rhul.ac.uk built ^NOW -->
 <head>
 <link rel="stylesheet" href="g1mra.css">
@@ -52,9 +62,23 @@ page(body) {<!DOCTYPE html>
 <meta name="description" content="^hc">
 </head>
 <body>
-^cbox{^vbox{^body}}
+^pagebox{
+^vbox{
+<div class=navbar>
+  <div class="logo"><a href="index.html"><img src="images/g1mra-logo-75-retina-e1707147947727-300x300.png" title="Home page"></a></div>
+  ^vbox{^hbox{^menuPrim}^hrule^hbox{^menuSec}}
+  ^filler
+  <div class="flags">
+    <a href="home_en.html"><img src="images/Flag_of_the_United_Kingdom_(3-5).svg" title="Select English site"></a>
+    <a href="home_de.html"><img src="images/Flag_of_Germany_(RGB).svg" title="Select German site"></a>
+    <a href="home_fr.html"><img src="images/Flag_of_France_(2024-present).svg" title="Select French site"></a>
+  </div><!-- close flags -->
+</div><!-- close navbar	 -->
+^body
+}}
 </body>
-</html>}
+</html>
+}}
 
 (* G1MRA menus *)
 active(body){<div style="color:mediumseagreen;">^body</div>}
@@ -97,6 +121,7 @@ groupsSecondary{
   <a href="#flag_fr"><img src="images/Flag_of_France_(2024-present).svg" ^caption{Jump to French groups}></a>
   <a href="#flag_de"><img src="images/Flag_of_Germany_(RGB).svg" ^caption{Jump to German groups}></a>
   <a href="#flag_nl"><img src="images/Flag_of_the_Netherlands.svg" ^caption{Jump to Netherlands groups}></a>
+  <nl>
   <a href="#flag_nz"><img src="images/Flag_of_New_Zealand.svg" ^caption{Jump to New Zealand groups}></a>
   <a href="#flag_za"><img src="images/Flag_of_South_Africa.svg" ^caption{Jump to South African groups}></a>
   <a href="#flag_ch"><img src="images/Flag_of_Switzerland_(Pantone).svg" ^caption{Jump to Swiss groups}></a>
@@ -200,21 +225,6 @@ joinPrimary{
 ^link{^active{Join or renew}}{join_^lang.html}
 }
 
-//<div>^nl^hrule</div>
-navbar(primary secondary){
-<div class=navbar>
-  <div class="logo"><a href="index.html"><img src="images/g1mra-logo-75-retina-e1707147947727-300x300.png" title="Home page"></a></div>
-  <div class="navMenu">^primary^nl^nl^secondary</div>
-  <div class="flags">
-    <a href="home_en.html"><img src="images/Flag_of_the_United_Kingdom_(3-5).svg" title="Select English site"></a>
-    <a href="home_de.html"><img src="images/Flag_of_Germany_(RGB).svg" title="Select German site"></a>
-    <a href="home_fr.html"><img src="images/Flag_of_France_(2024-present).svg" title="Select French site"></a>
-  </div><!-- close flags -->
-</div><!-- close navbar	 -->}
-
-// Image banner
-banner(b1 b2 b3){<div class="banner">^b1 ^b2 ^b3 </div><!-- close banner -->}
-
 (******************************************************************************
 *
 * Start of actual page definitions
@@ -222,12 +232,9 @@ banner(b1 b2 b3){<div class="banner">^b1 ^b2 ^b3 </div><!-- close banner -->}
 ******************************************************************************)
 
 (* Home page *)
-home{
-  ^page{
-    ^navbar{^homePrimary}{^empty}
+^page{home_^lang.html}{^homePrimary}{^empty}{
     ^banner{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}{^image{home2_^lang.jpg}{The Flying Scotsman}}{^image{home3_^lang.jpg}{Accucraft Class 66}}
-    ^content{
-      ^tbox{
+      ^hbox{^tbox{
         ^h1{^hw}
         ^PAR{^hb1}
         ^hbox{
@@ -247,56 +254,27 @@ home{
         ^homeEvents
         ^hrule
         <h1>^link{More events}{events_en.html}
-
-      }
-    }
-  }
-}
+  
+}}}
 
 (* Events pages ^homeEvents, ^futureEvents and ^pastEvents are defined in events.amp *)
-eventDate(date){^hrule^h3{^date}}
-event(title location text){<p><b>^title</b>^nl^location^nl<em>^text</em></p>}
-eventMO(title location text){<p><b>^title (Members only)</b>^nl^location^nl<em>^text</em></p>}
-
-eventsPage{
-  ^page{
-    ^navbar{^eventsPrimary}{^empty}
-    ^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
-    ^content{
-      ^ebox{
-        ^h1{^ew}
-        ^PAR{^eb1}
-        ^homeEvents
-        ^futureEvents
-      }
-    }
-  } 
+^page{events_^lang.html}{^eventsPrimary}{^empty}{
+^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
+^ebox{^h1{^ew}^PAR{^eb1}^homeEvents^futureEvents}
 }
 
-pastEventsPage{
-  ^page{
-    ^navbar{^eventsPrimary}{^empty}
-    ^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
-    ^content{
-      ^ebox{
-        ^h1{^epw}
-        ^pastEvents
-      }
-    }
-  } 
+^page{pastEvents_^lang.html}{^eventsPrimary}{^empty}{
+^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
+^ebox{^h1{^epw}^pastEvents}
 }
 
 (* Groups pages *)
 group(name email web){<a href="^web"><b>^name</b></a>^quad^g1mail{^email-group}^nl}
 
-groups{
-  ^page{
-    ^navbar{^groupsPrimary}{^groupsSecondary}
-    ^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
-    ^content{
-      ^tbox{
-        ^h1{G1MRA groups}
-        ^PAR{G1MRA has many local groups which range in size from a few friends who run together, up to large scale groups which have their own separate subscription and committee structure, run exhibitions and manage portable tracks.
+^page{groups_^lang.html}{^groupsPrimary}{^groupsSecondary}{
+^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
+^tbox{^h1{G1MRA groups}
+^PAR{G1MRA has many local groups which range in size from a few friends who run together, up to large scale groups which have their own separate subscription and committee structure, run exhibitions and manage portable tracks.
 
 Groups arrange their own meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events. The best way to find out about activities in your area is to locate your nearest group, and then email the group contact using the address in the listing below (quoting your membership number). Alternatively, email enquries to the G1MRA groups coordinator as ^g1mail{groups}.
 
@@ -388,22 +366,11 @@ We also have <a href="#flag_ww">global special interest groups</a> such as the G
 ^group{1:32 Finescale Group}{fine-scale}{}
 ^group{The Gauge One 3D Circle}{3d-circle}{}
 ^group{Vintage Tinplate Group}{vintage-tinplate}{}
-}
-      }
-    }
-  } 
-}
+}}}
 
 (* Resources pages *)
-resources{
-  ^page{
-    ^navbar{^resourcesPrimary}{^resourcesSecondary}
-    ^content{
-      ^tbox{
-    <h1>Resources</h1>
-      }
-    }
-  }
+^page{resources_^lang.html}{^resourcesPrimary}{^resourcesSecondary}{
+^tbox{<h1>Resources</h1>}
 }
 
 friend(webAddress name info){
@@ -416,12 +383,8 @@ friend(webAddress name info){
 }
 }
 
-linksPage{
-  ^page{
-    ^navbar{^linksPrimary}{^empty}
-    ^content{^ebox{^links}}
-  }
-}
+(* Links page *)
+^page{links_^lang.html}{^linksPrimary}{^linksSecondary}{^ebox{^links}}
 
 supplier(name info webAddress emailAddress){
 ^hrule
@@ -435,29 +398,14 @@ supplier(name info webAddress emailAddress){
 }
 }
 
-supplierPage{
-  ^page{
-    ^navbar{^suppliersPrimary}{^suppliersSecondary}
-    ^content{^ebox{^suppliers}}
-  }
-}
+(* Suppliers page*)
+^page{suppliers_^lang.html}{^suppliersPrimary}{^suppliersSecondary}{^suppliers}
 
-sales{
-  ^page{
-    ^navbar{^salesPrimary}{^salesSecondary}
-    ^content{
-      ^tbox{
-    <h1>Sales</h1>
-      }
-    }
-  }
-}
+(* Sales page *)
+  ^page{sales_^lang.html}{^salesPrimary}{^salesSecondary}{^tbox{<h1>Sales</h1>}}
 
-(* Contact page *)
-contact{
-  ^page{
-    ^navbar{^contactPrimary}{^empty}
-    ^content{
+(* Contacts page *)
+  ^page{contact_^lang.html}{^contactPrimary}{^empty}{
       ^tbox{
         <h1>G1MRA contact email addresses</h1>
         ^PAR{
@@ -489,16 +437,11 @@ contact{
 
           Web page corrections and updates: ^g1mail{web}
         }
-      }
-    }
   }
 }
 
 (* Join or renew page *)
-join{
-  ^page{
-    ^navbar{^joinPrimary}{^empty}
-    ^content{
+  ^page{join_^lang.html}{^joinPrimary}{^empty}{
       ^tbox{
         <h1>Joining the Gauge One Model Railway Association</h1>
         ^PAR{We welcome all new members with an interest in running Gauge 1 stock and other scales on near-45mm track gauges.}
@@ -537,19 +480,4 @@ If you prefer a paper form, please post a completed copy of <a target="_blank" r
 Payment may be made by direct bank transfer, cheque or by <a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/signin">PayPal</a> (with a £2.00 supplement to cover PayPal fees).
 }
 }
-}      
 }
-}
-
-
-(* Top level page outputs - note that some pages (such as groupsPage) also trigger additional page creation *)
-^OUT{home_^lang.html}{^home} 
-^OUT{groups_^lang.html}{^groups} 
-^OUT{events_^lang.html}{^eventsPage} 
-^OUT{pastEvents_^lang.html}{^pastEventsPage} 
-^OUT{resources_^lang.html}{^resources}
-^OUT{links_^lang.html}{^linksPage}
-^OUT{suppliers_^lang.html}{^supplierPage}
-^OUT{sales_^lang.html}{^sales}
-^OUT{contact_^lang.html}{^contact}
-^OUT{join_^lang.html}{^join}
