@@ -6,8 +6,6 @@ h3 {color:#165f4b; font-weight:bold; font-size: 17px;}
 a, a:link {text-decoration: none;color: #372AAC;}
 a:hover {background-color: #ddd; }
 
-
-
 .pagebox {display:flex; justify-content:center; flex-direction:row; flex-wrap: wrap; flex-basis:1300px}
 .vbox {display:flex; flex-direction:column;}
 .hbox {display:flex; flex-direction:row; flex-wrap: wrap; }

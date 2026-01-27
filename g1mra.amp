@@ -65,6 +65,7 @@ page(name menuPrim menuSec body){^OUT{^name^us^lang.html}{
 </head>
 <body>
 ^pagebox{
+<div style="flex-basis:1000px">
 ^vbox{
 <div class=navbar><div class="logo"><a href="index.html"><img src="images/g1mra-logo-75.png" title="Home page"></a></div>
 ^vbox{^hbox{^menuPrim}^hrule^hbox{^menuSec}}
@@ -76,7 +77,9 @@ page(name menuPrim menuSec body){^OUT{^name^us^lang.html}{
 </div><!-- close flags -->
 </div><!-- close navbar	 -->
 ^body
-}}
+}
+</div>
+}
 </body>
 </html>
 }}
@@ -141,13 +144,12 @@ joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Con
         ^h1{^hw}
         ^PAR{^hb1}
         ^hbox{
-          ^hbox{
-            ^link{^img{welcomeToGauge1.jpg}{Front cover image of welcome brochure}}{images/Recruiting-brochure-7.pdf}
+^PAR{^hb2}
+  
+           ^link{^img{welcomeToGauge1.jpg}{Front cover image of welcome brochure}}{images/Recruiting-brochure-7.pdf}
             ^hgap
             ^link{^img{G1MRA_229_cover.jpg}{Front cover image of magazine issue 229}}{images/G1MRA_229.pdf}
-          }
           ^hgap
-          ^PAR{^hb2}
         }
         ^PAR{^hb3}
       }    
@@ -176,7 +178,7 @@ group(name email web){<a href="^web"><b>^name</b></a>^quad^g1mail{^email-group}^
 
 ^page{Groups}{^groupsPrimary}{^groupsSecondary}{
 ^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
-^tbox{^h1{G1MRA groups}
+^cbox{^tbox{^h1{G1MRA groups}
 ^PAR{G1MRA has many local groups which range in size from a few friends who run together, up to large scale groups which have their own separate subscription and committee structure, run exhibitions and manage portable tracks.
 
 Groups arrange their own meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events. The best way to find out about activities in your area is to locate your nearest group, and then email the group contact using the address in the listing below (quoting your membership number). Alternatively, email enquries to the G1MRA groups coordinator as ^g1mail{groups}.
@@ -269,7 +271,7 @@ We also have <a href="#flag_ww">global special interest groups</a> such as the G
 ^group{1:32 Finescale Group}{fine-scale}{}
 ^group{The Gauge One 3D Circle}{3d-circle}{}
 ^group{Vintage Tinplate Group}{vintage-tinplate}{}
-}}}
+}}}}
 
 (* Resources pages *)
 ^page{Resources}{^resourcesPrimary}{^resourcesSecondary}{
@@ -321,7 +323,7 @@ supplier(name info webAddress emailAddress){
 
 (* Contact page *)
 ^page{Contact}{^contactPrimary}{^empty}{
-      ^tbox{
+      ^cbox{^tbox{
         <h1>G1MRA contact email addresses</h1>
         ^PAR{
           Committee chair: ^g1mail{chair}
@@ -351,7 +353,7 @@ supplier(name info webAddress emailAddress){
           Membership enquiries: ^g1mail{membership}
 
           Web page corrections and updates: ^g1mail{web}
-        }
+        }}
   }
 }
 
