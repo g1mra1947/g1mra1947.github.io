@@ -20,7 +20,7 @@ a:hover {background-color: #ddd; }
 .ebox h3 {font-size: 14px; margin:10px 0px 0px 0px;}
 .ebox p {font-size: 13px; margin:3px 0px 3px 0px;}
 .content {display: flex; max-width:100%; flex-wrap: wrap; justify-content:space-between; justify-content:space-around}
-.filler{flex-grow: 1;}
+.fill{flex-grow: 1;}
 
 .navbar  {background-color: #165f4b; display: flex; padding: 2px 2px;}
 .navbar  a {float: left; color: #f2f2f2; text-align: center; padding: 0px 8px; font-size: 20px;}

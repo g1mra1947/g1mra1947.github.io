@@ -1,4 +1,4 @@
-(*
+	(*
  G1MRA website macro definitions (c) Adrian Johnstone 2025, 2026
  Also see:
   events.amp for event lists
@@ -32,7 +32,7 @@ tbox*(body){<div class=tbox>^body</div><!-- close tbox -->} // Main text block o
 sbox(body){<div class=sbox>^body</div><!-- close sbox -->}  // Sidebar box 300px
 ebox(body){<div class=ebox>^body</div><!-- close ebox -->}  // Events text box 300px
 content(body){<div class="content">^body</div>}             // Content wraps tbox and sbox - move to page?
-filler{<div class="filler"></div>}
+fill{<div class="fill"></div>}
 
 (* Links *)
 link(label target){<a href="^target">^label</a>}
@@ -65,11 +65,11 @@ page(name menuPrim menuSec body){^OUT{^name^us^lang.html}{
 </head>
 <body>
 ^pagebox{
-<div style="flex-basis:1000px">
+<div style="flex-basis:1024px">
 ^vbox{
 <div class=navbar><div class="logo"><a href="index.html"><img src="images/g1mra-logo-75.png" title="Home page"></a></div>
 ^vbox{^hbox{^menuPrim}^hrule^hbox{^menuSec}}
-^filler
+^fill
 <div class="flags">
   <a href="home_en.html"><img src="images/Flag_of_the_United_Kingdom_(3-5).svg" title="Select English site"></a>
   <a href="home_de.html"><img src="images/Flag_of_Germany_(RGB).svg" title="Select German site"></a>
@@ -143,24 +143,24 @@ joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Con
       ^hbox{^tbox{
         ^h1{^hw}
         ^PAR{^hb1}
-        ^hbox{
-^PAR{^hb2}
-  
+        ^cbox{
+           ^PAR{^hb2}
+           ^hgap
            ^link{^img{welcomeToGauge1.jpg}{Front cover image of welcome brochure}}{images/Recruiting-brochure-7.pdf}
-            ^hgap
-            ^link{^img{G1MRA_229_cover.jpg}{Front cover image of magazine issue 229}}{images/G1MRA_229.pdf}
-          ^hgap
+           ^hgap
+           ^link{^img{G1MRA_229_cover.jpg}{Front cover image of magazine issue 229}}{images/G1MRA_229.pdf}
         }
         ^PAR{^hb3}
-      }    
-      ^hgap
+      } 
+      ^fill   
       ^sbox{
         <h1><a href="events_en.html" style="color:#165f4b;">Events</a></h1>
         ^homeEvents
         ^hrule
         <h1>^link{More events}{events_en.html}
-  
-}}}
+      }
+    }
+  }
 
 (* Events pages ^homeEvents, ^futureEvents and ^pastEvents are defined in events.amp *)
 ^page{Events}{^eventsPrimary}{^empty}{
@@ -359,7 +359,7 @@ supplier(name info webAddress emailAddress){
 
 (* Join or renew page *)
   ^page{Join}{^joinPrimary}{^empty}{
-      ^tbox{
+      ^cbox{^tbox{
         ^h1{Joining the Gauge One Model Railway Association}
         ^PAR{We welcome all new members with an interest in running Gauge 1 stock and other scales on near-45mm track gauges.}
 
@@ -398,4 +398,4 @@ Payment may be made by direct bank transfer, cheque or by <a target="_blank" rel
 }
 }
 }
-
+}
