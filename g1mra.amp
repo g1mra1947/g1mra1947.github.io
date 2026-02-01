@@ -1,4 +1,4 @@
-	(*
+(*
  G1MRA website macro definitions (c) Adrian Johnstone 2025, 2026
  Also see:
   events.amp for event lists
@@ -14,7 +14,6 @@ empty{}
 (* Headings *)
 h1(str){<h1>^str</h1>}
 h2(str){<h2>^str</h2>}
-h3(str){<h3>^str</h3>}
 
 (* Text layout *)
 nl{<br>}                                       // new line
@@ -24,14 +23,13 @@ quad{&emsp;}                                   // fixed space
 hrule{<div style="flex-basis:100%"><hr></div>} // horizontal rule
 
 (* Box layout *)
-pagebox(body){<div class=pagebox>^body</div><!-- close pagebox -->} // Page wrapper
 hbox*(body){<div class=hbox>^body</div><!-- close hbox -->} // Horizontally flowing box
 vbox*(body){<div class=vbox>^body</div><!-- close vbox -->} // Vertically flowing box
 cbox*(body){<div class=cbox>^body</div><!-- close cbox -->} // Centred box
+
 tbox*(body){<div class=tbox>^body</div><!-- close tbox -->} // Main text block on page 350-700 px
 sbox(body){<div class=sbox>^body</div><!-- close sbox -->}  // Sidebar box 300px
-ebox(body){<div class=ebox>^body</div><!-- close ebox -->}  // Events text box 300px
-content(body){<div class="content">^body</div>}             // Content wraps tbox and sbox - move to page?
+
 fill{<div class="fill"></div>}
 
 (* Links *)
@@ -45,15 +43,12 @@ postcode(maj min){^link{^maj ^min}{https://www.google.co.uk/maps/search/^maj+^mi
 caption(txt){alt="^txt" title="^txt"}
 
 (* Events *)
-eventDate(date){^hrule^h3{^date}}
+eventDate(date){^hrule^h2{^date}}
 event(title location text){<p><b>^title</b>^nl^location^nl<em>^text</em></p>}
 eventMO(title location text){<p><b>^title (Members only)</b>^nl^location^nl<em>^text</em></p>}
 
-(* Image banner *)
-banner(b1 b2 b3){<div class="banner">^b1 ^b2 ^b3 </div><!-- close banner -->}
-
 (* G1MRA page setup *)
-page(name menuPrim menuSec body){^OUT{^name^us^lang.html}{
+pagePrelude(name){
 <!-- G1MRA page by Adrian Johnstone a.johnstone@rhul.ac.uk built ^NOW -->
 <head>
 <link rel="stylesheet" href="g1mra.css">
@@ -64,10 +59,14 @@ page(name menuPrim menuSec body){^OUT{^name^us^lang.html}{
 <meta name="description" content="^hc">
 </head>
 <body>
-^pagebox{
+<div style="display:flex; justify-content:center; flex-direction:row; flex-wrap: wrap;">
 <div style="flex-basis:1024px">
-^vbox{
-<div class=navbar><div class="logo"><a href="index.html"><img src="images/g1mra-logo-75.png" title="Home page"></a></div>
+}
+
+pagePostlude{</div></div></body></html>}
+
+navBar(menuPrim menuSec){
+<div class=navbar><a href="index.html"><img src="images/g1mra-logo-75.png" style="width: 80px;" title="Home page"></a>
 ^vbox{^hbox{^menuPrim}^hrule^hbox{^menuSec}}
 ^fill
 <div class="flags">
@@ -76,60 +75,65 @@ page(name menuPrim menuSec body){^OUT{^name^us^lang.html}{
   <a href="home_fr.html"><img src="images/Flag_of_France_(2024-present).svg" title="Select French site"></a>
 </div><!-- close flags -->
 </div><!-- close navbar	 -->
-^body
 }
-</div>
-}
-</body>
-</html>
+
+imageBar(b1 b2 b3){<div class="imageBar">^b1 ^b2 ^b3 </div><!-- close imageBar -->}
+
+page(name menuPrim menuSec body){^OUT{^name^us^lang.html}{
+^pagePrelude{^name}
+^vbox{^navBar{^menuPrim}{^menuSec}^body}
+^pagePostlude
 }}
 
+pageWithImages(name menuPrim menuSec image1 image2 image3 body){^OUT{^name^us^lang.html}{
+^pagePrelude{^name}
+^vbox{^navBar{^menuPrim}{^menuSec}^imageBar{^image1}{^image2}{^image3}^body}
+^pagePostlude
+}}
 
 (* G1MRA menus ***************************************************************)
 active(body){<div style="color:mediumseagreen;">^body</div>}
 menEl(name){^link{^name}{^name^us^lang.html}}            // Menu element plain
 menElA(name){^link{^active{^name}}{^name^us^lang.html}}  // Menu element active
+menFlag(target icon hover){<a href="^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
 
 homePrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
 eventsPrimary{^menElA{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
 groupsPrimary{^menEl{Events}^menElA{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
 groupsSecondary{
-<div class="groupBanner">
-  <a href="#flag_au"><img src="images/Flag_of_Australia_(converted).svg" ^caption{Jump to Australian groups}></a>
-  <a href="#flag_ca"><img src="images/Flag_of_Canada_(Pantone).svg" ^caption{Jump to Canadian groups}></a>
-  <a href="#flag_dk"><img src="images/Flag_of_Denmark.svg" ^caption{Jump to Danish groups}></a>
-  <a href="#flag_fr"><img src="images/Flag_of_France_(2024-present).svg" ^caption{Jump to French groups}></a>
-  <a href="#flag_de"><img src="images/Flag_of_Germany_(RGB).svg" ^caption{Jump to German groups}></a>
-  <a href="#flag_nl"><img src="images/Flag_of_the_Netherlands.svg" ^caption{Jump to Netherlands groups}></a>
-  <a href="#flag_nz"><img src="images/Flag_of_New_Zealand.svg" ^caption{Jump to New Zealand groups}></a>
-  <a href="#flag_za"><img src="images/Flag_of_South_Africa.svg" ^caption{Jump to South African groups}></a>
-  <a href="#flag_ch"><img src="images/Flag_of_Switzerland_(Pantone).svg" ^caption{Jump to Swiss groups}></a>
-  <a href="#flag_uk"><img src="images/Flag_of_the_United_Kingdom_(3-5).svg" ^caption{Jump to UK groups}></a>
-  <a href="#flag_us"><img src="images/Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg" ^caption{Jump to US groups}></a>
-  <a href="#flag_ww"><img src="images/Globe_icon.svg.png" ^caption{Jump to global special-interest groups}></a>
-</div>
+^menFlag{#flag_au}{Flag_of_Australia_(converted).svg}{Jump to Australian groups}
+^menFlag{#flag_ca}{Flag_of_Canada_(Pantone).svg}{Jump to Canadian groups}
+^menFlag{#flag_dk}{Flag_of_Denmark.svg}{Jump to Danish groups}
+^menFlag{#flag_fr}{Flag_of_France_(2024-present).svg}{Jump to French groups}
+^menFlag{#flag_de}{Flag_of_Germany_(RGB).svg}{Jump to German groups}
+^menFlag{#flag_nl}{Flag_of_the_Netherlands.svg}{Jump to Netherlands groups}
+^menFlag{#flag_nz}{Flag_of_New_Zealand.svg}{Jump to New Zealand groups}
+^menFlag{#flag_za}{Flag_of_South_Africa.svg}{Jump to South African groups}
+^menFlag{#flag_ch}{Flag_of_Switzerland_(Pantone).svg}{Jump to Swiss groups}
+^menFlag{#flag_uk}{Flag_of_the_United_Kingdom_(3-5).svg}{Jump to UK groups}
+^menFlag{#flag_us}{Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg}{Jump to US groups}
+^menFlag{#flag_ww}{Globe_icon.svg.png}{Jump to global special-interest groups}
 }
-
 resourcesPrimary{^menEl{Events}^menEl{Groups}^menElA{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
-resourcesSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}}
-designsSecondary{^menEl{Safety}^menEl{Standards}^menElA{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}}
-tracksSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menElA{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}}
-historySecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menElA{History}^menEl{Gauge2}^menEl{Connections}}
-gauge2Secondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menElA{Gauge2}^menEl{Connections}}
-connectionsSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menElA{Connections}}
+resourcesSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
+designsSecondary{^menEl{Safety}^menEl{Standards}^menElA{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
+tracksSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menElA{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
+historySecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menElA{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
+gauge2Secondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menElA{Gauge2}^menEl{Connections}^menEl{Features}}
+connectionsSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menElA{Connections}^menEl{Features}}
+featuresSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menElA{Features}}
 
 salesPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menElA{Sales}^menEl{Contact}^menEl{Join}}
-salesSecondary{^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
-booksSecondary{^menElA{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
-partsSecondary{^menEl{Books}^menElA{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
-kitsSecondary{^menEl{Books}^menEl{Parts}^menElA{Kits}^menEl{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
-clothingSecondary{^menEl{Books}^menEl{Parts}^menEl{Kits}^menElA{Clothing}^menEl{Marketplace}^menEl{Suppliers}}
-marketplaceSecondary{^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menElA{Marketplace}^menEl{Suppliers}}
-suppliersSecondary{^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Marketplace}^menElA{Suppliers}}
+salesSecondary{^menEl{Marketplace}^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Suppliers}}
+marketplaceSecondary{^menElA{Marketplace}^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Suppliers}}
+booksSecondary{^menEl{Marketplace}^menElA{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Suppliers}}
+partsSecondary{^menEl{Marketplace}^menEl{Books}^menElA{Parts}^menEl{Kits}^menEl{Clothing}^menEl{Suppliers}}
+kitsSecondary{^menEl{Marketplace}^menEl{Books}^menEl{Parts}^menElA{Kits}^menEl{Clothing}^menEl{Suppliers}}
+clothingSecondary{^menEl{Marketplace}^menEl{Books}^menEl{Parts}^menEl{Kits}^menElA{Clothing}^menEl{Suppliers}}
+suppliersSecondary{^menEl{Marketplace}^menEl{Books}^menEl{Parts}^menEl{Kits}^menEl{Clothing}^menElA{Suppliers}}
 
 contactPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menElA{Contact}^menEl{Join}}
 joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menElA{Join}}
-
 
 (******************************************************************************
 *
@@ -138,8 +142,7 @@ joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Con
 ******************************************************************************)
 
 (* Home page *)
-^page{Home}{^homePrimary}{^empty}{
-    ^banner{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}{^image{home2_^lang.jpg}{The Flying Scotsman}}{^image{home3_^lang.jpg}{Accucraft Class 66}}
+^pageWithImages{Home}{^homePrimary}{^empty}{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}{^image{home2_^lang.jpg}{The Flying Scotsman}}{^image{home3_^lang.jpg}{Accucraft Class 66}}{
       ^hbox{^tbox{
         ^h1{^hw}
         ^PAR{^hb1}
@@ -154,30 +157,25 @@ joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Con
       } 
       ^fill   
       ^sbox{
-        <h1><a href="events_en.html" style="color:#165f4b;">Events</a></h1>
+        <h1><a href="events_^lang.html" style="color:#165f4b;">Events</a></h1>
         ^homeEvents
         ^hrule
-        <h1>^link{More events}{events_en.html}
+        ^h1{^link{More events}{events_^lang.html}}
       }
     }
   }
 
 (* Events pages ^homeEvents, ^futureEvents and ^pastEvents are defined in events.amp *)
-^page{Events}{^eventsPrimary}{^empty}{
-^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
-^ebox{^h1{^ew}^PAR{^eb1}^homeEvents^futureEvents}
-}
+^pageWithImages{Events}{^eventsPrimary}{^empty}{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}{	
+^cbox{^tbox{^h1{^ew}^PAR{^eb1}^homeEvents^futureEvents}
+}}
 
-^page{PastEvents}{^eventsPrimary}{^empty}{
-^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
-^ebox{^h1{^epw}^pastEvents}
-}
+^page{PastEvents}{^eventsPrimary}{^empty}{^cbox{^tbox{^h1{^epw}^pastEvents}}}
 
 (* Groups pages *)
 group(name email web){<a href="^web"><b>^name</b></a>^quad^g1mail{^email-group}^nl}
 
 ^page{Groups}{^groupsPrimary}{^groupsSecondary}{
-^banner{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}
 ^cbox{^tbox{^h1{G1MRA groups}
 ^PAR{G1MRA has many local groups which range in size from a few friends who run together, up to large scale groups which have their own separate subscription and committee structure, run exhibitions and manage portable tracks.
 
@@ -274,19 +272,16 @@ We also have <a href="#flag_ww">global special interest groups</a> such as the G
 }}}}
 
 (* Resources pages *)
-^page{Resources}{^resourcesPrimary}{^resourcesSecondary}{
-^tbox{<h1>Resources</h1>}
-}
-
-^page{Designs}{^resourcesPrimary}{^designsSecondary}{^ebox{^h1{Designs}}}
-^page{Tracks}{^resourcesPrimary}{^tracksSecondary}{^ebox{^h1{Tracks}}}
-^page{History}{^resourcesPrimary}{^historySecondary}{^ebox{^h1{History}}}
-^page{Gauge2}{^resourcesPrimary}{^gauge2Secondary}{^ebox{^h1{Gauge 2}}}
+^page{Resources}{^resourcesPrimary}{^resourcesSecondary}{^cbox{^tbox{<h1>Resources</h1>}}}
+^page{Designs}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^h1{Designs}}}}
+^page{Tracks}{^resourcesPrimary}{^tracksSecondary}{^cbox{^tbox{^h1{Tracks}}}}
+^page{History}{^resourcesPrimary}{^historySecondary}{^cbox{^tbox{^h1{History}}}}
+^page{Gauge2}{^resourcesPrimary}{^gauge2Secondary}{^cbox{^tbox{^h1{Gauge 2}}}}
 
 (* Connections page *)
 connection(webAddress name info){
 ^hrule
-^h3{^name}
+^h2{^name}
 ^PAR{
 ^link{^webAddress}{https://^webAddress}
 
@@ -294,21 +289,23 @@ connection(webAddress name info){
 }
 }
 
-^page{Connections}{^resourcesPrimary}{^connectionsSecondary}{^ebox{^connections}}
+^page{Connections}{^resourcesPrimary}{^connectionsSecondary}{^cbox{^tbox{^connections}}}
+
+(* Features page *)
+^page{Features}{^resourcesPrimary}{^featuresSecondary}{^cbox{^tbox{^h1{Special features}}}}
 
 (* Sales page *)
-^page{Sales}{^salesPrimary}{^salesSecondary}{^ebox{^h1{Sales}}}
-
-^page{Books}{^salesPrimary}{^booksSecondary}{^ebox{^h1{Books}}}
-^page{Kits}{^salesPrimary}{^kitsSecondary}{^ebox{^h1{Kits}}}
-^page{Parts}{^salesPrimary}{^partsSecondary}{^ebox{^h1{Parts}}}
-^page{Clothing}{^salesPrimary}{^clothingSecondary}{^ebox{^h1{Clothing}}}
-^page{Marketplace}{^salesPrimary}{^marketplaceSecondary}{^ebox{^h1{Member to member maketplace}}}
+^page{Sales}{^salesPrimary}{^salesSecondary}{^cbox{^tbox{^h1{Sales}}}}
+^page{Books}{^salesPrimary}{^booksSecondary}{^cbox{^tbox{^h1{Books}}}}
+^page{Kits}{^salesPrimary}{^kitsSecondary}{^cbox{^tbox{^h1{Kits}}}}
+^page{Parts}{^salesPrimary}{^partsSecondary}{^cbox{^tbox{^h1{Parts}}}}
+^page{Clothing}{^salesPrimary}{^clothingSecondary}{^cbox{^tbox{^h1{Clothing}}}}
+^page{Marketplace}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{^h1{Member to member maketplace}}}}
 
 (* Suppliers page*)
 supplier(name info webAddress emailAddress){
 ^hrule
-^h3{^name}
+^h2{^name}
 ^PAR{
 ^info
 
@@ -318,44 +315,41 @@ supplier(name info webAddress emailAddress){
 }
 }
 
-^page{Suppliers}{^salesPrimary}{^suppliersSecondary}{^ebox{^suppliers}}
+^page{Suppliers}{^salesPrimary}{^suppliersSecondary}{^cbox{^tbox{^suppliers}}}
 
 
 (* Contact page *)
-^page{Contact}{^contactPrimary}{^empty}{
-      ^cbox{^tbox{
-        <h1>G1MRA contact email addresses</h1>
-        ^PAR{
-          Committee chair: ^g1mail{chair}
+^page{Contact}{^contactPrimary}{^empty}{^cbox{^tbox{
+^h1{G1MRA contact email addresses}
+^PAR{
+Committee chair: ^g1mail{chair}
 
-          Committee secretary: ^g1mail{secretary}
+Committee secretary: ^g1mail{secretary}
 
-          Treasurer: ^g1mail{treasurer}
+Treasurer: ^g1mail{treasurer}
 
-          Technical officer: ^g1mail{technical}
+Technical officer: ^g1mail{technical}
 
-          Supplier liaison officer: ^g1mail{suppliers}
+Supplier liaison officer: ^g1mail{suppliers}
 
-          Group liason officer: ^g1mail{groups}
+Group liason officer: ^g1mail{groups}
 
-          Newletter and Journal editor: ^g1mail{nljeditor}
+Newletter and Journal editor: ^g1mail{nljeditor}
 
-          Diary and event listing: ^g1mail{diary}
+Diary and event listing: ^g1mail{diary}
 
-          Show organisation and liason: ^g1mail{events}
+Show organisation and liason: ^g1mail{events}
 
-          Member to member sales: ^g1mail{marketplace}
+Member to member sales: ^g1mail{marketplace}
 
-          Book sales: ^g1mail{books}
+Book sales: ^g1mail{books}
 
-          Parts, kits and clothing sales: ^g1mail{sales}
+Parts, kits and clothing sales: ^g1mail{sales}
 
-          Membership enquiries: ^g1mail{membership}
+Membership enquiries: ^g1mail{membership}
 
-          Web page corrections and updates: ^g1mail{web}
-        }}
-  }
-}
+Web page corrections and updates: ^g1mail{web}
+}}}}
 
 (* Join or renew page *)
   ^page{Join}{^joinPrimary}{^empty}{
