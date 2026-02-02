@@ -1,4 +1,6 @@
 echo on
+git add *.docx
+git add *.pdf
 git add *.amp
 git add *.art
 git add *.bat
