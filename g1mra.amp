@@ -91,6 +91,18 @@ pageWithImages(name menuPrim menuSec image1 image2 image3 body){^OUT{^name^us^la
 ^pagePostlude
 }}
 
+(* G1MRA forms ***************************************************************)
+newMemberApplicationForm{}
+subscriptionRenewalForm{}
+bookOrderForm{}
+partOrderForm{}
+merchandiseOrderForm{}
+clothingOrderForm{}
+newEventForm{}
+marketplaceForSaleForm{}
+marketplaceEnquiryForm{https://docs.google.com/forms/d/e/1FAIpQLScJZvrlo_JcoyJC7P6NF43m-GYl9tSIlrSh2b1nyX-f5Ql0Gw/viewform?usp=dialog}
+generalEnquiryForm{}
+
 (* G1MRA menus ***************************************************************)
 active(body){<div style="color:mediumseagreen;">^body</div>}
 menEl(name){^link{^name}{^name^us^lang.html}}            // Menu element plain
@@ -300,7 +312,9 @@ connection(webAddress name info){
 ^page{Kits}{^salesPrimary}{^kitsSecondary}{^cbox{^tbox{^h1{Kits}}}}
 ^page{Parts}{^salesPrimary}{^partsSecondary}{^cbox{^tbox{^h1{Parts}}}}
 ^page{Clothing}{^salesPrimary}{^clothingSecondary}{^cbox{^tbox{^h1{Clothing}}}}
-^page{Marketplace}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{^h1{Member to member maketplace}}}}
+^page{Marketplace}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{^h1{Member to member maketplace}
+To enquire abot an item, please fill in ^link{this form}{^marketplaceEnquiryForm}
+}}}
 
 (* Suppliers page*)
 supplier(name info webAddress emailAddress){

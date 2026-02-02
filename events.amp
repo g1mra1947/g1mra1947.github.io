@@ -23,6 +23,9 @@ homeEvents{
 ^eventDate{10 March 2026} 
 ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
+^eventDate{14 March 2026}
+^eventMO{South East Group running day}{Donnington Hall, Dunton Green ^postcode{TN13}{2UN}^nl^g1mail{south-east-group}}{Invicta track from 08:00 setup; £5 entry towards catering and track maintenance.^nl Please email ^g1mail{south-east-group} in advance to ensure sufficient catering}
+
 ^eventDate{21 March 2026}
 ^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
@@ -38,6 +41,9 @@ futureEvents{
 
 ^eventDate{18 April 2026}
 ^event{G1MRA Spring Meeting}{Statfold Country Park ^postcode{B79}{0BU}}{Anglia Roads courtesy of the East Anglian Group, Carding Road courtesy of the Midland Group and Moordale courtsy of the Yorkshire Group, plus trade support}
+
+^eventDate{25 April 2026}
+^eventMO{South East Group running day}{Donnington Hall, Dunton Green ^postcode{TN13}{2UN}^nl^g1mail{south-east-group}}{Invicta track from 08:00 setup; £5 entry towards catering and track maintenance.^nl Please email ^g1mail{south-east-group} in advance to ensure sufficient catering}
 
 ^eventDate{25-26 April 2026}
 ^event{^link{Live Steam Up Show}{https://palais-bonbons.com/2025/02/25/live-steam-up-show/}}{
