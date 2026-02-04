@@ -1,7 +1,7 @@
 (* Definition of groups macro listing current G1MA groups *)
 
 groups{
-<h2><img src="images/Flag_of_Australia_(converted).svg" height=50px id="flag_au"><br>Australia</h2>
+<h2><img src="images/Flag_of_Australia_(converted).svg" height=50px id="flag_au"> Australia</h2>
 ^PAR{
 ^group{Australian Group}{australian}{}
 }
