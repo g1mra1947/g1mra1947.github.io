@@ -120,16 +120,16 @@ feedbackForm{https://forms.gle/xEcU3sGNAyX48yJd9}
 
 (* Menus *********************************************************************)
 active(body){<div style="color:mediumseagreen;">^body</div>}
-menEl(name){^link{^name}{^name^us^lang.html}}            // Menu element plain
-menElA(name){^link{^active{^name}}{^name^us^lang.html}}  // Menu element active
+menEl(label target){^link{^label}{^target^us^lang.html}}        
+menElA(label target){^link{^active{^label}}{^target^us^lang.html}}  // Menu element active
 menFlag(target icon hover){<a href="^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
 
-homePrimary{^menEl{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menEl{^MSales}^menEl{^MContact}^menEl{^MJoin}}
-eventsPrimary{^menElA{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menEl{^MSales}^menEl{^MContact}^menEl{^MJoin}}
-eventsSecondary{^menEl{^MPast}^menEl{^MGalleries}}
-pastSecondary{^menElA{^MPast}^menEl{^MGalleries}}
-gallerySecondary{^menEl{^MPast}^menElA{^MGalleries}}
-groupsPrimary{^menEl{^MEvents}^menElA{^MGroups}^menEl{^MResources}^menEl{^MSales}^menEl{^MContact}^menEl{^MJoin}}
+homePrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+eventsPrimary{^menElA{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+eventsSecondary{^menEl{^MPast}{Past}^menEl{^MGalleries}{Galleries}}
+pastSecondary{^menElA{^MPast}{Past}^menEl{^MGalleries}{Galleries}}
+gallerySecondary{^menEl{^MPast}{Past}^menElA{^MGalleries}{Galleries}}
+groupsPrimary{^menEl{^MEvents}{Events}^menElA{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
 groupsSecondary{
 ^menFlag{#flag_au}{Flag_of_Australia_(converted).svg}{Jump to Australian groups}
 ^menFlag{#flag_ca}{Flag_of_Canada_(Pantone).svg}{Jump to Canadian groups}
@@ -144,28 +144,28 @@ groupsSecondary{
 ^menFlag{#flag_us}{Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg}{Jump to US groups}
 ^menFlag{#flag_ww}{Globe_icon.svg.png}{Jump to global special-interest groups}
 }
-resourcesPrimary{^menEl{^MEvents}^menEl{^MGroups}^menElA{^MResources}^menEl{^MSales}^menEl{^MContact}^menEl{^MJoin}}
-resourcesSecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
-safetySecondary{^menElA{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
-standardsSecondary{^menEl{^MSafety}^menElA{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
-designsSecondary{^menEl{^MSafety}^menEl{^MStandards}^menElA{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
-tracksSecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menElA{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
-historySecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menElA{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
-gauge2Secondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menElA{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
-connectionsSecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menElA{^MConnections}^menEl{^MFeatures}}
-featuresSecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menElA{^MFeatures}}
+resourcesPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menElA{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+resourcesSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
+safetySecondary{^menElA{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
+standardsSecondary{^menEl{^MSafety}{Safety}^menElA{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
+designsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menElA{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
+tracksSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menElA{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
+historySecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menElA{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
+gauge2Secondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menElA{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
+connectionsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menElA{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
+featuresSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menElA{^MFeatures}{Features}}
 
-salesPrimary{^menEl{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menElA{^MSales}^menEl{^MContact}^menEl{^MJoin}}
-salesSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
-marketplaceSecondary{^menElA{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
-modelsSecondary{^menEl{^MMarketplace}^menElA{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
-booksSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menElA{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
-componentsSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menElA{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
-merchandiseSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menElA{^MMerchandise}^menEl{^MSuppliers}}
-suppliersSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menElA{^MSuppliers}}
+salesPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menElA{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+salesSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
+marketplaceSecondary{^menElA{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
+modelsSecondary{^menEl{^MMarketplace}{Marketplace}^menElA{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
+booksSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menElA{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
+componentsSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menElA{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
+merchandiseSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menElA{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
+suppliersSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menElA{^MSuppliers}{Suppliers}}
 
-contactPrimary{^menEl{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menEl{^MSales}^menElA{^MContact}^menEl{^MJoin}}
-joinPrimary{^menEl{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menEl{^MSales}^menEl{^MContact}^menElA{^MJoin}}
+contactPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menElA{^MContact}{Contact}^menEl{^MJoin}{Join}}
+joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menElA{^MJoin}{Join}}
 
 (******************************************************************************
 *
