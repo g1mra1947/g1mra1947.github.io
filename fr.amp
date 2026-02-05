@@ -1,5 +1,51 @@
 lang{fr}
 
+M1{Accueil}
+
+MEvents{Événements}
+
+M3{Passé}
+
+M4{Galeries}
+
+M5{Groupes}
+
+M6{Ressources}
+
+M7{Sécurité}
+
+M8{Normes}
+
+MDesigns{Dessins}
+
+M9{Voies}
+
+M10{Historique}
+
+M11{Échelle 2}
+
+M12{Connexions}
+
+M13{Fonctionnalités}
+
+M14{Ventes}
+
+M15{Place de marché}
+
+M16{Modèles}
+
+M17{Livres}
+
+M18{Composants}
+
+M19{Produits dérivés}
+
+M20{Fournisseurs}
+
+M21{Contact}
+
+M22{Rejoindre}
+
 H1{Accueil}
 
 H2{Page d'accueil de l'Association des Chemins de Fer Modélistes à l'Échelle 1}
@@ -32,11 +78,18 @@ Vous trouverez des informations sur les événements passés récents sur ^link{
 
 ^bf{Si vous souhaitez ajouter un événement à cette liste, veuillez remplir le formulaire ^link{this form}{^newEventForm}}. ^vskip
 }
-E5{Événements passés}
 
-E6{Page des événements passés de la Gauge One Model Railway Association}
+EP1 {Événements passés}
 
-E7{Événements passés}
+EP2 {Page des événements passés de l'Association de modélisme ferroviaire à l'échelle 1}
+
+EP3 {Événements passés}
+
+EG1 {Galeries}
+
+EG2 {Page des galeries des années précédentes de l'Association de modélisme ferroviaire à l'échelle 1}
+
+EG3 {Galeries}
 
 G1{Groupes}
 

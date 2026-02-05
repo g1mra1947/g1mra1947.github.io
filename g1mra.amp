@@ -124,9 +124,12 @@ menEl(name){^link{^name}{^name^us^lang.html}}            // Menu element plain
 menElA(name){^link{^active{^name}}{^name^us^lang.html}}  // Menu element active
 menFlag(target icon hover){<a href="^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
 
-homePrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
-eventsPrimary{^menElA{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
-groupsPrimary{^menEl{Events}^menElA{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
+homePrimary{^menEl{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menEl{^MSales}^menEl{^MContact}^menEl{^MJoin}}
+eventsPrimary{^menElA{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menEl{^MSales}^menEl{^MContact}^menEl{^MJoin}}
+eventsSecondary{^menEl{^MPast}^menEl{^MGalleries}}
+pastSecondary{^menElA{^MPast}^menEl{^MGalleries}}
+gallerySecondary{^menEl{^MPast}^menElA{^MGalleries}}
+groupsPrimary{^menEl{^MEvents}^menElA{^MGroups}^menEl{^MResources}^menEl{^MSales}^menEl{^MContact}^menEl{^MJoin}}
 groupsSecondary{
 ^menFlag{#flag_au}{Flag_of_Australia_(converted).svg}{Jump to Australian groups}
 ^menFlag{#flag_ca}{Flag_of_Canada_(Pantone).svg}{Jump to Canadian groups}
@@ -141,28 +144,28 @@ groupsSecondary{
 ^menFlag{#flag_us}{Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg}{Jump to US groups}
 ^menFlag{#flag_ww}{Globe_icon.svg.png}{Jump to global special-interest groups}
 }
-resourcesPrimary{^menEl{Events}^menEl{Groups}^menElA{Resources}^menEl{Sales}^menEl{Contact}^menEl{Join}}
-resourcesSecondary{^menEl{Safety}^menEl{Standards}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
-safetySecondary{^menElA{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
-standardsSecondary{^menEl{Safety}^menElA{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
-designsSecondary{^menEl{Safety}^menEl{Standards}^menElA{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
-tracksSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menElA{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
-historySecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menElA{History}^menEl{Gauge2}^menEl{Connections}^menEl{Features}}
-gauge2Secondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menElA{Gauge2}^menEl{Connections}^menEl{Features}}
-connectionsSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menElA{Connections}^menEl{Features}}
-featuresSecondary{^menEl{Safety}^menEl{Standards}^menEl{Designs}^menEl{Tracks}^menEl{History}^menEl{Gauge2}^menEl{Connections}^menElA{Features}}
+resourcesPrimary{^menEl{^MEvents}^menEl{^MGroups}^menElA{^MResources}^menEl{^MSales}^menEl{^MContact}^menEl{^MJoin}}
+resourcesSecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
+safetySecondary{^menElA{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
+standardsSecondary{^menEl{^MSafety}^menElA{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
+designsSecondary{^menEl{^MSafety}^menEl{^MStandards}^menElA{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
+tracksSecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menElA{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
+historySecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menElA{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
+gauge2Secondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menElA{^MGauge2}^menEl{^MConnections}^menEl{^MFeatures}}
+connectionsSecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menElA{^MConnections}^menEl{^MFeatures}}
+featuresSecondary{^menEl{^MSafety}^menEl{^MStandards}^menEl{^MDesigns}^menEl{^MTracks}^menEl{^MHistory}^menEl{^MGauge2}^menEl{^MConnections}^menElA{^MFeatures}}
 
-salesPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menElA{Sales}^menEl{Contact}^menEl{Join}}
-salesSecondary{^menEl{Marketplace}^menEl{Models}^menEl{Books}^menEl{Components}^menEl{Merchandise}^menEl{Suppliers}}
-marketplaceSecondary{^menElA{Marketplace}^menEl{Models}^menEl{Books}^menEl{Components}^menEl{Merchandise}^menEl{Suppliers}}
-modelsSecondary{^menEl{Marketplace}^menElA{Models}^menEl{Books}^menEl{Components}^menEl{Merchandise}^menEl{Suppliers}}
-booksSecondary{^menEl{Marketplace}^menEl{Models}^menElA{Books}^menEl{Components}^menEl{Merchandise}^menEl{Suppliers}}
-componentsSecondary{^menEl{Marketplace}^menEl{Models}^menEl{Books}^menElA{Components}^menEl{Merchandise}^menEl{Suppliers}}
-merchandiseSecondary{^menEl{Marketplace}^menEl{Models}^menEl{Books}^menEl{Components}^menElA{Merchandise}^menEl{Suppliers}}
-suppliersSecondary{^menEl{Marketplace}^menEl{Models}^menEl{Books}^menEl{Components}^menEl{Merchandise}^menElA{Suppliers}}
+salesPrimary{^menEl{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menElA{^MSales}^menEl{^MContact}^menEl{^MJoin}}
+salesSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
+marketplaceSecondary{^menElA{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
+modelsSecondary{^menEl{^MMarketplace}^menElA{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
+booksSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menElA{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
+componentsSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menElA{^MComponents}^menEl{^MMerchandise}^menEl{^MSuppliers}}
+merchandiseSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menElA{^MMerchandise}^menEl{^MSuppliers}}
+suppliersSecondary{^menEl{^MMarketplace}^menEl{^MModels}^menEl{^MBooks}^menEl{^MComponents}^menEl{^MMerchandise}^menElA{^MSuppliers}}
 
-contactPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menElA{Contact}^menEl{Join}}
-joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Contact}^menElA{Join}}
+contactPrimary{^menEl{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menEl{^MSales}^menElA{^MContact}^menEl{^MJoin}}
+joinPrimary{^menEl{^MEvents}^menEl{^MGroups}^menEl{^MResources}^menEl{^MSales}^menEl{^MContact}^menElA{^MJoin}}
 
 (******************************************************************************
 *
@@ -205,11 +208,13 @@ joinPrimary{^menEl{Events}^menEl{Groups}^menEl{Resources}^menEl{Sales}^menEl{Con
 
 (* Events pages **************************************************************) 
 (* ^homeEvents, ^futureEvents and ^pastEvents are defined in events.amp *)
-^pageWithImages{Events}{^E2}{^eventsPrimary}{^empty}{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}{	
+^pageWithImages{Events}{^E2}{^eventsPrimary}{^eventsSecondary}{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}{	
 ^cbox{^tbox{^h1{^E3}^PAR{^E4}^homeEvents^futureEvents}
 }}
 
-^page{^E5}{^E6}{^eventsPrimary}{^empty}{^cbox{^tbox{^h1{^E7	}^pastEvents}}}
+^page{^EP1}{^EP2}{^eventsPrimary}{^pastSecondary}{^cbox{^tbox{^h1{^EP3}^pastEvents}}}
+
+^page{^EG1}{^EG2}{^eventsPrimary}{^gallerySecondary}{^cbox{^tbox{^h1{^EG3}^h1{Galleries}}}}
 
 (* Groups pages **************************************************************)
 group(name email web){<a href="^web"><b>^name</b></a>^quad^g1mail{^email-group}^nl}
@@ -244,9 +249,23 @@ You can read about the history of Gauge One railway modelling and of our associa
 We have a list of useful other sites
 ^link{here}{Connections^us^lang.html} grouped by category. The forums and video channels,in particular, are well worth joining.
 
-Finally, we have gathered together a variety of articles in our ^link{features}{Features^us^lang.html} section, which includes descriptions and drawings of prototype rolling stock, advice on garden railway construction and some accounts of well rgarded models. 
+The ^link{features}{Features^us^lang.html} section includes descriptions and drawings of prototype rolling stock, advice on garden railway construction and some accounts of well regarded models. 
 
+Our quarterly {\em Newsletter and Journal} is a substantial newstand-quality magazine, filled with technical articles, reports of meetings and supplier information. G1MRA members can download the most recent four issues below as encrypted Zip files - when you open the download youwill be prompted for a password that you can find in your hard-copy of the most recent newsletter issue, or request the password by emailing ^g1mail{web}.
 
+^cbox{
+^link{^img{TN285.png}{G1MRA NLJ 285}}{encrypted/G1MRA_285.zip}
+^hgap
+^link{^img{TN286.png}{G1MRA NLJ 286}}{encrypted/G1MRA_286.zip}
+^hgap
+^link{^img{TN287.png}{G1MRA NLJ 287}}{encrypted/G1MRA_287.zip}
+^hgap
+^link{^img{TN288.png}{G1MRA NLJ 288}}{encrypted/G1MRA_288.zip}
+}
+
+A complete article index of the G1MRA newsletter, covering all issues from 1947 to the present is ^link{here}{images/index.xls}.
+
+If you are a G1MRA member and would like to receive any or all back issues of the newsletter, please fill in ^link{this form}{^newsletterOrderForm} 
 }}}}
 
 (* Safety page ***************************************************************)

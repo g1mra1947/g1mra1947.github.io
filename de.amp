@@ -1,5 +1,29 @@
 lang{de}
 
+M1{Startseite}
+MEvents{Veranstaltungen}
+M3{Vergangenheit}
+M4{Galerien}
+M5{Gruppen}
+M6{Ressourcen}
+M7{Sicherheit}
+M8{Standards}
+MDesigns{Entwürfe}
+M9{Strecken}
+M10{Geschichte}
+M11{Spur 2}
+M12{Verbindungen}
+M13{Funktionen}
+M14{Verkauf}
+M15{Marktplatz}
+M16{Modelle}
+M17{Bücher}
+M18{Komponenten}
+M19{Artikel}
+M20{Lieferanten}
+M21{Kontakt}
+M22{Mitglied werden}
+
 H1{Startseite}
 H2{Startseite der Gauge One Model Railway Association}
 H3{Willkommen bei der Gauge One Model Railway Association}
@@ -26,9 +50,14 @@ Informationen zu vergangenen Veranstaltungen finden Sie unter ^link{diese Seite}
 
 ^vskip
 }
-E5{Vergangene Veranstaltungen}
-E6{Seite mit vergangenen Veranstaltungen der Gauge One Model Railway Association}
-E7{Vergangene Veranstaltungen}
+
+EP1{Vergangene Veranstaltungen}
+EP2{Seite mit vergangenen Veranstaltungen des Modelleisenbahnvereins Spur 1}
+EP3{Vergangene Veranstaltungen}
+
+EG1{Galerien}
+EG2{Seite mit vergangenen Galerien des Modelleisenbahnvereins Spur 1}
+EG3{Galerien}
 
 G1{Gruppen}
 G2{G1MRA-Gruppenseite}

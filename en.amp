@@ -1,5 +1,29 @@
 lang{en}
 
+MHome{Home}
+MEvents{Events}
+MPast{Past}
+MGalleries{Galleries}
+MGroups{Groups}
+MResources{Resources}
+MSafety{Safety}
+MStandards{Standards}
+MDesigns{Designs}
+MTracks{Tracks}
+MHistory{History}
+MGauge2{Gauge2}
+MConnections{Connections}
+MFeatures{Features}
+MSales{Sales}
+MMarketplace{Marketplace}
+MModels{Models}
+MBooks{Books}
+MComponents{Components}
+MMerchandise{Merchandise}
+MSuppliers{Suppliers}
+MContact{Contact}
+MJoin{Join}
+
 H1{Home}
 H2{Gauge One Model Railway Association home page}
 H3{Welcome to the Gauge One Model Railway Association}
@@ -25,10 +49,14 @@ You will find information about recent past events on ^link{this page}{pastEvent
 ^bf{If you have an event that you would like to add to this list, please complete ^link{this form}{^newEventForm}}.
 ^vskip
 }
-E5{Past events}
-E6{Gauge One Model Railway Association past events page}
-E7{Past events}
 
+EP1{Past}
+EP2{Gauge One Model Railway Association past events page}
+EP3{Past events}
+
+EG1{Galleries}
+EG2{Gauge One Model Railway Association past galleries page}
+EG3{Galleries}
 
 G1{Groups}
 G2{G1MRA groups page}
