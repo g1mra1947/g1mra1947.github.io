@@ -1,56 +1,37 @@
 lang{fr}
 
-M1{Accueil}
-
+MHome{Accueil}
 MEvents{Événements}
-
-M3{Passé}
-
-M4{Galeries}
-
-M5{Groupes}
-
-M6{Ressources}
-
-M7{Sécurité}
-
-M8{Normes}
-
+MPast{Passé}
+MGalleries{Galeries}
+MGroups{Groupes}
+MResources{Ressources}
+MSafety{Sécurité}
+MStandards{Normes}
 MDesigns{Dessins}
+MTracks{Voies}
+MHistory{Historique}
+MGauge2{Échelle 2}
+MConnections{Connexions}
+MFeatures{Fonctionnalités}
+MSales{Ventes}
+MMarketplace{Place de marché}
+MModels{Modèles}
+MBooks{Livres}
+MComponents{Composants}
+MMerchandise{Produits dérivés}
+MSuppliers{Fournisseurs}
+MContact{Contact}
+MJoin{Rejoindre}
 
-M9{Voies}
 
-M10{Historique}
 
-M11{Échelle 2}
-
-M12{Connexions}
-
-M13{Fonctionnalités}
-
-M14{Ventes}
-
-M15{Place de marché}
-
-M16{Modèles}
-
-M17{Livres}
-
-M18{Composants}
-
-M19{Produits dérivés}
-
-M20{Fournisseurs}
-
-M21{Contact}
-
-M22{Rejoindre}
 
 H1{Accueil}
 
-H2{Page d'accueil de l'Association des Chemins de Fer Modélistes à l'Échelle 1}
+H2{Page d'accueil de G1MRA}
 
-H3{Bienvenue à l'Association des Chemins de Fer Modélistes à l'Échelle 1}
+H3{Bienvenue à G1MRA}
 
 H4{Les réseaux de modélisme ferroviaire à l'échelle 1 fonctionnent sur des voies dont l'écartement des rails est de 45 mm (1¾ pouce). Pour l'écartement standard, cela correspond à une échelle de 1:32, soit environ 10 mm par pied.}
 

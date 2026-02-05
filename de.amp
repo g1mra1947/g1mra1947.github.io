@@ -1,28 +1,30 @@
 lang{de}
 
-M1{Startseite}
+MHome{Startseite}
 MEvents{Veranstaltungen}
-M3{Vergangenheit}
-M4{Galerien}
-M5{Gruppen}
-M6{Ressourcen}
-M7{Sicherheit}
-M8{Standards}
+MPast{Vergangenheit}
+MGalleries{Galerien}
+MGroups{Gruppen}
+MResources{Ressourcen}
+MSafety{Sicherheit}
+MStandards{Standards}
 MDesigns{Entwürfe}
-M9{Strecken}
-M10{Geschichte}
-M11{Spur 2}
-M12{Verbindungen}
-M13{Funktionen}
-M14{Verkauf}
-M15{Marktplatz}
-M16{Modelle}
-M17{Bücher}
-M18{Komponenten}
-M19{Artikel}
-M20{Lieferanten}
-M21{Kontakt}
-M22{Mitglied werden}
+MTracks{Strecken}
+MHistory{Geschichte}
+MGauge2{Spur 2}
+MConnections{Verbindungen}
+MFeatures{Funktionen}
+MSales{Verkauf}
+MMarketplace{Marktplatz}
+MModels{Modelle}
+MBooks{Bücher}
+MComponents{Komponenten}
+MMerchandise{Artikel}
+MSuppliers{Lieferanten}
+MContact{Kontakt}
+MJoin{Mitglied werden}
+
+
 
 H1{Startseite}
 H2{Startseite der Gauge One Model Railway Association}
