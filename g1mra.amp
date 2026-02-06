@@ -214,7 +214,32 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
 
 ^page{^EP1}{^EP2}{^eventsPrimary}{^pastSecondary}{^cbox{^tbox{^h1{^EP3}^pastEvents}}}
 
-^page{^EG1}{^EG2}{^eventsPrimary}{^gallerySecondary}{^cbox{^tbox{^h1{^EG3}^h1{Galleries}}}}
+^page{^EG1}{^EG2}{^eventsPrimary}{^gallerySecondary}{^cbox{^tbox{
+^h1{^EG3}
+
+^hrule
+
+^h1{Spring meeting 2025 at Statfold Barn Country Park}
+^PAR{
+^image{sb1.jpg}{ }
+^image{sb2.jpg}{ }
+^image{sb3.jpg}{ }
+^image{sb4.jpg}{ }
+^image{sb5.jpg}{ }
+^image{sb1.jpg}{ }
+}
+
+^hrule
+
+^h1{Annual General Meeting and show 2025 at Hopetown Museum, Darlington}
+^PAR{^image{ht1.jpg}{ }
+^image{ht2.jpg}{ }
+^image{ht3.jpg}{ }
+^image{ht4.jpg}{ }
+^image{ht5.jpg}{ }
+^image{ht1.jpg}{ }
+}
+}}}
 
 (* Groups pages **************************************************************)
 group(name email web){<a href="^web"><b>^name</b></a>^quad^g1mail{^email-group}^nl}
@@ -241,7 +266,8 @@ Some folk collect G1 models that remain pristine in display cases, but most of u
 page lists our portable tracks which appear at exhibitions and group running days. For exhibition managers wanting to book a G1 running track, we give the footprint of each portable track and a contact email address. 
 
 We also list model engineering and modelling clubs which have permanant tracks: usually you would need to join the club concerned to get access.
- 
+
+^hrule
 
 You can read about the history of Gauge One railway modelling and of our association ^link{here}{History^us^lang.html}. The
 ^link{Gauge 2}{Gauge2^us^lang.html} pages document the ^em{mostly} long-gone world of Gauge 2 model railways - our sister gauge. 
@@ -251,7 +277,11 @@ We have a list of useful other sites
 
 The ^link{features}{Features^us^lang.html} section includes descriptions and drawings of prototype rolling stock, advice on garden railway construction and some accounts of well regarded models. 
 
-Our quarterly {\em Newsletter and Journal} is a substantial newstand-quality magazine, filled with technical articles, reports of meetings and supplier information. G1MRA members can download the most recent four issues below as encrypted Zip files - when you open the download youwill be prompted for a password that you can find in your hard-copy of the most recent newsletter issue, or request the password by emailing ^g1mail{web}.
+^hrule
+
+Our quarterly ^em{Newsletter and Journal} is a substantial newstand-quality magazine, filled with technical articles, reports of meetings and supplier information. A complete article index of the G1MRA newsletter, covering all issues from 1947 to the present is ^link{here}{images/index.xls}.
+
+G1MRA members can download the most recent four issues below as encrypted Zip files - when you open the download youwill be prompted for a password that you can find in your hard-copy of the most recent newsletter issue, or request the password by emailing ^g1mail{web}.
 
 ^cbox{
 ^link{^img{TN285.png}{G1MRA NLJ 285}}{encrypted/G1MRA_285.zip}
@@ -263,9 +293,7 @@ Our quarterly {\em Newsletter and Journal} is a substantial newstand-quality mag
 ^link{^img{TN288.png}{G1MRA NLJ 288}}{encrypted/G1MRA_288.zip}
 }
 
-A complete article index of the G1MRA newsletter, covering all issues from 1947 to the present is ^link{here}{images/index.xls}.
-
-If you are a G1MRA member and would like to receive any or all back issues of the newsletter, please fill in ^link{this form}{^newsletterOrderForm} 
+^bf{If you are a G1MRA member and would like to receive back issues of the newsletter, please fill in ^link{this form}{^newsletterOrderForm}}
 }}}}
 
 (* Safety page ***************************************************************)
@@ -444,7 +472,27 @@ You can download their diagnostic charts ^link{here}{images/diagnostics.pdf}.
 }
 }}}
 
-^page{Standards}{^empty}{^resourcesPrimary}{^standardsSecondary}{^cbox{^tbox{^h1{Track and wheel standards}^NA}}}
+^page{Standards}{^empty}{^resourcesPrimary}{^standardsSecondary}{^cbox{^tbox{
+^h1{Track and wheel standards}
+^PAR{
+Please click on the images to download a full sized PDF version.
+
+^h1{Traditional G1MRA standards}
+^link{^imagePlain{images/standard-dimensions-for-gauge1.jpg}{Standards part 1}}{images/standard-dimensions-for-gauge1.pdf}
+
+^link{^imagePlain{images/Standards-sheet-part-2-not-inc-wheels.jpg}{Standards part 2}}{images/Standards-sheet-part-2-not-inc-wheels.pdf}
+
+^h1{The ScaleOne32 finescale standard}
+^link{^imagePlain{images/ScaleOne32-Standards-1.jpg}{Fine scale standards part 1}}{images/ScaleOne32-Standards.pdf}
+
+^h1{Track spacing for non-UK loading gauges}
+^link{^imagePlain{images/non-british-track-spacing.jpg}{Standards part 1}}{images/non-british-track-spacing.pdf}
+
+
+}
+}}}
+
+
 ^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^h1{Designs}^NA}}}
 ^page{Tracks}{^empty}{^resourcesPrimary}{^tracksSecondary}{^cbox{^tbox{^h1{Tracks}^NA}}}
 ^page{History}{^empty}{^resourcesPrimary}{^historySecondary}{^cbox{^tbox{^h1{History}^NA}}}
@@ -487,7 +535,34 @@ This is a rather random (or if you prefer, eclectic) collection of articles of g
 ^page{Marketplace}{^empty}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{^h1{Member to member maketplace}
 To enquire about an item ormakean offer to purchase, please fill in ^link{this form}{^marketplaceEnquiryForm}}}}
 ^page{Models}{^empty}{^salesPrimary}{^modelsSecondary}{^cbox{^tbox{^h1{G1MRA sponsored models}^NA}}}
-^page{Books}{^empty}{^salesPrimary}{^booksSecondary}{^cbox{^tbox{^h1{Books}^NA}}}
+
+book(title blurb cover preview){
+^h2{^title}
+
+^cbox{
+^link{^imagePlain{images/thumbs/^cover}{^title}}{images/^preview}
+^hgap
+^PAR{^blurb
+}}
+^vskip
+}
+
+^page{Books}{^empty}{^salesPrimary}{^booksSecondary}{^cbox{^tbox{^h1{Books}
+
+^book{The Project book}{Beginners starting from scratch can opt for the original meths-ﬁred ‘Project’ for which some parts are available from G1MRA suppliers. 84 pages including full drawings and instructions to build a live-steam, single cylinder LMS ‘4F’ 0-6-0 tender engine.}{Project.jpg}{Project-preview.pdf}
+^book{The Dee Book}{Members who already have constructional skills can move on to the ‘Dee’. 96 pages including full drawings and instructions to build a live-steam SR ‘D’ class twin inside cylinder tender engine.}{Dee.jpg}{Dee-preview.pdf}
+^book{ARM1G - the other way round}{If you don’t have the time to scratchbuild you can choose the gas-ﬁred ARM1G, for which most parts are available oﬀ the shelf. A live-steam working model that involves very little engineering and is simple to run. 70 pages including full drawings and instructions to build a twin cylinder 0-4-4T.}{ARM1G.jpg}{ARMIG-preview.pdf}
+^book{The Multipurpose Model Steam Turbine a guide to successful scratch building}{Werner Jeggli, a member of the Swiss Group, has built 4 G1 turbine locos.  This book tells you how to build yours. It is spiral bound with 66 pages.}{Turbine.jpg}{Turbine-preview.pdf}
+^book{Scratchbuilding the GWR ‘Bulldog’ No. 3343 ‘Camelot’ }{A new book demonstrates how to build from scratch an electric version of the GWR ‘Bulldog. 92 pages with many coloured photographs and lots of detail. Spiral bound to lie ﬂat in your workshop.}{Bulldog.jpg}{Bulldog-preview.pdf}
+^book{Modelling in Gauge 1 - Book 2 – JVR’s Contribution to Gauge 1}{Articles and letters by the legendary John van Riemsdijk from more than 200 Newsletters, over 50 years. Many know of his design input to many Aster locomotives. 100 pages including photos and drawings}{JVR.jpg}{JVR-preview.pdf}
+^book{Modelling in Gauge 1 – Book 3 – Freight Stock }{Compilation of articles on freight stock building from NL&Js since 1963. 96 pages.}{Freight.jpg}{Freight-preview.pdf}
+^book{Modelling in Gauge 1 – Book 4 – Coaching Stock}{Compilation of articles on coaching stock construction from NL&Js since 1963. 102 pages.}{Coaches.jpg}{Coaches-preview.pdf}
+^book{Modelling in Gauge 1 – Book 5 – Coal Firing }{Notes on coal-ﬁring and 14 articles based on practical experiences. Many chapters inspired by the GIMRA Swiss Group, and Charles Simon, with contributions from other GIMRA members. 82 pages with colour photos.}{Coal.jpg}{Coal-preview.pdf}
+^book{A Pictorial History of G1MRA 1947 – 2022}{A hardcover, 163 page, celebration of G1MRA’s 75th Anniversary. An amazing selection of photographs from the G1MRA archives, showing garden get-togethers and exhibitions between 1947 and 2022.}{Illustrated.jpg}{Illustrated.jpg}
+
+}}}
+
+
 ^page{Components}{^empty}{^salesPrimary}{^componentsSecondary}{^cbox{^tbox{^h1{G1MRA sponsored components}^NA}}}
 ^page{Merchandise}{^empty}{^salesPrimary}{^merchandiseSecondary}{^cbox{^tbox{^h1{G1MRA banded merchandise}^NA}}}
 
