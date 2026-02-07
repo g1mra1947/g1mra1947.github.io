@@ -124,12 +124,12 @@ menEl(label target){^link{^label}{^target^us^lang.html}}
 menElA(label target){^link{^active{^label}}{^target^us^lang.html}}  // Menu element active
 menFlag(target icon hover){<a href="^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
 
-homePrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
-eventsPrimary{^menElA{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+homePrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+eventsPrimary{^menElA{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
 eventsSecondary{^menEl{^MPast}{Past}^menEl{^MGalleries}{Galleries}}
 pastSecondary{^menElA{^MPast}{Past}^menEl{^MGalleries}{Galleries}}
 gallerySecondary{^menEl{^MPast}{Past}^menElA{^MGalleries}{Galleries}}
-groupsPrimary{^menEl{^MEvents}{Events}^menElA{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+groupsPrimary{^menEl{^MEvents}{Events}^menElA{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
 groupsSecondary{
 ^menFlag{#flag_au}{Flag_of_Australia_(converted).svg}{Jump to Australian groups}
 ^menFlag{#flag_ca}{Flag_of_Canada_(Pantone).svg}{Jump to Canadian groups}
@@ -144,18 +144,19 @@ groupsSecondary{
 ^menFlag{#flag_us}{Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg}{Jump to US groups}
 ^menFlag{#flag_ww}{Globe_icon.svg.png}{Jump to global special-interest groups}
 }
-resourcesPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menElA{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
-resourcesSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
-safetySecondary{^menElA{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
-standardsSecondary{^menEl{^MSafety}{Safety}^menElA{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
-designsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menElA{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
-tracksSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menElA{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
-historySecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menElA{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
-gauge2Secondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menElA{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
-connectionsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menElA{^MConnections}{Connections}^menEl{^MFeatures}{Features}}
-featuresSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menElA{^MFeatures}{Features}}
+resourcesPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menElA{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+resourcesSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+safetySecondary{^menElA{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+standardsSecondary{^menEl{^MSafety}{Safety}^menElA{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+designsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menElA{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+tracksSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menElA{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+historySecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menElA{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+gauge2Secondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menElA{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+connectionsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menElA{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+featuresSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menElA{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
+downloadsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menElA{^MDownloads}{Downloads}}
 
-salesPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menElA{^MSales}{Sales}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+salesPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menElA{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
 salesSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
 marketplaceSecondary{^menElA{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
 modelsSecondary{^menEl{^MMarketplace}{Marketplace}^menElA{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
@@ -164,8 +165,9 @@ componentsSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^m
 merchandiseSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menElA{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
 suppliersSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menElA{^MSuppliers}{Suppliers}}
 
-contactPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menElA{^MContact}{Contact}^menEl{^MJoin}{Join}}
-joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MContact}{Contact}^menElA{^MJoin}{Join}}
+showcasePrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menElA{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+contactPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menElA{^MContact}{Contact}^menEl{^MJoin}{Join}}
+joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menElA{^MJoin}{Join}}
 
 (******************************************************************************
 *
@@ -281,20 +283,366 @@ The ^link{features}{Features^us^lang.html} section includes descriptions and dra
 
 Our quarterly ^em{Newsletter and Journal} is a substantial newstand-quality magazine, filled with technical articles, reports of meetings and supplier information. A complete article index of the G1MRA newsletter, covering all issues from 1947 to the present is ^link{here}{images/index.xls}.
 
-G1MRA members can download the most recent four issues below as encrypted Zip files - when you open the download youwill be prompted for a password that you can find in your hard-copy of the most recent newsletter issue, or request the password by emailing ^g1mail{web}.
+G1MRA members can download backnumbers as encrypted Zip files from ^link{downloads}{Downloads^us^lang.html} page. When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent newsletter issue, or request the password by emailing ^g1mail{web}.
 
 ^cbox{
-^link{^img{TN285.png}{G1MRA NLJ 285}}{encrypted/G1MRA_285.zip}
+^link{^img{TN285.png}{G1MRA NLJ 285}}{encrypted/G1MRA_285.pdf.zip}
 ^hgap
-^link{^img{TN286.png}{G1MRA NLJ 286}}{encrypted/G1MRA_286.zip}
+^link{^img{TN286.png}{G1MRA NLJ 286}}{encrypted/G1MRA_286.pdf.zip}
 ^hgap
-^link{^img{TN287.png}{G1MRA NLJ 287}}{encrypted/G1MRA_287.zip}
+^link{^img{TN287.png}{G1MRA NLJ 287}}{encrypted/G1MRA_287.pdf.zip}
 ^hgap
-^link{^img{TN288.png}{G1MRA NLJ 288}}{encrypted/G1MRA_288.zip}
+^link{^img{TN288.png}{G1MRA NLJ 288}}{encrypted/G1MRA_288.pdf.zip}
+}
+}}}}
+
+(* Downloads page ***************************************************************)
+nlj(number){^link{^number}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_^number.pdf.zip}}
+
+^page{Downloads}{^empty}{^resourcesPrimary}{^downloadsSecondary}{
+^cbox{^tbox{^PAR{
+^h1{Members-only downloads page}
+This members' area contains encrypted files. To access them, click on the link to download a copy to your device, and then open the file. 
+
+When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent Newsletter & Journal issue, or request the password by emailing ^g1mail{web}.
+
+If you want to download a lot of files, you may find it easier to request non-encrypted versions of the files in blocks using ^link{this form}{^newsletterOrderForm}. The files will be supplied to you using the WeTransfer service, which does not require you to have an account: you will simply receive an email containing a link from us.
+
+^h1{Do not share these files or passwords}
+^h1{Books}
+^h2{Volume 1: Electric Propulsion}}
+^cbox{^tbox{^vskip
+
+In 2004 Geff Hammond crated a compilation of articles from previous editions of the NL&J concerning electric models. Technology has moved on, and most of the technical content is now obsolete, but there is still considerable historical interest so we offer it here as a free download.}
+^hgap
+^hgap
+^PAR{^link{^img{Book1_electric_cover.png}{Book 1 Electrics cover}}{https://www.cs.rhul.ac.uk/~adrian/encrypted/Book1_Electrics.pdf.zip} 
+}
 }
 
-^bf{If you are a G1MRA member and would like to receive back issues of the newsletter, please fill in ^link{this form}{^newsletterOrderForm}}
-}}}}
+^PAR{^bf{Other books are available for purchase via our ^link{market place}{marketplace_^lang.html}.}}
+
+^h1{Newsletter and Journal issues}
+
+^PAR{A complete article index covering all issues from 1947 to the present may be downladed as an Excel spreadsheet ^link{here}{images/index.xls}.}
+
+^h2{1947-49}
+^PAR{
+^nlj{001}
+^nlj{002}
+}
+^h2{1950-59}
+^PAR{
+^nlj{003}
+^nlj{004}
+^nlj{005}
+^nlj{006}
+^nlj{007}
+^nlj{008}
+^nlj{009}
+^nlj{010}
+^nlj{011}
+^nlj{012}
+^nlj{013}
+^nlj{014}
+^nlj{015}
+^nlj{016}
+^nlj{017}
+^nlj{018}
+^nlj{019}
+^nlj{020}
+^nlj{021}
+^nlj{022}
+^nlj{023}
+^nlj{024}
+^nlj{025}
+^nlj{026}
+^nlj{027}
+^nlj{028}
+^nlj{029}
+^nlj{030}
+^nlj{031}
+^nlj{032}
+^nlj{033}
+^nlj{034}
+^nlj{035}
+^nlj{036}
+^nlj{037}
+^nlj{038}
+^nlj{039}
+^nlj{040}
+^nlj{041}
+^nlj{042}
+^nlj{043}
+^nlj{044}
+}
+^h2{1960-69}
+^PAR{
+^nlj{045}
+^nlj{046}
+^nlj{047}
+^nlj{048}
+^nlj{049}
+^nlj{050}
+^nlj{051}
+^nlj{052}
+^nlj{053}
+^nlj{054}
+^nlj{055}
+^nlj{056}
+^nlj{057}
+^nlj{058}
+^nlj{059}
+^nlj{060}
+^nlj{061}
+^nlj{062}
+^nlj{063}
+^nlj{064}
+^nlj{065}
+^nlj{066}
+^nlj{067}
+^nlj{068}
+^nlj{069}
+^nlj{070}
+^nlj{071}
+^nlj{072}
+^nlj{073}
+^nlj{074}
+}
+^h2{1970-79}
+^PAR{
+^nlj{075}
+^nlj{076}
+^nlj{077}
+^nlj{078}
+^nlj{079}
+^nlj{080}
+^nlj{081}
+^nlj{082}
+^nlj{083}
+^nlj{084}
+^nlj{085}
+^nlj{086}
+^nlj{087}
+^nlj{088}
+^nlj{089}
+^nlj{090}
+^nlj{091}
+^nlj{092}
+^nlj{093}
+^nlj{094}
+^nlj{095}
+^nlj{096}
+^nlj{097}
+^nlj{098}
+^nlj{099}
+^nlj{100}
+^nlj{101}
+^nlj{102}
+^nlj{103}
+^nlj{104}
+^nlj{105}
+}
+^h2{1980-89}
+^PAR{
+^nlj{106}
+^nlj{107}
+^nlj{108}
+^nlj{109}
+^nlj{110}
+^nlj{111}
+^nlj{112}
+^nlj{113}
+^nlj{114}
+^nlj{115}
+^nlj{116}
+^nlj{117}
+^nlj{118}
+^nlj{119}
+^nlj{120}
+^nlj{121}
+^nlj{122}
+^nlj{123}
+^nlj{124}
+^nlj{125}
+^nlj{126}
+^nlj{127}
+^nlj{128}
+^nlj{129}
+^nlj{130}
+^nlj{131}
+^nlj{132}
+^nlj{133}
+^nlj{134}
+^nlj{135}
+^nlj{136}
+^nlj{137}
+^nlj{138}
+^nlj{139}
+^nlj{140}
+^nlj{141}
+^nlj{142}
+^nlj{143}
+^nlj{144}
+}
+^h2{1990-99}
+^PAR{
+^nlj{145}
+^nlj{146}
+^nlj{147}
+^nlj{148}
+^nlj{149}
+^nlj{150}
+^nlj{151}
+^nlj{152}
+^nlj{153}
+^nlj{154}
+^nlj{155}
+^nlj{156}
+^nlj{157}
+^nlj{158}
+^nlj{159}
+^nlj{160}
+^nlj{161}
+^nlj{162}
+^nlj{163}
+^nlj{164}
+^nlj{165}
+^nlj{166}
+^nlj{167}
+^nlj{168}
+^nlj{169}
+^nlj{170}
+^nlj{171}
+^nlj{172}
+^nlj{173}
+^nlj{174}
+^nlj{175}
+^nlj{176}
+^nlj{177}
+^nlj{178}
+^nlj{179}
+^nlj{180}
+^nlj{181}
+^nlj{182}
+^nlj{183}
+^nlj{184}
+}
+^h2{2000-09}
+^PAR{
+^nlj{185}
+^nlj{186}
+^nlj{187}
+^nlj{188}
+^nlj{189}
+^nlj{190}
+^nlj{191}
+^nlj{192}
+^nlj{193}
+^nlj{194}
+^nlj{195}
+^nlj{196}
+^nlj{197}
+^nlj{198}
+^nlj{199}
+^nlj{200}
+^nlj{201}
+^nlj{202}
+^nlj{203}
+^nlj{204}
+^nlj{205}
+^nlj{206}
+^nlj{207}
+^nlj{208}
+^nlj{209}
+^nlj{210}
+^nlj{211}
+^nlj{212}
+^nlj{213}
+^nlj{214}
+^nlj{215}
+^nlj{216}
+^nlj{217}
+^nlj{218}
+^nlj{219}
+^nlj{220}
+^nlj{221}
+^nlj{222}
+^nlj{223}
+^nlj{224}
+}
+^h2{2010-19}
+^PAR{
+^nlj{225}
+^nlj{226}
+^nlj{227}
+^nlj{228}
+^nlj{229}
+^nlj{230}
+^nlj{231}
+^nlj{232}
+^nlj{233}
+^nlj{234}
+^nlj{235}
+^nlj{236}
+^nlj{237}
+^nlj{238}
+^nlj{239}
+^nlj{240}
+^nlj{241}
+^nlj{242}
+^nlj{243}
+^nlj{244}
+^nlj{245}
+^nlj{246}
+^nlj{247}
+^nlj{248}
+^nlj{249}
+^nlj{250}
+^nlj{251}
+^nlj{252}
+^nlj{253}
+^nlj{254}
+^nlj{255}
+^nlj{256}
+^nlj{257}
+^nlj{258}
+^nlj{259}
+^nlj{260}
+^nlj{261}
+^nlj{262}
+^nlj{263}
+^nlj{264}
+}
+^h2{2020-}
+^PAR{
+^nlj{265}
+^nlj{266}
+^nlj{267}
+^nlj{268}
+^nlj{269}
+^nlj{270}
+^nlj{271}
+^nlj{272}
+^nlj{273}
+^nlj{274}
+^nlj{275}
+^nlj{276}
+^nlj{277}
+^nlj{278}
+^nlj{279}
+^nlj{280}
+^nlj{281}
+^nlj{282}
+^nlj{283}
+^nlj{284}
+^nlj{285}
+^nlj{286}
+^nlj{287}
+^nlj{288}
+}
+
+}}}
 
 (* Safety page ***************************************************************)
 ^page{Safety}{^empty}{^resourcesPrimary}{^safetySecondary}{
@@ -581,6 +929,23 @@ supplier(name info webAddress emailAddress){
 
 ^page{Suppliers}{^empty}{^salesPrimary}{^suppliersSecondary}{^cbox{^tbox{^suppliers}}}
 
+(* Showcase page **************************************************************)
+^page{Showcase}{^empty}{^showcasePrimary}{^empty}{^cbox{^tbox{
+^h1{Gauge One showcase}
+(Note to previewers: this page will have a few examples in each category of very best of G1 with high quality photos - I need David Halfpenny to help!)
+^h1{Locomotives}
+eg Chris Tolwoth locos; pictures from the old Finescale website - David?
+^h1{Rolling stock}
+That diorama of a RCH wagon at the seaside; David?
+^h1{Tracks}
+Adam Houghton's lake; Charles Simon indoor track; the New Forest group scenic layout; maybe Anglia Roads or Ridings? Bagshot sidings
+^h1{3D printing}
+Jackman Deltic; Viewing London and Birmingham train; Millier wagon
+^h1{G1MRA designs}
+Best ARM1G, Dee and Project photos
+^h1{Events}
+75th show at Bicester; a deep crowd round one of our tracks; sombody being awarded a cup
+}}}
 
 (* Contact page **************************************************************)
 ^page{Contact}{^empty}{^contactPrimary}{^empty}{^cbox{^tbox{

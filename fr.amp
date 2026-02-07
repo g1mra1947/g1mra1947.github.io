@@ -14,6 +14,7 @@ MHistory{Historique}
 MGauge2{Échelle 2}
 MConnections{Connexions}
 MFeatures{Fonctionnalités}
+MDownloads{Téléchargements}
 MSales{Ventes}
 MMarketplace{Place de marché}
 MModels{Modèles}
@@ -21,6 +22,7 @@ MBooks{Livres}
 MComponents{Composants}
 MMerchandise{Produits dérivés}
 MSuppliers{Fournisseurs}
+MShowcase{Vitrine}
 MContact{Contact}
 MJoin{Rejoindre}
 

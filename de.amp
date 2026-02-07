@@ -14,6 +14,7 @@ MHistory{Geschichte}
 MGauge2{Spur 2}
 MConnections{Verbindungen}
 MFeatures{Funktionen}
+MDownloads{Downloads}
 MSales{Verkauf}
 MMarketplace{Marktplatz}
 MModels{Modelle}
@@ -21,10 +22,9 @@ MBooks{Bücher}
 MComponents{Komponenten}
 MMerchandise{Artikel}
 MSuppliers{Lieferanten}
+MShowcase{Schaufenster}
 MContact{Kontakt}
 MJoin{Mitglied werden}
-
-
 
 H1{Startseite}
 H2{Startseite der Gauge One Model Railway Association}

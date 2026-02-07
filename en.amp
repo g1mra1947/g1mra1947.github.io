@@ -11,9 +11,10 @@ MStandards{Standards}
 MDesigns{Designs}
 MTracks{Tracks}
 MHistory{History}
-MGauge2{Gauge2}
+MGauge2{Gauge 2}
 MConnections{Connections}
 MFeatures{Features}
+MDownloads{Downloads}
 MSales{Sales}
 MMarketplace{Marketplace}
 MModels{Models}
@@ -21,6 +22,7 @@ MBooks{Books}
 MComponents{Components}
 MMerchandise{Merchandise}
 MSuppliers{Suppliers}
+MShowcase{Showcase}
 MContact{Contact}
 MJoin{Join}
 
