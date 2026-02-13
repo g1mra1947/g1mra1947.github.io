@@ -806,7 +806,7 @@ unknown history.
 ^link{Boiler test code volume 3 - LPG tanks under 250ml (2018)}{images/Boiler-Test-Code-2018-Volume-3.pdf}
 }
 
-^h1Tag{What do do when it doesn't go - diagnostic flow charts}{faultFinding}
+^h1Tag{What to do when it doesn't go - diagnostic flow charts}{faultFinding}
 ^PAR{
 The challenge and the charm of live steam is that every engine is different and responds differently to ambient conditions: they have pesonality. Unfortunately this extends to those occasions when an engine refuses to run. 
 
