@@ -200,7 +200,7 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
   }   
   ^fill       
   ^sbox{
-   <h1><a href="events_^lang.html" style="color:#165f4b;">Events</a></h1>
+   <h1><a href="Events_^lang.html" style="color:#165f4b;">Events</a></h1>
    ^homeEvents
    ^hrule
    ^h1{^link{More events}{events_^lang.html}}
