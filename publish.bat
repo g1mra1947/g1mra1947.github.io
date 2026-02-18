@@ -8,5 +8,6 @@ git add *.css
 git add *.html
 git add *.md
 git add images
+git add marketplace
 git commit -a
 git push origin main
