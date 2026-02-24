@@ -188,6 +188,14 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
 
     ^H5
 
+        ^cbox{
+           ^PAR{^H6}
+           ^hgap
+           ^link{^img{welcomeToGauge1.jpg}{Front cover image of welcome brochure}}{images/Recruiting-brochure-7.pdf}
+           ^hgap
+           ^link{^img{G1MRA_229_cover.jpg}{Front cover image of magazine issue 229}}{images/G1MRA_229.pdf}
+           ^hgap	
+        }
 
     ^PAR{^H7}
    }
