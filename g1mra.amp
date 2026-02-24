@@ -20,6 +20,7 @@ h2Tag(str tag){<h2 id="^tag">^str</h2>}
 
 (* Text layout *)
 nl{<br>}                                       // new line
+vgap{<p style="padding-bottom:40px"></p>}      // padding space
 vskip{<p></p>}
 us{_}                                          // underscore
 identity(body){^body}                          // identity macro for contiguous text after constant macro
@@ -178,7 +179,7 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
 
 (* Home page *****************************************************************)
 ^pageWithImages{Home}{^H2}{^homePrimary}{^empty}
-{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}{^image{home2_^lang.jpg}{The Flying Scotsman}}{^image{home3_^lang.jpg}{Accucraft Class 66}}
+{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}		{^image{home3_^lang.jpg}{Accucraft Class 66}}
 {
  ^hbox{
   ^tbox{^h1{^H3}
@@ -187,14 +188,6 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
 
     ^H5
 
-        ^cbox{
-           ^PAR{^H6}
-           ^hgap
-           ^link{^img{welcomeToGauge1.jpg}{Front cover image of welcome brochure}}{images/Recruiting-brochure-7.pdf}
-           ^hgap
-           ^link{^img{G1MRA_229_cover.jpg}{Front cover image of magazine issue 229}}{images/G1MRA_229.pdf}
-           ^hgap	
-        }
 
     ^PAR{^H7}
    }
@@ -314,7 +307,7 @@ If you want to download a lot of files, you may find it easier to request non-en
 ^h2{Volume 1: Electric Propulsion}}
 ^cbox{^tbox{^vskip
 
-In 2004 Geff Hammond crated a compilation of articles from previous editions of the NL&J concerning electric models. Technology has moved on, and most of the technical content is now obsolete, but there is still considerable historical interest so we offer it here as a free download.}
+In 2004 Geff Hammond created a compilation of articles from previous editions of the NL&J concerning electric models. Technology has moved on, and most of the technical content is now obsolete, but there is still considerable historical interest so we offer it here as a free download.}
 ^hgap
 ^hgap
 ^PAR{^link{^img{Book1_electric_cover.png}{Book 1 Electrics cover}}{https://www.cs.rhul.ac.uk/~adrian/encrypted/Book1_Electrics.pdf.zip} 
@@ -941,6 +934,8 @@ The vendor can then make their own decision as to whether to contact you and com
 
 G1MRA will only provide contact details and will not offer any form of mediation service or any guarantee. 
 
+Prices shown here do not include shipping.
+
 As elsewhere on this site, click on an image to see the full resolution version.
 }
 
@@ -973,7 +968,14 @@ book(title blurb cover preview){
 }
 
 ^page{Books}{^empty}{^salesPrimary}{^booksSecondary}{^cbox{^tbox{^h1{Books}
+^PAR{
+G1MRA has a long tradition of publishing designs, most famously with ^em{The Project}, a highly detailed text describing the construction of a live steam Gauge 1 locomotive from scratch. First published around 1970 and now in its fifth edition, this book is our best seller. Hundreds of Project locomotives have been constructed, and the boiler and chassis have been used in many other designs.
 
+To order books, please fill in ^link{this form}{bookOrderForm}. Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
+
+You can read a sample extract for each book by clicking on the cover image. 
+}
+^vgap
 ^book{The Project book}{Beginners starting from scratch can opt for the original meths-ﬁred ‘Project’ for which some parts are available from G1MRA suppliers. 84 pages including full drawings and instructions to build a live-steam, single cylinder LMS ‘4F’ 0-6-0 tender engine.}{Project.jpg}{Project-preview.pdf}
 ^book{The Dee Book}{Members who already have constructional skills can move on to the ‘Dee’. 96 pages including full drawings and instructions to build a live-steam SR ‘D’ class twin inside cylinder tender engine.}{Dee.jpg}{Dee-preview.pdf}
 ^book{ARM1G - the other way round}{If you don’t have the time to scratchbuild you can choose the gas-ﬁred ARM1G, for which most parts are available oﬀ the shelf. A live-steam working model that involves very little engineering and is simple to run. 70 pages including full drawings and instructions to build a twin cylinder 0-4-4T.}{ARM1G.jpg}{ARMIG-preview.pdf}
