@@ -7,6 +7,7 @@
 * ^id agumentsOpt - expand id with arguments bound to paramaters
 *
 * Predefined macros:
+* ^T{body} - add body to fragment.amp as macro with unique identifier
 * ^PAR{body} - apply HTML<P></P> processing to body so that paagraphs separated by blank lines are formatted for HTML
 * ^NOW - rewrite to current date and time
 * ^OUT{filename}{body} expand body and write to file namd filename; rewrite to empty string
@@ -27,6 +28,7 @@ import java.util.Stack;
 !!
 !! 
   Map<String, Map<String, String>> macros = new HashMap<>();
+  Integer tCounter = 1;
   Stack<String> macrosInUse = new Stack<>();
   Set<String> macrosNestable = new HashSet<>();
   String currentMacroName;
@@ -98,6 +100,9 @@ import java.util.Stack;
 
       // 5. Check for system macros
       switch (id) {
+      case "T":
+        sb.replace(start, end, Util.timestamp());// Get current T counter, and replace with macro contents
+        continue;
       case "OUT": {
         String filename = "???";
         try { expand(new PrintStream(filename = expand(arguments.get(0), parameterBindings)), arguments.get(1), parameterBindings);
