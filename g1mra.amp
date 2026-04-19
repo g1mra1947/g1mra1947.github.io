@@ -126,12 +126,12 @@ menEl(label target){^link{^label}{^target^us^lang.html}}
 menElA(label target){^link{^active{^label}}{^target^us^lang.html}}  // Menu element active
 menFlag(target icon hover){<a href="^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
 
-homePrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
-eventsPrimary{^menElA{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
-eventsSecondary{^menEl{^MPast}{Past}^menEl{^MGalleries}{Galleries}}
-pastSecondary{^menElA{^MPast}{Past}^menEl{^MGalleries}{Galleries}}
-gallerySecondary{^menEl{^MPast}{Past}^menElA{^MGalleries}{Galleries}}
-groupsPrimary{^menEl{^MEvents}{Events}^menElA{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
+homePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+eventsPrimary{^menElA{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+eventsSecondary{^menEl{^T{Past}}{Past}^menEl{^T{Galleries}}{Galleries}}
+pastSecondary{^menElA{^T{Past}}{Past}^menEl{^T{Galleries}}{Galleries}}
+gallerySecondary{^menEl{^T{Past}}{Past}^menElA{^T{Galleries}}{Galleries}}
+groupsPrimary{^menEl{^T{Events}}{Events}^menElA{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
 groupsSecondary{
 ^menFlag{#flag_au}{Flag_of_Australia_(converted).svg}{Jump to Australian groups}
 ^menFlag{#flag_ca}{Flag_of_Canada_(Pantone).svg}{Jump to Canadian groups}
@@ -146,30 +146,30 @@ groupsSecondary{
 ^menFlag{#flag_us}{Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg}{Jump to US groups}
 ^menFlag{#flag_ww}{Globe_icon.svg.png}{Jump to global special-interest groups}
 }
-resourcesPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menElA{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
-resourcesSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-safetySecondary{^menElA{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-standardsSecondary{^menEl{^MSafety}{Safety}^menElA{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-designsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menElA{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-tracksSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menElA{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-historySecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menElA{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-gauge2Secondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menElA{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-connectionsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menElA{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-featuresSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menElA{^MFeatures}{Features}^menEl{^MDownloads}{Downloads}}
-downloadsSecondary{^menEl{^MSafety}{Safety}^menEl{^MStandards}{Standards}^menEl{^MDesigns}{Designs}^menEl{^MTracks}{Tracks}^menEl{^MHistory}{History}^menEl{^MGauge2}{Gauge2}^menEl{^MConnections}{Connections}^menEl{^MFeatures}{Features}^menElA{^MDownloads}{Downloads}}
+resourcesPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menElA{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+resourcesSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+safetySecondary{^menElA{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+standardsSecondary{^menEl{^T{Safety}}{Safety}^menElA{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+designsSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menElA{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+tracksSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menElA{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+historySecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menElA{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+gauge2Secondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menElA{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+connectionsSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menElA{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+featuresSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menElA{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
+downloadsSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menElA{^T{Downloads}}{Downloads}}
 
-salesPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menElA{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
-salesSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
-marketplaceSecondary{^menElA{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
-modelsSecondary{^menEl{^MMarketplace}{Marketplace}^menElA{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
-booksSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menElA{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
-componentsSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menElA{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
-merchandiseSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menElA{^MMerchandise}{Merchandise}^menEl{^MSuppliers}{Suppliers}}
-suppliersSecondary{^menEl{^MMarketplace}{Marketplace}^menEl{^MModels}{Models}^menEl{^MBooks}{Books}^menEl{^MComponents}{Components}^menEl{^MMerchandise}{Merchandise}^menElA{^MSuppliers}{Suppliers}}
+salesPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menElA{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+salesSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
+marketplaceSecondary{^menElA{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
+modelsSecondary{^menEl{^T{Marketplace}}{Marketplace}^menElA{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
+booksSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menElA{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
+componentsSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menElA{^T{Components}}{Components}^menEl{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
+merchandiseSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menElA{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
+suppliersSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Merchandise}}{Merchandise}^menElA{^T{Suppliers}}{Suppliers}}
 
-showcasePrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menElA{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menEl{^MJoin}{Join}}
-contactPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menElA{^MContact}{Contact}^menEl{^MJoin}{Join}}
-joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{Resources}^menEl{^MSales}{Sales}^menEl{^MShowcase}{Showcase}^menEl{^MContact}{Contact}^menElA{^MJoin}{Join}}
+showcasePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menElA{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+contactPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menElA{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+joinPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menElA{^T{Join}}{Join}}
 
 (******************************************************************************
 *
@@ -178,18 +178,18 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
 ******************************************************************************)
 
 (* Home page *****************************************************************)
-^pageWithImages{Home}{^H2}{^homePrimary}{^empty}
+^pageWithImages{Home}{^T{Gauge One Model Railway Association home page}}{^homePrimary}{^empty}
 {^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}		{^image{home3_^lang.jpg}{Accucraft Class 66}}
 {
  ^hbox{
-  ^tbox{^h1{^H3}
+  ^tbox{^h1{^T{Welcome to the Gauge One Model Railway Association}}
    ^PAR{
-    ^H4
+    ^T{Gauge 1 model railways run on tracks where the rails are 45mm or 1¾ inches apart. For standard gauge, this corresponds to a scale of 1:32 or around 10mm to the foot.}
 
-    ^H5
+    ^T{We run models powered by on-board batteries, by track-supplied current and by live steam with boilers fired by alcohol, gas or coal. Even clockwork engines still make occasional appearances.}
 
         ^cbox{
-           ^PAR{^H6}
+           ^PAR{^T{The size of Gauge 1 models allows for exquisite levels of detail in fine-scale models, and the availability of robust, simplified models also makes it an ideal scale for youngsters. You can read about the breadth of activity within G1MRA by downloading these copies of our welcome brochure and our quarterly magazine.}}
            ^hgap
            ^link{^img{welcomeToGauge1.jpg}{Front cover image of welcome brochure}}{images/Recruiting-brochure-7.pdf}
            ^hgap
@@ -197,7 +197,11 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
            ^hgap	
         }
 
-    ^PAR{^H7}
+    ^PAR{^T{There are around 2,000 G1MRA members spread across 23 countries. Around two thirds of the membership are UK based with the remainder mostly in Europe and North America. 
+
+We are a very sociable bunch. Much of our activity centres on running sessions held in members' gardens where you will meet both newcomers and experienced hands: an enthusiastic and knowledgeable community which shares expertise ranging from 130 year old clockwork design and live steam through to the most modern 3D printing and computer-based control techniques. 
+
+^bf{New members are always welcome: see ^link{this page}{Join^us^lang.html} for details.}}}
    }
   }   
   ^fill       
@@ -212,18 +216,26 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
 
 (* Events pages **************************************************************) 
 (* ^homeEvents, ^futureEvents and ^pastEvents are defined in events.amp *)
-^pageWithImages{Events}{^E2}{^eventsPrimary}{^eventsSecondary}{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}{	
-^cbox{^tbox{^h1{^E3}^PAR{^E4}^homeEvents^futureEvents}
+^pageWithImages{Events}{^T{Gauge One Model Railway Association events page}}{^eventsPrimary}{^eventsSecondary}{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}{	
+^cbox{^tbox{^h1{^T{Events}}^PAR{^T{G1MRA organises a public Spring meeting and an Autumn AGM and exhibition each year. We attend other public shows by invitation, often with one of our portable tracks.
+
+G1MRA groups also arrange numerous members-only meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events here. To find out about activities in your area, locate your nearest group from ^link{this list}{groups_^lang.html} and then email that group's contact quoting your membership number. You may also email the G1MRA committee officer for groups as ^g1mail{groups}.
+
+You will find information about recent past events on ^link{this page}{Past_^lang.html}.
+
+^bf{If you have an event that you would like to add to this list, please complete ^link{this form}{^newEventForm}}.
+^vskip
+}}^homeEvents^futureEvents}
 }}
 
-^page{^EP1}{^EP2}{^eventsPrimary}{^pastSecondary}{^cbox{^tbox{^h1{^EP3}^pastEvents}}}
+^page{^T{Past}}{^T{Gauge One Model Railway Association past events page}}{^eventsPrimary}{^pastSecondary}{^cbox{^tbox{^h1{^T{Past events}}^pastEvents}}}
 
-^page{^EG1}{^EG2}{^eventsPrimary}{^gallerySecondary}{^cbox{^tbox{
-^h1{^EG3}
+^page{^T{Galleries}}{^T{Gauge One Model Railway Association past galleries page}}{^eventsPrimary}{^gallerySecondary}{^cbox{^tbox{
+^h1{^T{Click on an image for the full sized version}}
 
 ^hrule
 
-^h1{Spring meeting 2025 at Statfold Barn Country Park}
+^h1{^T{Spring meeting 2025 at Statfold Barn Country Park}}
 ^PAR{
 ^image{sb1.jpg}{ }
 ^image{sb2.jpg}{ }
@@ -235,7 +247,7 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
 
 ^hrule
 
-^h1{Annual General Meeting and show 2025 at Hopetown Museum, Darlington}
+^h1{^T{Annual General Meeting and show 2025 at Hopetown Museum, Darlington}}
 ^PAR{^image{ht1.jpg}{ }
 ^image{ht2.jpg}{ }
 ^image{ht3.jpg}{ }
@@ -248,9 +260,13 @@ joinPrimary{^menEl{^MEvents}{Events}^menEl{^MGroups}{Groups}^menEl{^MResources}{
 (* Groups pages **************************************************************)
 group(name email web){<a href="^web"><b>^name</b></a>^quad^g1mail{^email-group}^nl}
 
-^page{Groups}{^G2}{^groupsPrimary}{^groupsSecondary}{
-^cbox{^tbox{^h1{^G3}
-^PAR{^G4}
+^page{Groups}{^T{G1MRA groups page}}{^groupsPrimary}{^groupsSecondary}{
+^cbox{^tbox{^h1{^T{G1MRA groups}}
+^PAR{^T{G1MRA has many local groups which range in size from a few friends who run together, up to large scale groups which have their own separate subscription and committee structure, run exhibitions and manage portable tracks.
+
+Groups arrange their own meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events. The best way to find out about activities in your area is to locate your nearest group, and then email the group contact using the address in the listing below (quoting your membership number). Alternatively, email enquries to the G1MRA groups coordinator as groups@g1mra.com.
+
+We also have global special interest groups such as the Gauge One 3D Circle which are not limited to geographical regions. These kinds of groups operate mostly via email and electronic forums, and have members all over the world.}}
 
 ^vskip
 ^groups
@@ -884,7 +900,12 @@ club(name url){^PAR{^link{^name}{^url}}}
 ^club{Wimborne and District Model Engineers}{https://www.wimbornedsme.co.uk/}
 ^club{York City and District Society Of Model Engineers Ltd}{https://www.yorkmodelengineers.co.uk/}
 }}}
-^page{History}{^empty}{^resourcesPrimary}{^historySecondary}{^cbox{^tbox{^h1{History}^NA}}}
+^page{History}{^empty}{^resourcesPrimary}{^historySecondary}{
+^cbox{^tbox{^h1{History}^PAR{^T{The Märklin brothers were the first to offer a complete system of toy train track sections with turnouts, crossovers and curved sections. They showed a figure-of-8 layout at the 1891 Leipzig Spring Fair, and their idea for standardised gauges was quickly taken up by other manufacturers. By 1895, Gauge I was the smallest of the original Märklin gauges along with its near-neighbour Gauge II at 2 inches. A few years later, Gauge Zero (or O-gauge) was  added at 1¼ inches.
+
+A Gauge 1 locomotive is five times longer than its N-gauge equivalent, and 625 times larger by volume. This makes for impressive models but also requires a lot of space - minimum radius curves of around 3 metres are typical for realistic looking operation. Between the wars, interest in these larger models running on implausibly tight curves waned as accurate scale models in smaller scales became available: it simply was not practical to accommodate realistic scenic layouts in most homes, although there were some surviving Gauge 1 garden tracks.
+
+In Spring 1947 a small group of enthusiasts came together to keep the spirit of Gauge 1 alive, and the first edition of the G1MRA journal was published the following April. Since then we have grown to an international association with around 2,000 members in over twenty countries.}}}}}
 ^page{Gauge2}{^empty}{^resourcesPrimary}{^gauge2Secondary}{^cbox{^tbox{^h1{Gauge 2}^NA}}}
 
 (* Connections page **********************************************************)
@@ -1086,7 +1107,7 @@ Contact addresses for G1MRA local groups are listed on the ^link{groups page}{Gr
         ^PAR{We welcome all new members with an interest in running Gauge 1 stock and other scales on near-45mm track gauges.}
 
         ^cbox{
-           ^PAR{^H6}
+           ^PAR{^T{The size of Gauge 1 models allows for exquisite levels of detail in fine-scale models, and the availability of robust, simplified models also makes it an ideal scale for youngsters. You can read about the breadth of activity within G1MRA by downloading these copies of our welcome brochure and our quarterly magazine.}}
            ^hgap
            ^link{^img{welcomeToGauge1.jpg}{Front cover image of welcome brochure}}{images/Recruiting-brochure-7.pdf}
            ^hgap

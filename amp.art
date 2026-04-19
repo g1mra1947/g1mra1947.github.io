@@ -2,15 +2,20 @@
 *
 * amp - a macro processor V1.0 (c) Adrian Johnstone November 2025
 *
-* id paramatersOpt body - define a macro called id
+* id paramatersOpt body - define an alphanumeric named macro called id
 *
 * ^id agumentsOpt - expand id with arguments bound to paramaters
+* ^n - expand id with parameterless numeric macro n (intended for use with translation macros only)
 *
 * Predefined macros:
-* ^T{body} - add body to fragment.amp as macro with unique identifier
-* ^PAR{body} - apply HTML<P></P> processing to body so that paagraphs separated by blank lines are formatted for HTML
+* 
+* ^PAR{body} - apply HTML<P></P> processing to body so that paragraphs separated by blank lines are formatted for HTML
 * ^NOW - rewrite to current date and time
 * ^OUT{filename}{body} expand body and write to file namd filename; rewrite to empty string
+*
+* ^T{body}
+* 1. Increment tCounter and write ^<tCounter>{body} to ampT.txt
+* 2. If ^<tCounter>{altBody} is defined, then replace with altBody else body
 *
 *******************************************************************************)
 
@@ -28,13 +33,15 @@ import java.util.Stack;
 !!
 !! 
   Map<String, Map<String, String>> macros = new HashMap<>();
-  Integer tCounter = 1;
+  Integer tCounter = 0;
   Stack<String> macrosInUse = new Stack<>();
   Set<String> macrosNestable = new HashSet<>();
   String currentMacroName;
   Map<String, String> currentMacro;
+  Map<String, Integer> tCache = new HashMap<>();
   String expansionString;
   boolean trace = false;
+  PrintStream tStream;
 
   void fatal(String str) {
     System.err.println(str);
@@ -101,7 +108,14 @@ import java.util.Stack;
       // 5. Check for system macros
       switch (id) {
       case "T":
-        sb.replace(start, end, Util.timestamp());// Get current T counter, and replace with macro contents
+        String body = sb.substring(start+3, end-1);
+        Integer tNumber = tCache.get(body);
+        if (tNumber == null){
+          tStream.println(++tCounter + "{" + body +  "}");
+          tCache.put(body, tCounter);
+        }  
+        if (macros.keySet().contains(""+tCounter)) body = macros.get(""+tCounter).get("");
+        sb.replace(start, end, body);
         continue;
       case "OUT": {
         String filename = "???";
@@ -147,10 +161,15 @@ import java.util.Stack;
 !whitespace &SIMPLE_WHITESPACE, &COMMENT_NEST_ART, &COMMENT_LINE_C 
 !interpreter attributeAction
 
+amp ::= !! try { tStream = new PrintStream("amp_T.txt"); } catch (FileNotFoundException e) { fatal("Unable to open amp.t"); } !! 
+        text 
+        !! tStream.close(); !!
+ 
 text ::= define text | expand text | #
  
+macroName ::= &ID | &INTEGER
 define ::= 
-  &ID                 !! currentMacroName = lexeme(); 
+ macroName            !! currentMacroName = lexeme(); 
                          if(macros.keySet().contains(currentMacroName)) fatal("Doubly defined macro " + currentMacroName);
                          macros.put(currentMacroName, new LinkedHashMap<String, String>()); currentMacro = macros.get(lexeme()); !!
   starOpt             // star uses currentMacroName to add recursive property
@@ -165,8 +184,8 @@ parameters ::=
 | #                   // Allow empty parameter list
 
 expand ::= 
- '^' &ID              !! expansionString = "^" + lexeme(); !! 
- argumentsOpt         !! expand(System.out, expansionString, null); !!
+  '^' macroName        !! expansionString = "^" + lexeme(); !! 
+  argumentsOpt         !! expand(System.out, expansionString, null); !!
 
 argumentsOpt ::= #  | &STRING_BRACE_NEST !! expansionString += "{" + lexeme() + "}"; !! argumentsOpt
 
