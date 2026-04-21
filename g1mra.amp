@@ -184,9 +184,9 @@ joinPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resour
  ^hbox{
   ^tbox{^h1{^T{Welcome to the Gauge One Model Railway Association}}
    ^PAR{
-    ^T{Gauge 1 model railways run on tracks where the rails are 45mm or 1¾ inches apart. For standard gauge, this corresponds to a scale of 1:32 or around 10mm to the foot.}
+    ^T{Gauge 1 model railways run on tracks where the rails are 45mm or 1¾ inches apart. For standard gauge, this corresponds to a scale of 1:32 or around 10mm to the foot.
 
-    ^T{We run models powered by on-board batteries, by track-supplied current and by live steam with boilers fired by alcohol, gas or coal. Even clockwork engines still make occasional appearances.}
+    We run models powered by on-board batteries, by track-supplied current and by live steam with boilers fired by alcohol, gas or coal. Even clockwork engines still make occasional appearances.}
 
         ^cbox{
            ^PAR{^T{The size of Gauge 1 models allows for exquisite levels of detail in fine-scale models, and the availability of robust, simplified models also makes it an ideal scale for youngsters. You can read about the breadth of activity within G1MRA by downloading these copies of our welcome brochure and our quarterly magazine.}}
@@ -199,11 +199,11 @@ joinPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resour
 
     ^PAR{^T{There are around 2,000 G1MRA members spread across 23 countries. Around two thirds of the membership are UK based with the remainder mostly in Europe and North America. 
 
-We are a very sociable bunch. Much of our activity centres on running sessions held in members' gardens where you will meet both newcomers and experienced hands: an enthusiastic and knowledgeable community which shares expertise ranging from 130 year old clockwork design and live steam through to the most modern 3D printing and computer-based control techniques. 
+We are a very sociable bunch. Much of our activity centres on running sessions held in members' gardens where you will meet both newcomers and experienced hands: an enthusiastic and knowledgeable community which shares expertise ranging from 130 year old clockwork design and live steam through to the most modern 3D printing and computer-based control techniques.}
 
-^bf{New members are always welcome: see ^link{this page}{Join^us^lang.html} for details.}}}
+^bf{^T{New members are always welcome: see} ^link{^T{this page}}{Join^us^lang.html} ^T{for details.}}}}
    }
-  }   
+     
   ^fill       
   ^sbox{
    <h1><a href="Events_^lang.html" style="color:#165f4b;">Events</a></h1>
@@ -221,11 +221,11 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
 
 G1MRA groups also arrange numerous members-only meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events here. To find out about activities in your area, locate your nearest group from ^link{this list}{groups_^lang.html} and then email that group's contact quoting your membership number. You may also email the G1MRA committee officer for groups as ^g1mail{groups}.
 
-You will find information about recent past events on ^link{this page}{Past_^lang.html}.
+You will find information about recent past events on} ^link{^T{this page}}{Past_^lang.html}.
 
-^bf{If you have an event that you would like to add to this list, please complete ^link{this form}{^newEventForm}}.
+^bf{^T{If you have an event that you would like to add to this list, please complete} ^link{^T{this form}}{^newEventForm}}.
 ^vskip
-}}^homeEvents^futureEvents}
+}^homeEvents^futureEvents}
 }}
 
 ^page{^T{Past}}{^T{Gauge One Model Railway Association past events page}}{^eventsPrimary}{^pastSecondary}{^cbox{^tbox{^h1{^T{Past events}}^pastEvents}}}
@@ -235,7 +235,7 @@ You will find information about recent past events on ^link{this page}{Past_^lan
 
 ^hrule
 
-^h1{^T{Spring meeting 2025 at Statfold Barn Country Park}}
+^h1{^T{Spring meeting 2025 at} Statfold Barn Country Park}
 ^PAR{
 ^image{sb1.jpg}{ }
 ^image{sb2.jpg}{ }
@@ -247,7 +247,7 @@ You will find information about recent past events on ^link{this page}{Past_^lan
 
 ^hrule
 
-^h1{^T{Annual General Meeting and show 2025 at Hopetown Museum, Darlington}}
+^h1{^T{Annual General Meeting and show 2025 at} Hopetown Museum, Darlington}
 ^PAR{^image{ht1.jpg}{ }
 ^image{ht2.jpg}{ }
 ^image{ht3.jpg}{ }
@@ -264,7 +264,7 @@ group(name email web){<a href="^web"><b>^name</b></a>^quad^g1mail{^email-group}^
 ^cbox{^tbox{^h1{^T{G1MRA groups}}
 ^PAR{^T{G1MRA has many local groups which range in size from a few friends who run together, up to large scale groups which have their own separate subscription and committee structure, run exhibitions and manage portable tracks.
 
-Groups arrange their own meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events. The best way to find out about activities in your area is to locate your nearest group, and then email the group contact using the address in the listing below (quoting your membership number). Alternatively, email enquries to the G1MRA groups coordinator as groups@g1mra.com.
+Groups arrange their own meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events. The best way to find out about activities in your area is to locate your nearest group, and then email the group contact using the address in the listing below (quoting your membership number). Alternatively, email enquiries to the G1MRA groups coordinator as groups@g1mra.com.
 
 We also have global special interest groups such as the Gauge One 3D Circle which are not limited to geographical regions. These kinds of groups operate mostly via email and electronic forums, and have members all over the world.}}
 
@@ -275,33 +275,33 @@ We also have global special interest groups such as the Gauge One 3D Circle whic
 (* Resources page ************************************************************)
 ^page{Resources}{^empty}{^resourcesPrimary}{^resourcesSecondary}{
 ^cbox{^tbox{^PAR{
-^h1{Resources}
-Under this page you will find a library of useful information. 
+^h1{^T{Resources}}
+^T{Under this page you will find a library of useful information. 
 
-Our ^link{safety}{Safety^us^lang.html} advice includes a discussion of the risks arising from poor fuel management, boiler testing and diagnostic diagrams for use when an engine is misbehaving. 
+Our} ^link{^T{safety}}{Safety^us^lang.html} ^T{advice includes a discussion of the risks arising from poor fuel management, boiler testing and diagnostic diagrams for use when an engine is misbehaving. 
 
-Track and wheel standards are vital for reliable operation, especially in the garden where track alignments may be imperfect. Our ^link{standards}{Standards^us^lang.html} page 	includes drawings illustrating our traditional and fine-scale standards.
+Track and wheel standards are vital for reliable operation, especially in the garden where track alignments may be imperfect. Our} ^link{^T{standards}}{Standards^us^lang.html}^T{page includes drawings illustrating our traditional and fine-scale standards.
 
-Some folk collect G1 models that remain pristine in display cases, but most of us want to see our engines run. The ^link{tracks}{Tracks^us^lang.html}
-page lists our portable tracks which appear at exhibitions and group running days. For exhibition managers wanting to book a G1 running track, we give the footprint of each portable track and a contact email address. 
+Some folk collect G1 models that remain pristine in display cases, but most of us want to see our engines run. The} ^link{^T{tracks}}{Tracks^us^lang.html}
+^T{page lists our portable tracks which appear at exhibitions and group running days. For exhibition managers wanting to book a G1 running track, we give the footprint of each portable track and a contact email address. 
 
 We also list model engineering and modelling clubs which have permanant tracks: usually you would need to join the club concerned to get access.
+}
+^hrule
+
+^T{You can read about the history of Gauge One railway modelling and of our association} ^link{^T{here}}{History^us^lang.html}. ^T{The}
+^link{^T{Gauge 2}}{Gauge2^us^lang.html} ^T{pages document the mostly long-gone world of Gauge 2 model railways - our sister gauge. 
+
+We have a list of useful other sites}
+^link{^T{here}}{Connections^us^lang.html} ^T{grouped by category. The forums and video channels,in particular, are well worth joining.
+
+The} ^link{^T{features}}{Features^us^lang.html} ^T{section includes descriptions and drawings of prototype rolling stock, advice on garden railway construction and some accounts of well regarded models.}
 
 ^hrule
 
-You can read about the history of Gauge One railway modelling and of our association ^link{here}{History^us^lang.html}. The
-^link{Gauge 2}{Gauge2^us^lang.html} pages document the ^em{mostly} long-gone world of Gauge 2 model railways - our sister gauge. 
+^T{Our quarterly Newsletter and Journal is a substantial newstand-quality magazine, filled with technical articles, reports of meetings and supplier information. A complete article index of the G1MRA newsletter, covering all issues from 1947 to the present is} ^link{^T{here}}{images/index.xls}.
 
-We have a list of useful other sites
-^link{here}{Connections^us^lang.html} grouped by category. The forums and video channels,in particular, are well worth joining.
-
-The ^link{features}{Features^us^lang.html} section includes descriptions and drawings of prototype rolling stock, advice on garden railway construction and some accounts of well regarded models. 
-
-^hrule
-
-Our quarterly ^em{Newsletter and Journal} is a substantial newstand-quality magazine, filled with technical articles, reports of meetings and supplier information. A complete article index of the G1MRA newsletter, covering all issues from 1947 to the present is ^link{here}{images/index.xls}.
-
-G1MRA members can download backnumbers as encrypted Zip files from ^link{downloads}{Downloads^us^lang.html} page. When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent newsletter issue, or request the password by emailing ^g1mail{web}.
+^T{G1MRA members can download backnumbers as encrypted Zip files from} ^link{^T{downloads}}{Downloads^us^lang.html} ^T{page. When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent newsletter issue, or request the password by emailing} ^g1mail{web}.
 
 ^cbox{
 ^link{^img{TN285.png}{G1MRA NLJ 285}}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_285.pdf.zip}
@@ -319,10 +319,10 @@ nlj(number){^link{^number}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_^nu
 
 ^page{Downloads}{^empty}{^resourcesPrimary}{^downloadsSecondary}{
 ^cbox{^tbox{^PAR{
-^h1{Members-only downloads page}
-This members' area contains encrypted files. To access them, click on the link to download a copy to your device, and then open the file. 
+^h1{^T{Members-only downloads page}}
+^T{This members' area contains encrypted files. To access them, click on the link to download a copy to your device, and then open the file. 
 
-When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent Newsletter & Journal issue, or request the password by emailing ^g1mail{web}.
+When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent Newsletter & Journal issue, or request the password by emailing} ^g1mail{web}.
 
 If you want to download a lot of files, you may find it easier to request non-encrypted versions of the files in blocks using ^link{this form}{^newsletterOrderForm}. The files will be supplied to you using the WeTransfer service, which does not require you to have an account: you will simply receive an email containing a link from us.
 
@@ -665,54 +665,46 @@ In 2004 Geff Hammond created a compilation of articles from previous editions of
 (* Safety page ***************************************************************)
 ^page{Safety}{^empty}{^resourcesPrimary}{^safetySecondary}{
 ^cbox{^tbox{^PAR{
-^h1{Safety and certification}
+^h1{^T{Safety and certification}}
 
-Safety must always be paramount. Our large and heavy engines running at speed present a hazard in and of themselves - leaning across a running track working on an engine and being hit by a train running at full pelt in the other direction will hurt you (and quite likely the expensive engine too).
+^T{Safety must always be paramount. Our large and heavy engines running at speed present a hazard in and of themselves - leaning across a running track working on an engine and being hit by a train running at full pelt in the other direction will hurt you (and quite likely the expensive engine too).
 
-On this page you will find advice on ^link{fuel safety}{#fuelSafety}; how to ^link{safety-check}{#safetyCheck} live steam engines; boiler testing ^link{regulations and documentation}{#boilerTest}; and a diagnostic procedure for ^link{fault finding}{#faultFinding} on live steam engines.
+On this page you will find advice on} ^link{^T{fuel safety}}{#fuelSafety}; ^T{how to} ^link{^T{safety-check}}{#safetyCheck} ^T{live steam engines; boiler testing} ^link{^T{regulations and documentation}}{#boilerTest}; ^T{and a diagnostic procedure for} ^link{^T{fault finding}}{#faultFinding} ^T{on live steam engines}.
 
-^h1Tag{Fuel safety}{fuelSafety}
+^h1Tag{^T{Fuel safety}}{fuelSafety}
 
-Fuel-related risks include: working on meths and gas fired engines in enclosed spaces such as a garden shed, where explosive vapours can build up; spilling fuel whilst refuelling near a running line; knocking over fuel containers; and confusing fuel and water containers. 
+^T{Fuel-related risks include: working on meths and gas fired engines in enclosed spaces such as a garden shed, where explosive vapours can build up; spilling fuel whilst refuelling near a running line; knocking over fuel containers; and confusing fuel and water containers. 
 
-In one particularly serious incident, a contributory cause to the accident was the presence in the steaming bay of large-volume containers of alcohol fuel and boiler water. Although the fuel was coloured, the lack of visual and physical separation led to an error during an emergency situation when fuel was thrown rather than water. 
+In one particularly serious incident, a contributory cause to the accident was the presence in the steaming bay of large-volume containers of alcohol fuel and boiler water. Although the fuel was coloured, the lack of visual and physical separation led to an error during an emergency situation when fuel was thrown rather than water.}
 
 ^vskip
-^bf{Minimising fuel risk relies on two principles: 
+^bf{^T{Minimising fuel risk relies on two principles:} 
 ^itemise{
-^item{clear labelling, and}
-^item{physical separation of fuel reserves from sources of ignition.}
+^item{^T{clear labelling, and}}
+^item{^T{physical separation of fuel reserves from sources of ignition.}}
 }}
 ^vskip
-The Association recommends that members take the following precautions at their own tracks, and at external events they attend.These rules are mandatory at G1MRA-run shows.
+^T{The Association recommends that members take the following precautions at their own tracks, and at external events they attend.These rules are mandatory at G1MRA-run shows.}
 ^itemise{
-^item{Alcohol fuel must be coloured.
-}
-^item{Alcohol fuel must only be brought to meetings in the original, labelled, retail container. These containers are officially approved for both transport and storage.
-}
-^item{No more alcohol fuel may be brought to a meeting than is required for the anticipated running at the event.
-}
-^item{Retail fuel containers should be placed in a cool, secure storage area; as remote as possible from the open flames at the steaming bay and trackside; and also, from groups of operators and spectators. No other material (such as boiler water) should be permitted at this location.
-}
-^item{Alcohol to be transferred into locomotives should be loaded, in the open air, into fuelling containers that contain no more than 500ml. Transfer should be done away from the storage area; and remote from the steaming bay and trackside where open flames are present.
-}
-^item{Fuelling containers such as bottles and syringes must be transparent to show the coloured fuel contents.
-}
-^item{Bottles must have a cap or positive closure so that fuel cannot escape when not in use.
-}
-^item{Fuel containers must be clearly marked with the contents.
+^item{^T{Alcohol fuel must be coloured.}}
+^item{^T{Alcohol fuel must only be brought to meetings in the original, labelled, retail container. These containers are officially approved for both transport and storage.}}
+^item{^T{No more alcohol fuel may be brought to a meeting than is required for the anticipated running at the event.}}
+^item{^T{Retail fuel containers should be placed in a cool, secure storage area; as remote as possible from the open flames at the steaming bay and trackside; and also, from groups of operators and spectators. No other material (such as boiler water) should be permitted at this location.}}
+^item{^T{Alcohol to be transferred into locomotives should be loaded, in the open air, into fuelling containers that contain no more than 500ml. Transfer should be done away from the storage area; and remote from the steaming bay and trackside where open flames are present.}}
+^item{^T{Fuelling containers such as bottles and syringes must be translucent to show the coloured fuel contents.}}
+^item{^T{Bottles must have a cap or positive closure so that fuel cannot escape when not in use.}}
+^item{^T{Fuel containers must be clearly marked with the contents.}
 
-Where size permits, fuel must be identified with a flame pictogram label ^image{flammableIcon.png}{flammable warning sign} 
-and/or black and yellow warning tape ^image{warningTape.png}{hazard warning tape}.
+^T{Where size permits, fuel must be identified with a flame pictogram label} ^image{flammableIcon.png}{^T{flammable warning sign}} 
+^T{and/or black and yellow warning tape} ^image{warningTape.png}{^T{hazard warning tape}}.
 }
-^item{Wet cloths and water in large spray bottles or buckets should be placed at the steaming bay and convenient trackside locations to douse small leaks and fires; reducing track damage and further spread.
-}
-^item{A CO2 extinguisher and fire blanket should be available to extinguish larger fires.
-}}}
+^item{^T{Wet cloths and water in large spray bottles or buckets should be placed at the steaming bay and convenient trackside locations to douse small leaks and fires; reducing track damage and further spread.}}
+^item{^T{A CO2 extinguisher and fire blanket should be available to extinguish larger fires.}}
+}}
 
-^h1Tag{Safety checks for live steam engines}{safetyCheck}
+^h1Tag{^T{Safety checks for live steam engines}}{safetyCheck}
 ^PAR{
-The guidelines for testing and inspection of boilers place great emphasis upon a regular
+^T{The guidelines for testing and inspection of boilers place great emphasis upon a regular
 safety check of the boiler and its fittings. Fittings include any items which are screwed into or bolted
 onto the boiler that have access to the water space – e.g. steam and water feed pipes, regulators,
 control valves, check valves, water sight glass and mountings, safety valves, whistle valves as well
@@ -729,79 +721,45 @@ So, how does one go about it?
 The examination should be carried out in two parts. Firstly when the boiler is cold, secondly when it
 is steamed. As an inspector, I would prefer the model to be shown to me in its running condition. By
 that, I do not want pipework polished, paintwork gleaming, as the cleaning process might remove
-tell-tale signs of seepage, etc. I want to see it, ‘warts and all’. ^em{Remember we are not judging a
+tell-tale signs of seepage, etc. I want to see it, ‘warts and all’. Remember we are not judging a
 competition entry, but making a safety assessment.}
 
-^h2{Part 1 - cold, dry test}
+^h2{^T{Part 1 - cold, dry test}}
 
-At this examination the inspector is required to carry out the following as a minimum, together with
-such other inspections and tests as considered appropriate and necessary
+^T{At this examination the inspector is required to carry out the following as a minimum, together with
+such other inspections and tests as considered appropriate and necessary}
 
 ^enumerate{
-^item{Check the integrity of the pressure vessel(s) and associated pipe work and valves including
-superheater(s) and economiser(s). Here you are looking for any signs of damage – dents, lumps,
-scars, abrasion of pipework, nuts in line with pipes, nipples intact, sight glass clean, etc.
-}
-^item{Check the integrity of the boiler framing, settings, insulation, casing and cladding. Looking for
-signs of wear/movement or damage.
-}
-^item{Check all parts for wear and corrosion. See above.
-}
-^item{Check specifically the condition of safety valve(s), pressure gauge(s), water level gauge(s),
-main steam stop valve(s), blow-down valve(s), check valve(s), etc. Are there water stains or
-verdigris? Is it possible to unscrew the valve spindle completely? Do all stop valves close and open. Note
-the reading on the pressure gauge when the boiler is cold. Is it zero or not?
-}
-^item{Check, that the water passages of the water level gauge(s) are unobstructed and that the
-gauge glass isolating and blow-down cocks (if fitted) operate correctly. With some water in the
-boiler, tilt it up and down. Does the water level rise and fall and return to the original state when
-the boiler is level again? Do electronic water level systems indicate high/low levels when tilted?
-}
-^item{Check that the pressure gauge(s) have a red line at the correct maximum
-permissible working pressure of the boiler. A red line on the face of the dial is preferable, but a
-red dot on the outer bezel will be acceptable provided it is immovable.
-}
-^item{Consider the adequacy of the boiler feed water supply arrangements. Check the hand pump if
-fitted. Use the owners filling method where possible. If the boiler is filled using a detachable hand
-pump, the operation of the filling valve that needs to be checked. The point being that one
-can top up the boiler if it becomes necessary. A stuck filler valve is of no use at all.
-}
+^item{^T{Check the integrity of the pressure vessel(s) and associated pipe work and valves including superheater(s) and economiser(s). Here you are looking for any signs of damage – dents, lumps, scars, abrasion of pipework, nuts in line with pipes, nipples intact, sight glass clean, etc.}}
+^item{^T{Check the integrity of the boiler framing, settings, insulation, casing and cladding. Looking for signs of wear/movement or damage.}}
+^item{^T{Check all parts for wear and corrosion. See above.}}
+^item{^T{Check specifically the condition of safety valve(s), pressure gauge(s), water level gauge(s), main steam stop valve(s), blow-down valve(s), check valve(s), etc. Are there water stains or verdigris? Is it possible to unscrew the valve spindle completely? Do all stop valves close and open. Note the reading on the pressure gauge when the boiler is cold. Is it zero or not?}}
+^item{^T{Check, that the water passages of the water level gauge(s) are unobstructed and that the gauge glass isolating and blow-down cocks (if fitted) operate correctly. With some water in the boiler, tilt it up and down. Does the water level rise and fall and return to the original state when the boiler is level again? Do electronic water level systems indicate high/low levels when tilted?}}
+^item{^T{Check that the pressure gauge(s) have a red line at the correct maximum permissible working pressure of the boiler. A red line on the face of the dial is preferable, but a red dot on the outer bezel will be acceptable provided it is immovable.}}
+^item{^T{Consider the adequacy of the boiler feed water supply arrangements. Check the hand pump if fitted. Use the owners filling method where possible. If the boiler is filled using a detachable hand
+pump, the operation of the filling valve that needs to be checked. The point being that one can top up the boiler if it becomes necessary. A stuck filler valve is of no use at all.}}
 }
 
-^h2{Part 2 - steam test}
+^h2{^T{Part 2 - steam test}}
 
-The second part of the examination is required to be carried out with the boiler fully assembled
+^T{The second part of the examination is required to be carried out with the boiler fully assembled
 and under steam. I like to observe the engine whilst steam is being raised. It is required that the
 boiler should be fired for the test as for normal service and that the pressure should be raised so
 as to lift the safety valve(s). At this examination the inspector is required to carry out the following
 as a minimum, together with such other inspections and tests as he considers appropriate and
-necessary.
+necessary.}
 ^enumerate{
-^item{Check visually for correct assembly of all components fl anged connections, and pipe joints.
-Are steam valves arranged to prevent unscrewing in use? Are end plates showing any signs of
-bulging? Are there any signs of seepage or verdigris at pipe joints?
-}
-^item{Check the correct operation of main steam stop valve(s), blowdown valve(s), water inlet check
-valve(s), pressure gauge(s), gauge glass isolating and blow-down cocks (if fitted).
-}
-^item{Does the pressure gauge react to changes in pressure as steam is raised.
-}
-^item{Check that the operation of the safety valve(s) controls steam pressure to within an acceptable
-margin of the specifi ed maximum permissible working pressure. During the examination, with
-the blower operating/gas burner lit, the pressure gauge should not rise more than 10% above
-the working pressure at any time. What pressure does it blow at? Is it within ten percent of the
-working pressure. What pressure does the valve reset itself.
-}
-^item{Check the operation of at least one means of supplying feed water to the boiler. Pump water
-into the boiler by the usual means.
-}
-^item{Check visually for steam and water leaks. Not necessarily a cause for failure, but notify the
-owner.}
-^item{Consider any other factors affecting the safety of operation of the boiler. Can the fire be
-dropped/extinguished rapidly if required?}
+^item{^T{Check visually for correct assembly of all components fl anged connections, and pipe joints. Are steam valves arranged to prevent unscrewing in use? Are end plates showing any signs of
+bulging? Are there any signs of seepage or verdigris at pipe joints?}}
+^item{^T{Check the correct operation of main steam stop valve(s), blowdown valve(s), water inlet check valve(s), pressure gauge(s), gauge glass isolating and blow-down cocks (if fitted).}}
+^item{^T{Does the pressure gauge react to changes in pressure as steam is raised.}}
+^item{^T{Check that the operation of the safety valve(s) controls steam pressure to within an acceptable margin of the specified maximum permissible working pressure. During the examination, with the blower operating/gas burner lit, the pressure gauge should not rise more than 10% above the working pressure at any time. What pressure does it blow at? Is it within ten percent of the working pressure. What pressure does the valve reset itself.}}
+^item{^T{Check the operation of at least one means of supplying feed water to the boiler. Pump water into the boiler by the usual means.}}
+^item{^T{Check visually for steam and water leaks. Not necessarily a cause for failure, but notify the owner.}}
+^item{^T{Consider any other factors affecting the safety of operation of the boiler. Can the fire be dropped/extinguished rapidly if required?}}
 }
 
-So, to summarise, the safety examination is not onerous or difficult. Indeed, it could be done on a
+^T{So, to summarise, the safety examination is not onerous or difficult. Indeed, it could be done on a
 ‘buddy basis’. (I will examine your boiler, you check mine.) Certainly this could assist those members
 living any distance from a registered boiler inspector. It requires an enquiring inspection of the
 locomotive boiler and fi ttings. Any staining, evidence of seepage, or decay (verdigris around bushes
@@ -809,60 +767,57 @@ for example) should be investigated. Minor leaks from pipework joints are not in
 for failure, but do indicate where work may be required. Finally do record the inspection and one’s
 findings. The record should be retained by the owner of the boiler and passed on to any subsequent
 owner. A boiler that has a full record of inspection will command a higher value than one with an
-unknown history.
+unknown history.}
 
 ^em{Keith Bucklitch}}
 
-^h1Tag{Documents for boiler testers}{boilerTest}
+^h1Tag{^T{Documents for boiler testers}}{boilerTest}
 ^PAR{
-^link{Boiler certificate (2018)}{images/Pressure-Vessel-Certificate-2018.pdf}
+^link{^T{Boiler certificate (2018)}}{images/Pressure-Vessel-Certificate-2018.pdf}
 
-^link{Boiler inspector's personal record}{images/Boiler-Examiners-Personal-Record-of-Hydraulic-Tests1.pdf}
+^link{^T{Boiler inspector's personal record}}{images/Boiler-Examiners-Personal-Record-of-Hydraulic-Tests1.pdf}
 
-^link{Boiler test code volume 2 - Boilers under 3 bar litres (2018)}{images/Boiler-Test-Code-2018-Volume-2.pdf}
+^link{^T{Boiler test code volume 2 - Boilers under 3 bar litres (2018)}}{images/Boiler-Test-Code-2018-Volume-2.pdf}
 
-^link{Boiler test code volume 3 - LPG tanks under 250ml (2018)}{images/Boiler-Test-Code-2018-Volume-3.pdf}
+^link{^T{Boiler test code volume 3 - LPG tanks under 250ml (2018)}}{images/Boiler-Test-Code-2018-Volume-3.pdf}
 }
 
-^h1Tag{What to do when it doesn't go - diagnostic flow charts}{faultFinding}
+^h1Tag{^T{What to do when it doesn't go - diagnostic flow charts}}{faultFinding}
 ^PAR{
-The challenge and the charm of live steam is that every engine is different and responds differently to ambient conditions: they have pesonality. Unfortunately this extends to those occasions when an engine refuses to run. 
+^T{The challenge and the charm of live steam is that every engine is different and responds differently to ambient conditions: they have pesonality. Unfortunately this extends to those occasions when an engine refuses to run. 
 
-In Newsletter 173 (April 1997) Dick Moger and Barry Applegate (with support from Tony Hall-Patch) published a guide to fault finding in Gauge One engines in the form of annotated flowcharts.
+In Newsletter 173 (April 1997)} Dick Moger ^T{and} Barry Applegate ^T{(with support from} Tony Hall-Patch) ^T{published a guide to fault finding in Gauge One engines in the form of annotated flowcharts.
  
-As Dick said in his accompanying
-note ^em{The diagnostic charts are intended to assist both beginner and experienced builder alike. Beginners should find the flows
-instructive and logical, whilst older hands might still find something of use before resorting to kicking the cat... or worse!}
+As Dick said in his accompanying note} ^em{^T{The diagnostic charts are intended to assist both beginner and experienced builder alike. Beginners should find the flows
+instructive and logical, whilst older hands might still find something of use before resorting to kicking the cat... or worse!}}
 
-You can download their diagnostic charts ^link{here}{images/diagnostics.pdf}.
+^T{You can download their diagnostic charts} ^link{^T{here}}{images/diagnostics.pdf}.
 }
 }}}
 
-^page{Standards}{^empty}{^resourcesPrimary}{^standardsSecondary}{^cbox{^tbox{
-^h1{Track and wheel standards}
+^page{^T{Standards}}{^empty}{^resourcesPrimary}{^standardsSecondary}{^cbox{^tbox{
+^h1{^T{Track and wheel standards}}
 ^PAR{
-Please click on the images to download a full sized PDF version.
+^T{Please click on the images to download a full sized PDF version.}
 
-^h1{Traditional G1MRA standards}
-^link{^imagePlain{images/standard-dimensions-for-gauge1.jpg}{Standards part 1}}{images/standard-dimensions-for-gauge1.pdf}
+^h1{^T{Traditional G1MRA standards}}
+^link{^imagePlain{images/standard-dimensions-for-gauge1.jpg}{^T{Standards part 1}}}{images/standard-dimensions-for-gauge1.pdf}
 
-^link{^imagePlain{images/Standards-sheet-part-2-not-inc-wheels.jpg}{Standards part 2}}{images/Standards-sheet-part-2-not-inc-wheels.pdf}
+^link{^imagePlain{images/Standards-sheet-part-2-not-inc-wheels.jpg}{^T{Standards part 2}}}{images/Standards-sheet-part-2-not-inc-wheels.pdf}
 
-^h1{The ScaleOne32 finescale standard}
-^link{^imagePlain{images/ScaleOne32-Standards-1.jpg}{Fine scale standards part 1}}{images/ScaleOne32-Standards.pdf}
+^h1{^T{The ScaleOne32 finescale standard}}
+^link{^imagePlain{images/ScaleOne32-Standards-1.jpg}{^T{Fine scale standards part 1}}}{images/ScaleOne32-Standards.pdf}
 
-^h1{Track spacing for non-UK loading gauges}
-^link{^imagePlain{images/non-british-track-spacing.jpg}{Standards part 1}}{images/non-british-track-spacing.pdf}
-
-
+^h1{^T{Track spacing for non-UK loading gauges}}
+^link{^imagePlain{images/non-british-track-spacing.jpg}{^T{Standards part 1}}}{images/non-british-track-spacing.pdf}
 }
 }}}
 
 club(name url){^PAR{^link{^name}{^url}}}	
 ^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^h1{Designs}^NA}}}
-^page{Tracks}{^empty}{^resourcesPrimary}{^tracksSecondary}{^cbox{^tbox{
-^h1{Tracks}
-^h1{Model Enginering clubs with Gauge One activity}
+^page{^T{Tracks}}{^empty}{^resourcesPrimary}{^tracksSecondary}{^cbox{^tbox{
+^h1{^T{Tracks}}
+^h1{^T{Model Enginering clubs with Gauge One activity}}
 ^club{Andover & District Model Engineering Society}{https://www.admes.uk/}
 ^club{Basingstoke & District Model Engineering Society Ltd}{http://www.basingstoke-dmes.co.uk/Garden_Railway.html}
 ^club{Birmingham Society of Model Engineers}{https://www.birminghamsme.com/}
@@ -900,13 +855,14 @@ club(name url){^PAR{^link{^name}{^url}}}
 ^club{Wimborne and District Model Engineers}{https://www.wimbornedsme.co.uk/}
 ^club{York City and District Society Of Model Engineers Ltd}{https://www.yorkmodelengineers.co.uk/}
 }}}
-^page{History}{^empty}{^resourcesPrimary}{^historySecondary}{
-^cbox{^tbox{^h1{History}^PAR{^T{The Märklin brothers were the first to offer a complete system of toy train track sections with turnouts, crossovers and curved sections. They showed a figure-of-8 layout at the 1891 Leipzig Spring Fair, and their idea for standardised gauges was quickly taken up by other manufacturers. By 1895, Gauge I was the smallest of the original Märklin gauges along with its near-neighbour Gauge II at 2 inches. A few years later, Gauge Zero (or O-gauge) was  added at 1¼ inches.
+^page{^T{History}}{^empty}{^resourcesPrimary}{^historySecondary}{
+^cbox{^tbox{^h1{^T{History}}
+^PAR{^T{The Märklin brothers were the first to offer a complete system of toy train track sections with turnouts, crossovers and curved sections. They showed a figure-of-8 layout at the 1891 Leipzig Spring Fair, and their idea for standardised gauges was quickly taken up by other manufacturers. By 1895, Gauge I was the smallest of the original Märklin gauges along with its near-neighbour Gauge II at 2 inches. A few years later, Gauge Zero (or O-gauge) was  added at 1¼ inches.
 
 A Gauge 1 locomotive is five times longer than its N-gauge equivalent, and 625 times larger by volume. This makes for impressive models but also requires a lot of space - minimum radius curves of around 3 metres are typical for realistic looking operation. Between the wars, interest in these larger models running on implausibly tight curves waned as accurate scale models in smaller scales became available: it simply was not practical to accommodate realistic scenic layouts in most homes, although there were some surviving Gauge 1 garden tracks.
 
 In Spring 1947 a small group of enthusiasts came together to keep the spirit of Gauge 1 alive, and the first edition of the G1MRA journal was published the following April. Since then we have grown to an international association with around 2,000 members in over twenty countries.}}}}}
-^page{Gauge2}{^empty}{^resourcesPrimary}{^gauge2Secondary}{^cbox{^tbox{^h1{Gauge 2}^NA}}}
+^page{^T{Gauge2}}{^empty}{^resourcesPrimary}{^gauge2Secondary}{^cbox{^tbox{^h1{^T{Gauge 2}}^NA}}}
 
 (* Connections page **********************************************************)
 connection(webAddress name info){
@@ -919,33 +875,33 @@ connection(webAddress name info){
 }
 }
 
-^page{Connections}{^empty}{^resourcesPrimary}{^connectionsSecondary}{^cbox{^tbox{^connections}}}
+^page{^T{Connections}}{^empty}{^resourcesPrimary}{^connectionsSecondary}{^cbox{^tbox{^connections}}}
 
 (* Features page *************************************************************)
-^page{Features}{^empty}{^resourcesPrimary}{^featuresSecondary}{
-^cbox{^tbox{^PAR{^h1{Special features}
-This is a rather random (or if you prefer, eclectic) collection of articles of general G1 interest.
+^page{^T{Features}}{^empty}{^resourcesPrimary}{^featuresSecondary}{
+^cbox{^tbox{^PAR{^h1{^T{Special features}}
+^T{This is a rather random (or if you prefer, eclectic) collection of articles of general G1 interest.}
 
-^h2{Track design}
+^h2{^T{Track design}}
 
-^link{A minimalist garden track - the Ashford High Line}{https://www.cs.rhul.ac.uk/~adrian/steam/AshfordHighLine/index.html}
+^link{^T{A minimalist garden track - the} Ashford High Line}{https://www.cs.rhul.ac.uk/~adrian/steam/AshfordHighLine/index.html}
 
-^h2{Prototype information}
+^h2{^T{Prototype information}}
 
-^link{RCH 1923 wagon drawings}{https://www.cs.rhul.ac.uk/~adrian/steam/RCHWagons}
+^link{RCH 1923 ^T{wagon drawings}}{https://www.cs.rhul.ac.uk/~adrian/steam/RCHWagons}
 
-^h2{Model designs}
+^h2{^T{Model designs}}
 
-^link{An early O-gauge steamer - Aladdin}{https://www.cs.rhul.ac.uk/~adrian/steam/aladdin}		
+^link{^T{An early O-gauge steamer} - Aladdin}{https://www.cs.rhul.ac.uk/~adrian/steam/aladdin}		
 
-^h2{Collectors}
+^h2{^T{Collectors}}
 
-^link{^bf{An enthusiast writes, with much G1 material}}{https://sncf231e.nl/} Fred van der Lubbe runs electric and live steam Gauge 1, and has collected models in many scales and gauges. His ^link{website}{https://sncf231e.nl/} is a mine of useful information - see in particular his ^link{Unauthorised History of ASTER}{https://sncf231e.nl/aster/} and ^link{Gauge and scale}{https://sncf231e.nl/gauge-and-scale/}.
+^link{^bf{^T{An enthusiast writes, with much G1 material}}}{https://sncf231e.nl/} ^T{Fred van der Lubbe runs electric and live steam Gauge 1, and has collected models in many scales and gauges}. His ^link{^T{website}}{https://sncf231e.nl/} ^T{is a mine of useful information - see in particular his} ^link{^T{Unauthorised History of ASTER}}{https://sncf231e.nl/aster/} ^T{and} ^link{^T{Gauge and scale}}{https://sncf231e.nl/gauge-and-scale/}.
 }}}}
 
 
 (* Sales page ****************************************************************)
-^page{Sales}{^empty}{^salesPrimary}{^salesSecondary}{^cbox{^tbox{^h1{Sales}}}}
+^page{^T{Sales}}{^empty}{^salesPrimary}{^salesSecondary}{^cbox{^tbox{^h1{Sales}}}}
 
 marketAd1(number description price){
 ^hrule
@@ -954,14 +910,14 @@ marketAd1(number description price){
 <a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>
 }
 
-^page{Marketplace}{^empty}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{
-^h1{G1MRA member to member marketplace}
+^page{^T{Marketplace}}{^empty}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{
+^h1{^T{G1MRA member to member marketplace}}
 
-^PAR{^cbox{This is a service for G1MRA members only.} 
+^PAR{^cbox{^bf{^T{This is a service for G1MRA members only.}}} 
 
-We host anonymised classified advertisements of items for sale, and invite enquiries.
+^T{We host anonymised classified advertisements of items for sale, and invite enquiries.
 
-The way it works is this: if you have something to sell, then please fill in ^link{this form}{^marketplaceListingForm}. We will then post your item here but without any personal details. If you want to enquire about an item or make an offer to purchase, please fill in ^link{this form}{^marketplaceEnquiryForm}. We will then pass on your details to the vendor.
+The way it works is this: if you have something to sell, then please fill in} ^link{^T{this form}}{^marketplaceListingForm}. ^T{We will then post your item here but without any personal details. If you want to enquire about an item or make an offer to purchase, please fill in} ^link{^T{this form}}{^marketplaceEnquiryForm}. ^T{We will then pass on your details to the vendor.
 
 The vendor can then make their own decision as to whether to contact you and complete a transaction.
 
@@ -970,24 +926,24 @@ G1MRA will only provide contact details and will not offer any form of mediation
 Prices shown here do not include shipping.
 
 As elsewhere on this site, click on an image to see the full resolution version.
-}
+}}
 
 ^hrule
-^h1{Locomotives}
+^h1{^T{Locomotives}}
 ^marketAd1{2601}{Live steam Project LMS 4F}{£1,100}
 ^hrule
-^h1{Other rolling stock}
+^h1{^T{Other rolling stock}}
 ^marketAd1{2602}{Fred Newman Ocean Mail Coach 1203 (front item in picture)}{£300}
 ^marketAd1{2603}{Fred Newman Teak Luggage Van 833 (rear item in picture)}{£300}
 ^marketAd1{2604}{(Unknown maker) GWR Teak Mail Van}{£100}
 ^hrule
-^h1{Track}
+^h1{^T{Track}}
 ^hrule
-^h1{Books}
+^h1{^T{Books}}
 ^hrule
 }}}
 
-^page{Models}{^empty}{^salesPrimary}{^modelsSecondary}{^cbox{^tbox{^h1{G1MRA sponsored models}^NA}}}
+^page{^T{Models}}{^empty}{^salesPrimary}{^modelsSecondary}{^cbox{^tbox{^h1{G1MRA sponsored models}^NA}}}
 
 book(title blurb cover preview){
 ^h2{^title}
@@ -1000,31 +956,30 @@ book(title blurb cover preview){
 ^vskip
 }
 
-^page{Books}{^empty}{^salesPrimary}{^booksSecondary}{^cbox{^tbox{^h1{Books}
+^page{^T{Books}}{^empty}{^salesPrimary}{^booksSecondary}{^cbox{^tbox{^h1{Books}
 ^PAR{
-G1MRA has a long tradition of publishing designs, most famously with ^em{The Project}, a highly detailed text describing the construction of a live steam Gauge 1 locomotive from scratch. First published around 1970 and now in its fifth edition, this book is our best seller. Hundreds of Project locomotives have been constructed, and the boiler and chassis have been used in many other designs.
+^T{G1MRA has a long tradition of publishing designs, most famously with} ^em{^T{The Project}}, ^T{a highly detailed text describing the construction of a live steam Gauge 1 locomotive from scratch. First published around 1970 and now in its fifth edition, this book is our best seller. Hundreds of Project locomotives have been constructed, and the boiler and chassis have been used in many other designs.
 
-To order books, please fill in ^link{this form}{bookOrderForm}. Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
+To order books, please fill in} ^link{^T{this form}}{bookOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
 
 You can read a sample extract for each book by clicking on the cover image. 
-}
+}}
 ^vgap
-^book{The Project book}{Beginners starting from scratch can opt for the original meths-ﬁred ‘Project’ for which some parts are available from G1MRA suppliers. 84 pages including full drawings and instructions to build a live-steam, single cylinder LMS ‘4F’ 0-6-0 tender engine.}{Project.jpg}{Project-preview.pdf}
-^book{The Dee Book}{Members who already have constructional skills can move on to the ‘Dee’. 96 pages including full drawings and instructions to build a live-steam SR ‘D’ class twin inside cylinder tender engine.}{Dee.jpg}{Dee-preview.pdf}
-^book{ARM1G - the other way round}{If you don’t have the time to scratchbuild you can choose the gas-ﬁred ARM1G, for which most parts are available oﬀ the shelf. A live-steam working model that involves very little engineering and is simple to run. 70 pages including full drawings and instructions to build a twin cylinder 0-4-4T.}{ARM1G.jpg}{ARMIG-preview.pdf}
-^book{The Multipurpose Model Steam Turbine a guide to successful scratch building}{Werner Jeggli, a member of the Swiss Group, has built 4 G1 turbine locos.  This book tells you how to build yours. It is spiral bound with 66 pages.}{Turbine.jpg}{Turbine-preview.pdf}
-^book{Scratchbuilding the GWR ‘Bulldog’ No. 3343 ‘Camelot’ }{A new book demonstrates how to build from scratch an electric version of the GWR ‘Bulldog. 92 pages with many coloured photographs and lots of detail. Spiral bound to lie ﬂat in your workshop.}{Bulldog.jpg}{Bulldog-preview.pdf}
-^book{Modelling in Gauge 1 - Book 2 – JVR’s Contribution to Gauge 1}{Articles and letters by the legendary John van Riemsdijk from more than 200 Newsletters, over 50 years. Many know of his design input to many Aster locomotives. 100 pages including photos and drawings}{JVR.jpg}{JVR-preview.pdf}
-^book{Modelling in Gauge 1 – Book 3 – Freight Stock }{Compilation of articles on freight stock building from NL&Js since 1963. 96 pages.}{Freight.jpg}{Freight-preview.pdf}
-^book{Modelling in Gauge 1 – Book 4 – Coaching Stock}{Compilation of articles on coaching stock construction from NL&Js since 1963. 102 pages.}{Coaches.jpg}{Coaches-preview.pdf}
-^book{Modelling in Gauge 1 – Book 5 – Coal Firing }{Notes on coal-ﬁring and 14 articles based on practical experiences. Many chapters inspired by the GIMRA Swiss Group, and Charles Simon, with contributions from other GIMRA members. 82 pages with colour photos.}{Coal.jpg}{Coal-preview.pdf}
-^book{A Pictorial History of G1MRA 1947 – 2022}{A hardcover, 163 page, celebration of G1MRA’s 75th Anniversary. An amazing selection of photographs from the G1MRA archives, showing garden get-togethers and exhibitions between 1947 and 2022.}{Illustrated.jpg}{Illustrated.jpg}
-
+^book{^T{The Project book}}{^T{Beginners starting from scratch can opt for the original meths-ﬁred ‘Project’ for which some parts are available from G1MRA suppliers. 84 pages including full drawings and instructions to build a live-steam, single cylinder LMS ‘4F’ 0-6-0 tender engine.}}{Project.jpg}{Project-preview.pdf}
+^book{^T{The Dee Book}}{^T{Members who already have constructional skills can move on to the ‘Dee’. 96 pages including full drawings and instructions to build a live-steam SR ‘D’ class twin inside cylinder tender engine.}}{Dee.jpg}{Dee-preview.pdf}
+^book{ARM1G - ^T{the other way round}}{^T{If you do not have the time to scratchbuild you can choose the gas-ﬁred ARM1G, for which most parts are available oﬀ the shelf. A live-steam working model that involves very little engineering and is simple to run. 70 pages including full drawings and instructions to build a twin cylinder 0-4-4T.}}{ARM1G.jpg}{ARMIG-preview.pdf}
+^book{^T{The Multipurpose Model Steam Turbine a guide to successful scratch building}}{Werner Jeggli, ^T{a member of the Swiss Group, has built 4 G1 turbine locos.  This book tells you how to build yours. It is spiral bound with 66 pages.}}{Turbine.jpg}{Turbine-preview.pdf}
+^book{^T{Scratchbuilding the GWR ‘Bulldog’ No. 3343 ‘Camelot’}}{^T{A new book demonstrates how to build from scratch an electric version of the GWR ‘Bulldog. 92 pages with many coloured photographs and lots of detail.}}{Bulldog.jpg}{Bulldog-preview.pdf}
+^book{^T{Modelling in Gauge 1 - Book 2 – JVR’s Contribution to Gauge 1}}{^T{Articles and letters by the legendary John van Riemsdijk from more than 200 Newsletters, over 50 years. Many know of his design input to many Aster locomotives. 100 pages including photos and drawings}}{JVR.jpg}{JVR-preview.pdf}
+^book{^T{Modelling in Gauge 1 – Book 3 – Freight Stock}}{^T{Compilation of articles on freight stock building from NL&Js since 1963. 96 pages.}}{Freight.jpg}{Freight-preview.pdf}
+^book{^T{Modelling in Gauge 1 – Book 4 – Coaching Stock}}{^T{Compilation of articles on coaching stock construction from NL&Js since 1963. 102 pages.}}{Coaches.jpg}{Coaches-preview.pdf}
+^book{^T{Modelling in Gauge 1 – Book 5 – Coal Firing}}{^T{Notes on coal-ﬁring and 14 articles based on practical experiences. Many chapters inspired by the GIMRA Swiss Group, and Charles Simon, with contributions from other GIMRA members. 82 pages with colour photos.}}{Coal.jpg}{Coal-preview.pdf}
+^book{^T{A Pictorial History of G1MRA 1947 – 2022}}{A hardcover, 163 page, celebration of G1MRA’s 75th Anniversary. An amazing selection of photographs from the G1MRA archives, showing garden get-togethers and exhibitions between 1947 and 2022.}{Illustrated.jpg}{Illustrated.jpg}
 }}}
 
 
-^page{Components}{^empty}{^salesPrimary}{^componentsSecondary}{^cbox{^tbox{^h1{G1MRA sponsored components}^NA}}}
-^page{Merchandise}{^empty}{^salesPrimary}{^merchandiseSecondary}{^cbox{^tbox{^h1{G1MRA banded merchandise}^NA}}}
+^page{^T{Components}}{^empty}{^salesPrimary}{^componentsSecondary}{^cbox{^tbox{^h1{G1MRA sponsored components}^NA}}}
+^page{^T{Merchandise}}{^empty}{^salesPrimary}{^merchandiseSecondary}{^cbox{^tbox{^h1{G1MRA banded merchandise}^NA}}}
 
 (* Suppliers page ************************************************************)
 supplier(name info webAddress emailAddress){
@@ -1039,83 +994,76 @@ supplier(name info webAddress emailAddress){
 }
 }
 
-^page{Suppliers}{^empty}{^salesPrimary}{^suppliersSecondary}{^cbox{^tbox{^suppliers}}}
+^page{^T{Suppliers}}{^empty}{^salesPrimary}{^suppliersSecondary}{^cbox{^tbox{^suppliers}}}
 
 (* Showcase page **************************************************************)
-^page{Showcase}{^empty}{^showcasePrimary}{^empty}{^cbox{^tbox{
-^h1{Gauge One showcase}
-(Note to previewers: this page will have a few examples in each category of very best of G1 with high quality photos - I need David Halfpenny to help!)
-^h1{Locomotives}
-eg Chris Tolwoth locos; pictures from the old Finescale website - David?
-^h1{Rolling stock}
-That diorama of a RCH wagon at the seaside; David?
-^h1{Tracks}
-Adam Houghton's lake; Charles Simon indoor track; the New Forest group scenic layout; maybe Anglia Roads or Ridings? Bagshot sidings
-^h1{3D printing}
-Jackman Deltic; Viewing London and Birmingham train; Millier wagon
-^h1{G1MRA designs}
-Best ARM1G, Dee and Project photos
-^h1{Events}
-75th show at Bicester; a deep crowd round one of our tracks; sombody being awarded a cup
+^page{^T{Showcase}}{^empty}{^showcasePrimary}{^empty}{^cbox{^tbox{
+^h1{^T{Gauge One showcase}}
+^h1{^T{Locomotives}}
+^h1{^T{Rolling stock}}
+^h1{^T{Tracks}}
+^h1{^T{3D printing}}
+^h1{^T{G1MRA designs}}
+^h1{^T{Events}}
 }}}
 
 (* Contact page **************************************************************)
-^page{Contact}{^empty}{^contactPrimary}{^empty}{^cbox{^tbox{
-^h1{Contact us}
+^page{^T{Contact}}{^empty}{^contactPrimary}{^empty}{^cbox{^tbox{
+^h1{^T{Contact us}}
 ^cbox{^tbox{^PAR{
-You are welcome to email the Association's officers using these addresses.
+^T{You are welcome to email the Association's officers using these addresses.}
 
-Committee chair: ^g1mail{chair}
+^T{Committee chair}: ^g1mail{chair}
 
-Committee secretary: ^g1mail{secretary}
+^T{Committee secretary}: ^g1mail{secretary}
 
-Treasurer: ^g1mail{treasurer}
+^T{Treasurer}: ^g1mail{treasurer}
 
-Technical officer: ^g1mail{technical}
+^T{Technical officer}: ^g1mail{technical}
 
-Supplier liaison officer: ^g1mail{suppliers}
+^T{Supplier liaison officer}: ^g1mail{suppliers}
 
-Group liason officer: ^g1mail{groups}
+^T{Group liason officer}: ^g1mail{groups}
 
-Newletter and Journal editor: ^g1mail{nljeditor}
+^T{Newletter and Journal editor}: ^g1mail{nljeditor}
 
-Diary and event listing: ^g1mail{diary}
+^T{Diary and event listing}: ^g1mail{diary}
 
-Show organisation and liason: ^g1mail{events}
+^T{Show organisation and liason}: ^g1mail{events}
 
-Member to member sales: ^g1mail{marketplace}
+^T{Member to member sales}: ^g1mail{marketplace}
 
-Book sales: ^g1mail{books}
+^T{Book sales}: ^g1mail{books}
 
-Other sales: ^g1mail{sales}
+^T{Other sales}: ^g1mail{sales}
 
-Membership enquiries: ^g1mail{membership}
+^T{Membership enquiries}: ^g1mail{membership}
 
-Web page corrections and updates: ^g1mail{web}
+^T{Web page corrections and updates}: ^g1mail{web}
 ^vskip
 
-Contact addresses for G1MRA local groups are listed on the ^link{groups page}{Groups^us^lang.html}.
+^T{Contact addresses for G1MRA local groups are listed on the} ^link{^T{groups page}}{Groups^us^lang.html}.
 
 ^vskip
-^bf{If you are not sure who to direct your enquiry to, then please complete ^link{this form}{^generalEnquiryForm}.}
+^bf{^T{If you are not sure who to direct your enquiry to, then please complete} ^link{^T{this form}}{^generalEnquiryForm}.}
 }}}}}}
 
 (* Join/renew page ***********************************************************)
-  ^page{Join}{^empty}{^joinPrimary}{^empty}{
+  ^page{^T{Join}}{^empty}{^joinPrimary}{^empty}{
       ^cbox{^tbox{
-        ^h1{Joining the Gauge One Model Railway Association}
-        ^PAR{We welcome all new members with an interest in running Gauge 1 stock and other scales on near-45mm track gauges.}
+        ^h1{^T{Joining the Gauge One Model Railway Association}}
+        ^PAR{^T{We welcome all new members with an interest in running Gauge 1 stock and other scales on near-45mm track gauges.}}
 
         ^cbox{
            ^PAR{^T{The size of Gauge 1 models allows for exquisite levels of detail in fine-scale models, and the availability of robust, simplified models also makes it an ideal scale for youngsters. You can read about the breadth of activity within G1MRA by downloading these copies of our welcome brochure and our quarterly magazine.}}
            ^hgap
-           ^link{^img{welcomeToGauge1.jpg}{Front cover image of welcome brochure}}{images/Recruiting-brochure-7.pdf}
+           ^link{^img{welcomeToGauge1.jpg}{^T{Front cover image of welcome brochure}}}{images/Recruiting-brochure-7.pdf}
            ^hgap
-           ^link{^img{G1MRA_229_cover.jpg}{Front cover image of magazine issue 229}}{images/G1MRA_229.pdf}
+           ^link{^img{G1MRA_229_cover.jpg}{^T{Front cover image of magazine issue 229}}}{images/G1MRA_229.pdf}
         }
 
-        ^h2{Current subscription rates}
-        ^PAR{UK adult individual annual membership is £30.00;  Europe: £32.00; rest of the world: £36.00.
+        ^h2{^T{Current subscription rates}}
+        ^PAR{^T{UK adult individual annual membership is £30.00;  Europe: £32.00; rest of the world: £36.00.
 
 Family membership is an additional £5.00 a year, but does not include an additional magazine or voting rights.
 For under 18 juniors and full-time students, membership is £10 a year and includes the magazine, but not voting rights.
@@ -1123,22 +1071,22 @@ For under 18 juniors and full-time students, membership is £10 a year and inclu
 The membership year runs from 1st January to 31st December. New members joining up to 30th November
 will receive all of the back numbers for that year. Members joining after 30th November will receive the December issue in addition to the complete following
 year’s issues
+}}
+
+^h2{^T{For new members}}
+^PAR{^T{To join online, please complete} <a target="_blank" rel="noopener noreferrer" href="^newMemberApplicationForm">^T{this form}</a>. 
+
+^T{If you prefer a paper form, please post a completed copy of} <a target="_blank" rel="noopener noreferrer" href="images/joiningForm.pdf">^T{this form}</a> ^T{to the address at the top of the form.}   
+
+^T{Payment may be made by direct bank transfer, cheque or by} <a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/signin">PayPal</a> ^T{(with a £2.00 supplement to cover PayPal fees). You will then receive a new members pack and membership number in the post.}
 }
 
-^h2{For new members}
-^PAR{To join online, please complete <a target="_blank" rel="noopener noreferrer" href="^newMemberApplicationForm">this form</a>. 
+^h2{^T{Renewal of existing membership}}
+^PAR{^T{To renew an existing subscription online, please complete} <a target="_blank" rel="noopener noreferrer" href="^subscriptionRenewalForm">^T{this form}</a>.
 
-If you prefer a paper form, please post a completed copy of <a target="_blank" rel="noopener noreferrer" href="images/joiningForm.pdf">this form</a> to the address at the top of the form.   
+^T{If you prefer a paper form, please post a completed copy of} <a target="_blank" rel="noopener noreferrer" href="images/renewalForm.pdf">^T{this form}</a> ^T{to the address at the top of the form.}   
 
-Payment may be made by direct bank transfer, cheque or by <a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/signin">PayPal</a> (with a £2.00 supplement to cover PayPal fees). You will then receive a new members pack and membership number in the post.
-}
-
-^h2{Renewal of existing membership}
-^PAR{To renew an existing subscription online, please complete <a target="_blank" rel="noopener noreferrer" href="^subscriptionRenewalForm">this form</a>.
-
-If you prefer a paper form, please post a completed copy of <a target="_blank" rel="noopener noreferrer" href="images/renewalForm.pdf">this form</a> to the address at the top of the form.   
-
-Payment may be made by direct bank transfer, cheque or by <a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/signin">PayPal</a> (with a £2.00 supplement to cover PayPal fees).
+^T{Payment may be made by direct bank transfer, cheque or by <a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/signin">PayPal</a> (with a £2.00 supplement to cover PayPal fees).}
 }
 }
 }
