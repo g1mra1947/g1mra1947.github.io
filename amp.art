@@ -111,7 +111,7 @@ import java.util.Stack;
         String body = sb.substring(start+3, end-1);
         Integer tNumber = tCache.get(body);
         if (tNumber == null){
-          tStream.println(++tCounter + "{" + body +  "}");
+          tStream.println("<span " + (++tCounter) + " " + body + ">\n" + body + "</span>\n");
           tCache.put(body, tCounter);
         }  
         if (macros.keySet().contains(""+tCounter)) body = macros.get(""+tCounter).get("");

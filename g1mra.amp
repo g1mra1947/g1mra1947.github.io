@@ -179,7 +179,7 @@ joinPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resour
 
 (* Home page *****************************************************************)
 ^pageWithImages{Home}{^T{Gauge One Model Railway Association home page}}{^homePrimary}{^empty}
-{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}		{^image{home3_^lang.jpg}{Accucraft Class 66}}
+{^image{home1_^lang.jpg}{David Viewing's Locomotion No 1}}{^image{home2_^lang.jpg}{The Flying Scotsman}}		{^image{home3_^lang.jpg}{Accucraft Class 66}}
 {
  ^hbox{
   ^tbox{^h1{^T{Welcome to the Gauge One Model Railway Association}}
