@@ -1,20 +1,5 @@
 homeEvents{
 
-^eventDate{25 April 2026}
-^eventMO{South East Group running day}{Donnington Hall, Dunton Green ^postcode{TN13}{2UN}^nl^g1mail{south-east-group}}{Invicta track from 08:00 setup; £5 entry towards catering and track maintenance.^nl Please email ^g1mail{south-east-group} in advance to ensure sufficient catering}
-
-^eventDate{25-26 April 2026}
-^event{^link{Live Steam Up Show}{https://palais-bonbons.com/2025/02/25/live-steam-up-show/}}{
-Palace of Sweets and Nougat
-100 Rte de Valence, 26200 Montélimar
-}{G1 live steam and activities}
-
-^eventDate{25-26 April 2026}
-^event{Biannual Great British Train Show}{Jim Archdekin Recreation Centre. 292 Conestoga Drive, Brampton, Ontario, L6Z 3M1, Canada}{ G1MRA Southern Ontario display^nl Saturday 10:00 to 16:00^nl Sunday 26 April 10:00 to 15:00}
-
-^eventDate{25 April 2026}
-^event{^link{National Garden Railway Show}{https://www.nationalgardenrailwayshow.org.uk/}}{National Agricultural Centre, Stoneleigh ^postcode{CV8}{2RG}}{ Anglia Roads courtesy of the East Anglian Group}
-
 ^eventDate{9-10 May 2026}
 ^event{Model Engineering Show}{Statfold Country Park ^postcode{B79}{0BU}}{Stanley Midland courtesy of the Midland Group}
 
@@ -26,9 +11,6 @@ Palace of Sweets and Nougat
 ^eventDate{20-31 May 2026}
 ^event{^link{Arbon Classics 2026}{https://arbon-classics.ch/}}{Arbon, Switzerland}{G1MRA Bern group layout}
 
-}
-
-futureEvents{
 ^eventDate{9 June 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
 ^eventDate{11 July 2026} 
@@ -36,6 +18,9 @@ futureEvents{
 
 ^eventDate{14 July 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
+}
+
+futureEvents{
 ^eventDate{11 August 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
 ^eventDate{8 September 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
@@ -144,5 +129,20 @@ Exeter ^postcode{EX2}{8FD}}{}
 
 ^eventDate{18 April 2026}
 ^event{G1MRA Spring Meeting}{Statfold Country Park ^postcode{B79}{0BU}}{Anglia Roads courtesy of the East Anglian Group, Carding Road courtesy of the Midland Group and Moordale courtsy of the Yorkshire Group, plus trade support}
+
+^eventDate{25 April 2026}
+^eventMO{South East Group running day}{Donnington Hall, Dunton Green ^postcode{TN13}{2UN}^nl^g1mail{south-east-group}}{Invicta track from 08:00 setup; £5 entry towards catering and track maintenance.^nl Please email ^g1mail{south-east-group} in advance to ensure sufficient catering}
+
+^eventDate{25-26 April 2026}
+^event{^link{Live Steam Up Show}{https://palais-bonbons.com/2025/02/25/live-steam-up-show/}}{
+Palace of Sweets and Nougat
+100 Rte de Valence, 26200 Montélimar
+}{G1 live steam and activities}
+
+^eventDate{25-26 April 2026}
+^event{Biannual Great British Train Show}{Jim Archdekin Recreation Centre. 292 Conestoga Drive, Brampton, Ontario, L6Z 3M1, Canada}{ G1MRA Southern Ontario display^nl Saturday 10:00 to 16:00^nl Sunday 26 April 10:00 to 15:00}
+
+^eventDate{25 April 2026}
+^event{^link{National Garden Railway Show}{https://www.nationalgardenrailwayshow.org.uk/}}{National Agricultural Centre, Stoneleigh ^postcode{CV8}{2RG}}{ Anglia Roads courtesy of the East Anglian Group}
 
 }
