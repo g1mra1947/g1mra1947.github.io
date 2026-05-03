@@ -209,7 +209,7 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
    <h1><a href="Events_^lang.html" style="color:#165f4b;">Events</a></h1>
    ^homeEvents
    ^hrule
-   ^h1{^link{More events}{events_^lang.html}}
+   ^h1{^link{More events}{Events_^lang.html}}
   }
  }
 }
