@@ -113,6 +113,7 @@ generalEnquiryForm{https://forms.gle/eVaY6Q4cJozV1r766}
 marketplaceEnquiryForm{https://forms.gle/psko2Aa6rtNPgPeT7}
 marketplaceListingForm{https://forms.gle/kSAXFpYCBkdVi3Mx5}
 merchandiseOrderForm{https://forms.gle/9P4hbnYv1JnBrjci8}
+modelOrderForm{https://forms.gle/tqnWom2N3Kudz4Zz6}
 newEventForm{https://forms.gle/ygqvUfRUZs7aqFha6}
 newMemberApplicationForm{https://forms.gle/e8KW7wQK5eXyb6LX9}
 newsletterOrderForm{https://forms.gle/23KE1hAW1H9wvsS87}
@@ -264,10 +265,12 @@ group(name email web){<a href="^web"><b>^name</b></a>^quad^g1mail{^email-group}^
 ^cbox{^tbox{^h1{^T{G1MRA groups}}
 ^PAR{^T{G1MRA has many local groups which range in size from a few friends who run together, up to large scale groups which have their own separate subscription and committee structure, run exhibitions and manage portable tracks.
 
-Groups arrange their own meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events. The best way to find out about activities in your area is to locate your nearest group, and then email the group contact using the address in the listing below (quoting your membership number). Alternatively, email enquiries to the G1MRA groups coordinator as groups@g1mra.com.
+Groups arrange their own meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events. The best way to find out about activities in your area is to locate your nearest group, and then email the group contact using the address in the listing below (quoting your membership number). Alternatively, email enquiries to the G1MRA groups coordinator as ^g1mail{groups}.
 
-We also have global special interest groups such as the Gauge One 3D Circle which are not limited to geographical regions. These kinds of groups operate mostly via email and electronic forums, and have members all over the world.}}
+We also have global special interest groups such as the Gauge One 3D Circle which are not limited to geographical regions. These kinds of groups operate mostly via email and electronic forums, and have members all over the world.
 
+^em{If you are a group coordinator and wish to update your entry, please email ^g1mail{web}}.
+}}
 ^vskip
 ^groups
 }}}
@@ -815,8 +818,41 @@ instructive and logical, whilst older hands might still find something of use be
 
 club(name url){^PAR{^link{^name}{^url}}}	
 ^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^h1{Designs}^NA}}}
+
+track(name owner imperialFootprint metricFootprint chat picture){
+^PAR{^name - ^owner}}
+(*
+track(name owner imperialFootprint metricFootprint chat picture){
+^PAR{
+^name 
+
+^owner 
+
+Footprint: ^imperialFootprint, ^metricFootprint 
+
+^chat
+} 
+}
+*)
 ^page{^T{Tracks}}{^empty}{^resourcesPrimary}{^tracksSecondary}{^cbox{^tbox{
 ^h1{^T{Tracks}}
+^h1{^T{G1MRA portable oval running tracks available for shows}}
+A Gauge 1 running track is pretty big: typically around 15m x 7.5m or 45 feet x 23 feet to allow for 3m radius curves.  
+^track{Anglia Roads}{East Anglia Group}{}{}{}{}
+^track{Carding Road}{Midland Group}{}{}{}{}
+^track{Dobson Bridge}{South East Group}{48' x 24'3"}{14.63 x 7.39m}{}{}
+^track{Invicta}{South East Group}{45'x18'13"}{13.72m x 5.82m}{}{}
+^track{Ridings}{Yorkshire Group}{}{}{}{}
+^track{Surrey Oval}{Surrey Group}{}{}{}{}
+^track{Stanley Midland}{Midland Group}{}{}{}{}
+^track{Thompson Halt}{Midland Group}{}{}{}{}
+^track{Vintage tinplate and Gauge 2}{Vintage group}{}{}{}{}
+^track{Withnell Junction}{North West Group}{}{}{}{}
+
+^h1{^T{G1MRA portable end-to-end tracks available for shows}}
+^track{Moordale}{Yorkshire Group}{}{}{}{}
+
+
 ^h1{^T{Model Enginering clubs with Gauge One activity}}
 ^club{Andover & District Model Engineering Society}{https://www.admes.uk/}
 ^club{Basingstoke & District Model Engineering Society Ltd}{http://www.basingstoke-dmes.co.uk/Garden_Railway.html}
@@ -901,7 +937,16 @@ connection(webAddress name info){
 
 
 (* Sales page ****************************************************************)
-^page{^T{Sales}}{^empty}{^salesPrimary}{^salesSecondary}{^cbox{^tbox{^h1{Sales}}}}
+^page{^T{Sales}}{^empty}{^salesPrimary}{^salesSecondary}{
+^cbox{^tbox{^h1{Sales}
+^PAR{G1MRA offers member-to-member sales service via our ^link{marketplace}{Marketplace^us^lang.html}, sponsors production of ^link{models}{Models^us^lang.html} and sells ^link{books}{Books^us^lang.html}, ^link{components}{Components^us^lang.html} and G1MRA-branded ^link{merchandise}{Merchandise^us^lang.html}.
+
+We also maintain a classified directory of ^link{suppliers}{Suppliers^us^lang.html} to the Gauge One hobby.
+
+Our own items are priced to cover our costs, not to make a profit, since our members have already paid a subscription. If you are not a member, we do add a surcharge to each item. Some services such as the marketplace are only available to members.
+
+If you'd like to join us then please see ^link{this page}{Join^us^lang.html} for details.
+}}}}
 
 marketAd1(number description price){
 ^hrule
@@ -943,7 +988,12 @@ As elsewhere on this site, click on an image to see the full resolution version.
 ^hrule
 }}}
 
-^page{^T{Models}}{^empty}{^salesPrimary}{^modelsSecondary}{^cbox{^tbox{^h1{G1MRA sponsored models}^NA}}}
+^page{^T{Models}}{^empty}{^salesPrimary}{^modelsSecondary}{^cbox{^tbox{
+^h1{G1MRA sponsored models and kits}
+
+^PAR{^T{To order models and kits, please fill in} ^link{^T{this form}}{^modelOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
+}}
+}}}
 
 book(title blurb cover preview){
 ^h2{^title}
@@ -960,9 +1010,10 @@ book(title blurb cover preview){
 ^PAR{
 ^T{G1MRA has a long tradition of publishing designs, most famously with} ^em{^T{The Project}}, ^T{a highly detailed text describing the construction of a live steam Gauge 1 locomotive from scratch. First published around 1970 and now in its fifth edition, this book is our best seller. Hundreds of Project locomotives have been constructed, and the boiler and chassis have been used in many other designs.
 
-To order books, please fill in} ^link{^T{this form}}{bookOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
-
 You can read a sample extract for each book by clicking on the cover image. 
+
+To order books, please fill in} ^link{^T{this form}}{^bookOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
+
 }}
 ^vgap
 ^book{^T{The Project book}}{^T{Beginners starting from scratch can opt for the original meths-ﬁred ‘Project’ for which some parts are available from G1MRA suppliers. 84 pages including full drawings and instructions to build a live-steam, single cylinder LMS ‘4F’ 0-6-0 tender engine.}}{Project.jpg}{Project-preview.pdf}
@@ -978,8 +1029,20 @@ You can read a sample extract for each book by clicking on the cover image.
 }}}
 
 
-^page{^T{Components}}{^empty}{^salesPrimary}{^componentsSecondary}{^cbox{^tbox{^h1{G1MRA sponsored components}^NA}}}
-^page{^T{Merchandise}}{^empty}{^salesPrimary}{^merchandiseSecondary}{^cbox{^tbox{^h1{G1MRA banded merchandise}^NA}}}
+^page{^T{Components}}{^empty}{^salesPrimary}{^componentsSecondary}{^cbox{^tbox{
+^h1{Components for scratch builders}
+
+^PAR{^T{To order components, please fill in} ^link{^T{this form}}{^componentOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
+}}
+}}}
+
+^page{^T{Merchandise}}{^empty}{^salesPrimary}{^merchandiseSecondary}{^cbox{^tbox{
+^h1{G1MRA branded merchandise}
+
+^PAR{^T{To order merchandise, please fill in} ^link{^T{this form}}{^merchandiseOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
+}}
+}}}
+
 
 (* Suppliers page ************************************************************)
 supplier(name info webAddress emailAddress){
