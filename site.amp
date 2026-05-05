@@ -645,39 +645,48 @@ instructive and logical, whilst older hands might still find something of use be
 club(name url){^PAR{^link{^name}{^url}}}	
 ^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^h1{Designs}^NA}}}
 
-track(name owner imperialFootprint metricFootprint chat picture){
+trackFull(name owner email imperialFootprint metricFootprint chat picture){
 ^PAR{
-^bf{^name} ^owner 
+^bf{^name} ^owner ^g1mail{^email} Footprint ^metricFootprint, ^imperialFootprint 
+} 
+}
 
-Footprint: ^imperialFootprint, ^metricFootprint 
-
-^chat
-
-
+track(name owner email){
+^PAR{
+^bf{^name} ^owner ^g1mail{^email} 
 } 
 }
 
 ^page{^T{Tracks}}{^empty}{^resourcesPrimary}{^tracksSecondary}{^cbox{^tbox{
 ^h1{^T{Tracks}}
-^PAR{A Gauge 1 running track is pretty big: typically around 15m x 7.5m or 45 feet x 23 feet to allow for 3m radius curves. }
+^PAR{A Gauge 1 running track needs a lot of space - a free-running oval takes around 15m x 7.5m or 45 feet x 23 feet to allow for 3m radius curves. As a result most G1 tracks are outside, and G1MRA members usually join one or more or our ^link{local groups}{groups^us^lang.html} to take advantage of invitations to run at members' homes.
 
-^h1{^T{G1MRA portable oval running tracks available for shows}}
-^track{Anglia Roads}{East Anglia Group}{}{}{}{}
-^track{Carding Road}{Midland Group}{}{}{}{}
-^track{Dobson Bridge}{South East Group}{48' x 24'3"}{14.63 x 7.39m}{}{}
-^track{Invicta}{South East Group}{45'x18'13"}{13.72m x 5.82m}{}{}
-^track{Ridings}{Yorkshire Group}{}{}{}{}
-^track{Surrey Oval}{Surrey Group}{}{}{}{}
-^track{Stanley Midland}{Midland Group}{}{}{}{}
-^track{Thompson Halt}{Midland Group}{}{}{}{}
-^track{Vintage tinplate and Gauge 2}{Vintage group}{}{}{}{}
-^track{Withnell Junction}{North West Group}{}{}{}{}
+The other way to find somewhere to run is to join a club with Gauge 1 interests: you'll find a list ^link{below}{#clubs}.
 
-^h1{^T{G1MRA portable end-to-end tracks available for shows}}
-^track{Moordale}{Yorkshire Group}{}{}{}{}
+G1MRA also has around a dozen ^em{portable} tracks (though 'transportable' might be a better term since a trailer is usually needed to move them around) and groups arrange running days for their members where a track is put up in a rented hall. Our portables also appear at many ^link{events}{events^us^lang.html} which members are invited to run at.
+
+^bf{If you are an exhibition organiser and would like to have a G1MRA track at your event, please contact the managing group using the links below, or for a general discussion please email our events coordinator as ^g1mail{events}.
+}
+}
+
+^hrule^h1{^T{G1MRA portable running tracks}}^hrule
+^track{Anglia Roads}{East Anglia Group}{east-anglia}
+^track{Carding Road}{Midland Group}{midland}
+^trackFull{Dobson Bridge}{South East Group}{south-east}{48' x 24'3"}{14.63 x 7.39m}{}{}
+^trackFull{Invicta}{South East Group}{south-east}{45'x18'13"}{13.72m x 5.82m}{}{}
+^track{Ridings}{Yorkshire Group}{yorkshire}
+^track{Surrey Oval}{Surrey Group}{surrey}
+^track{Stanley Midland}{Midland Group}{midland}
+^track{Thompson Halt}{Midland Group}{midland}
+^track{Vintage tinplate and Gauge 2}{Vintage group}{vintage}
+^track{Withnell Junction}{North West Group}{north-west}
+
+^hrule^h1{^T{G1MRA portable end-to-end tracks}}^hrule
+^track{Moordale}{Yorkshire Group}{yorkshire}
+^track{Baghot Sidings}{(Under construction)}{events}
 
 
-^h1{^T{Clubs with Gauge One activity}}
+^hrule^h1{^T{UK Clubs with Gauge One activity}}^hrule
 ^club{Andover & District Model Engineering Society}{https://www.admes.uk/}
 ^club{Basingstoke & District Model Engineering Society Ltd}{http://www.basingstoke-dmes.co.uk/Garden_Railway.html}
 ^club{Birmingham Society of Model Engineers}{https://www.birminghamsme.com/}
@@ -885,13 +894,9 @@ supplier(name info webAddress emailAddress){
 
 (* Showcase page **************************************************************)
 ^page{^T{Showcase}}{^empty}{^showcasePrimary}{^empty}{^cbox{^tbox{
-^h1{^T{Gauge One showcase - ^em{coming soon}}}
-^h1{^T{Locomotives}}
-^h1{^T{Rolling stock}}
-^h1{^T{Tracks}}
-^h1{^T{3D printing}}
-^h1{^T{G1MRA designs}}
-^h1{^T{Events}}
+^h1{^T{Gauge One showcase}}
+^NA
+
 }}}
 
 (* Contact page **************************************************************)
