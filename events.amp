@@ -1,4 +1,116 @@
-homeEvents{
+^pageWithImages{Spring}{^T{Spring show}}{^eventsPrimary}{^springSecondary}{^image{spring1.jpg}{1}}{^image{spring2.jpg}{2}}{^image{spring3.jpg}{3}}{
+}
+
+^page{G1North}{^T{Gauge One North}}{^eventsPrimary}{^g1NorthSecondary}{
+
+^cbox{^tbox{^h1{Gauge 1 North}
+
+^PAR{The first Gauge 1 North show was organised by the Yorkshire Group in 2010 . The event has gone from strength to strength since then. 
+
+The 2026 show is on ^bf{Saturday 11 July} from 10.00 to 16.00 at the Agricultural Business Centre in Bakewell, Derbyshire, ^postcode{DE45}{1AH}; entry is £8.
+
+Gauge 1 North is open to the public, and offers particularly good support from the trade, with around 30 suppliers attending every year.
+
+        ^cbox{
+           ^PAR{^link{Bakewell}{https://www.bakewell.co.uk} is a charming small town on the banks of the River Wye in the Derbyshire White Peaks. ^link{Chatsworth}{https://www.chatsworth.org} and ^link{Haddon Hall}{https://www.haddonhall.co.uk} are nearby, and it makes an ideal location for a weekend away. For more information about the area, see ^link{this site.}{https://visitpeakdistrict.com/}
+}
+           ^hgap
+           ^image{BakewellPanorama.jpg}{Panoramic view of Bakewell: image credit - Peter McDermott under licence CC BY-SA 2.0}
+           ^hgap	
+        }
+
+
+The Agricultural Business Centre is a compact venue, all on one level with extensive ^link{parking}{https://www.derbyshiredales.gov.uk/parking-roads-and-travel/parking/car-park-locations#h3} on site. Please make sure to follow any parking notices: the area to the front of the hall is reserved for coach drop off and blue badge holders. The centre of Bakewell is a ten minute walk from the hall.
+
+Refreshments are available on site on Saturday at the ^link{Farmers' Feast}{https://farmersfeastbakewell.co.uk/} cafe next to the show hall. 
+}
+
+^PAR{
+^hrule
+^h1{Exhibits}
+^hrule
+
+Ridings layout – Yorkshire Group’s flagship live steam layout
+
+Moordale end-to-end track – Yorkshire Group
+
+G1MRA membership and sales
+
+Gauge One 3D Circle
+
+Peak Railway Association
+
+Friends of Wensleydale Railway
+
+Gauge 3 Society
+
+
+^hrule
+^h1{Trade support}
+^hrule
+
+Barrett Steam Models Ltd
+
+Black Cat Bridges
+
+Brunel Models
+
+Chris Devenish
+
+Claudia Carter
+
+Cromford Designs
+
+CUP Alloys
+
+Custom Carriages
+
+Jon Stewart-Milne (private sales)
+
+Mel’s Models (formerly Ken West Models)
+
+Metalsmith (Leeds) Ltd
+
+Model Engineers Nameplates
+
+Peter Korzilius
+
+RC Trains
+
+Slaters Plastikard
+
+SLR Models
+
+SM Models
+
+Squires Models
+
+Steve Golding Models
+
+Tenmille Products
+
+TMS Models
+
+Uncommon Kits (demonstration)
+
+Walsall Model Industries
+}}
+}}
+
+^pageWithImages{AGM}{^T{Annual General Meeting}}{^eventsPrimary}{^agmSecondary}{^image{agm1.jpg}{1}}{^image{agm2.jpg}{2}}{^image{agm3.jpg}{3}}{
+}
+
+nationalEvents{
+^eventDate{27 June 2026} 
+^event{UK National Get Together}{The Laurels, Staplehurst^nl^g1mail{south-east-group}}{Informal gathering for G1MRA members}
+
+^eventDate{11 July 2026} 
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus around 30 traders.^nl Catering and (paid) parking on site.}
+
+^eventDate{7 November 2026} 
+^event{G1MRA AGM}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}^nl^g1mail{events}}{Running track plus trade support}
+}
+homePageEvents{
 
 ^eventDate{9-10 May 2026}
 ^event{Model Engineering Show}{Statfold Country Park ^postcode{B79}{0BU}}{Stanley Midland courtesy of the Midland Group}
@@ -14,7 +126,7 @@ homeEvents{
 ^eventDate{9 June 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
 ^eventDate{11 July 2026} 
-^event{Gauge One North}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH}^nl^g1mail{yorkshire-group}}{Ridings track plus around 30 traders}
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus around 30 traders.^nl Catering and (paid) parking on site.}
 
 ^eventDate{14 July 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
