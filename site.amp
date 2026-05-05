@@ -30,7 +30,7 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
    ^h1{^link{Events}{Events_^lang.html}}
    ^hrule
    ^cbox{^h2{Headline events}}
-   ^nationalEvents
+   ^headlineEvents
    ^hrule
    ^cbox{^h2{Upcoming events}}
 
@@ -42,7 +42,7 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
 }
 
 (* Events pages **************************************************************) 
-(* ^nationalEvents ^homePageEvents, ^futureEvents and ^pastEvents are defined in events.amp *)
+(* ^headlineEvents ^homePageEvents, ^futureEvents and ^pastEvents are defined in events.amp *)
 ^pageWithImages{Events}{^T{Gauge One Model Railway Association events page}}{^eventsPrimary}{^eventsSecondary}{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}{	
 ^cbox{^tbox{^h1{^T{Events}}^PAR{^T{G1MRA organises a public Spring meeting and an Autumn AGM and exhibition each year. We attend other public shows by invitation, often with one of our portable tracks.
 
@@ -52,7 +52,7 @@ You will find information about recent past events on} ^link{^T{this page}}{Past
 
 ^bf{^T{If you have an event that you would like to add to this list, please complete} ^link{^T{this form}}{^newEventForm}}.
 ^vskip
-}^nationalEvents^homePageEvents^futureEvents}
+}^headlineEvents^homePageEvents^futureEvents}
 }}
 
 ^page{^T{Past}}{^T{Gauge One Model Railway Association past events page}}{^eventsPrimary}{^pastSecondary}{^cbox{^tbox{^h1{^T{Past events}}^pastEvents}}}

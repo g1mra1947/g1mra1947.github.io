@@ -19,6 +19,7 @@ h1(str){<h1>^str</h1>}
 h1Tag(str tag){<h1 id="^tag">^str</h1>}
 h2(str){<h2>^str</h2>}
 h2Tag(str tag){<h2 id="^tag">^str</h2>}
+h3(str){<h3>^str</h3>}
 
 (* Text layout *)
 nl{<br>}                                       // new line

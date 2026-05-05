@@ -1,117 +1,15 @@
-^pageWithImages{Spring}{^T{Spring show}}{^eventsPrimary}{^springSecondary}{^image{spring1.jpg}{1}}{^image{spring2.jpg}{2}}{^image{spring3.jpg}{3}}{
-}
-
-^page{G1North}{^T{Gauge One North}}{^eventsPrimary}{^g1NorthSecondary}{
-
-^cbox{^tbox{^h1{Gauge 1 North}
-
-^PAR{The first Gauge 1 North show was organised by the Yorkshire Group in 2010 . The event has gone from strength to strength since then. 
-
-The 2026 show is on ^bf{Saturday 11 July} from 10.00 to 16.00 at the Agricultural Business Centre in Bakewell, Derbyshire, ^postcode{DE45}{1AH}; entry is £8.
-
-Gauge 1 North is open to the public, and offers particularly good support from the trade, with around 30 suppliers attending every year.
-
-        ^cbox{
-           ^PAR{^link{Bakewell}{https://www.bakewell.co.uk} is a charming small town on the banks of the River Wye in the Derbyshire White Peaks. ^link{Chatsworth}{https://www.chatsworth.org} and ^link{Haddon Hall}{https://www.haddonhall.co.uk} are nearby, and it makes an ideal location for a weekend away. For more information about the area, see ^link{this site.}{https://visitpeakdistrict.com/}
-}
-           ^hgap
-           ^image{BakewellPanorama.jpg}{Panoramic view of Bakewell: image credit - Peter McDermott under licence CC BY-SA 2.0}
-           ^hgap	
-        }
-
-
-The Agricultural Business Centre is a compact venue, all on one level with extensive ^link{parking}{https://www.derbyshiredales.gov.uk/parking-roads-and-travel/parking/car-park-locations#h3} on site. Please make sure to follow any parking notices: the area to the front of the hall is reserved for coach drop off and blue badge holders. The centre of Bakewell is a ten minute walk from the hall.
-
-Refreshments are available on site on Saturday at the ^link{Farmers' Feast}{https://farmersfeastbakewell.co.uk/} cafe next to the show hall. 
-}
-
-^PAR{
-^hrule
-^h1{Exhibits}
-^hrule
-
-Ridings layout – Yorkshire Group’s flagship live steam layout
-
-Moordale end-to-end track – Yorkshire Group
-
-G1MRA membership and sales
-
-Gauge One 3D Circle
-
-Peak Railway Association
-
-Friends of Wensleydale Railway
-
-Gauge 3 Society
-
-
-^hrule
-^h1{Trade support}
-^hrule
-
-Barrett Steam Models Ltd
-
-Black Cat Bridges
-
-Brunel Models
-
-Chris Devenish
-
-Claudia Carter
-
-Cromford Designs
-
-CUP Alloys
-
-Custom Carriages
-
-Jon Stewart-Milne (private sales)
-
-Mel’s Models (formerly Ken West Models)
-
-Metalsmith (Leeds) Ltd
-
-Model Engineers Nameplates
-
-Peter Korzilius
-
-RC Trains
-
-Slaters Plastikard
-
-SLR Models
-
-SM Models
-
-Squires Models
-
-Steve Golding Models
-
-Tenmille Products
-
-TMS Models
-
-Uncommon Kits (demonstration)
-
-Walsall Model Industries
-}}
-}}
-
-^pageWithImages{AGM}{^T{Annual General Meeting}}{^eventsPrimary}{^agmSecondary}{^image{agm1.jpg}{1}}{^image{agm2.jpg}{2}}{^image{agm3.jpg}{3}}{
-}
-
-nationalEvents{
+headlineEvents{
 ^eventDate{27 June 2026} 
 ^event{UK National Get Together}{The Laurels, Staplehurst^nl^g1mail{south-east-group}}{Informal gathering for G1MRA members}
 
 ^eventDate{11 July 2026} 
-^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus around 30 traders.^nl Catering and (paid) parking on site.}
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 
 ^eventDate{7 November 2026} 
 ^event{G1MRA AGM}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}^nl^g1mail{events}}{Running track plus trade support}
 }
-homePageEvents{
 
+homePageEvents{
 ^eventDate{9-10 May 2026}
 ^event{Model Engineering Show}{Statfold Country Park ^postcode{B79}{0BU}}{Stanley Midland courtesy of the Midland Group}
 
@@ -126,10 +24,9 @@ homePageEvents{
 ^eventDate{9 June 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
 ^eventDate{11 July 2026} 
-^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus around 30 traders.^nl Catering and (paid) parking on site.}
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 
 ^eventDate{14 July 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
-
 }
 
 futureEvents{
@@ -258,3 +155,201 @@ Palace of Sweets and Nougat
 ^event{^link{National Garden Railway Show}{https://www.nationalgardenrailwayshow.org.uk/}}{National Agricultural Centre, Stoneleigh ^postcode{CV8}{2RG}}{ Anglia Roads courtesy of the East Anglian Group}
 
 }
+
+^page{Spring}{^T{Spring show}}{^eventsPrimary}{^springSecondary}{
+^cbox{^tbox{^h1{G1MRA Spring Show}
+
+^PAR{
+
+^h3{The 2026 event is now over. Details of the 2027 event will apppear here in due course.}
+
+The 2026 show (organised on behalf of G1MRA by the Midland Group) will be on Saturday 18 April from 10.00 to 16.00 at Statfold Barn, ^link{Statfold Country Park}{https://statfold.com}, Ashby Road, Tamworth ^postcode{B79}{0BU}. 
+
+Alongside our Gauge 1 activities, the Statfold attractions will be open including the new Fairground Museum. The 2′ gauge steam railway and the 12 1/4" light railway will both be in operation.
+
+Statfold has agreed the discounted entry price of £10 for each G1MRA member and one accompanied guest. 
+
+To book discounted admission, go to the ^link{Statfold booking page}{https://tickets.statfold.com/event-tickets/48126?catID=47611} and select tickets for the 18th April. On the checkout page enter this discount code – 20STATG1MRA25.
+
+Travel information to the venue may be found ^link{here}{https://statfold.com/plan-your-visit/#find-us}
+
+^hrule^cbox{^h1{Running at the show}}^hrule
+
+This year's main track is Anglia Roads, courtesy of the East Anglia Group. This layout features two tracks mainly used for live steam, plus an additional circuit for on board battery powered models.
+
+Running slots on any of these layout will be available by booking directly on the day: please bring something to run.
+
+^bf{G1MRA fuel protocols will be in use.} Liquid fuel will be provided but please bring your own gas, coal and water. As the event is open to the public ^bf{live steam locomotives will require a current boiler certificate} which must be available for inspection.
+
+For anyone without a loco and wishing to have a try, the Midland Group's live steam 4F will be available for a run under the guidance of an experienced operator. 
+
+^hrule^cbox{^h1{Exhibits}}^hrule
+
+Moordale end-to-end track - Yorkshire Group
+
+Vintage Group Gauge 1 and Gauge 2
+
+G1MRA sales and membership
+
+Gauge One 3D Circle
+
+
+^hrule^cbox{^h1{Trade support}}^hrule
+
+    Barrett Steam
+
+    Brunel
+
+    Chris Tolhurst
+
+    Endon Valley Custom Decals
+
+    Fosworks
+
+    Wensleydale Railway
+
+    Just the Ticket
+
+    KBW Kits
+
+    Ken Martin
+
+    Mels Models
+
+    Model Engineers Laser
+
+    Model Railway Clearing House
+
+    Model Engineers Nameplates
+
+    Steve Golding
+
+    Tenmille
+
+    TMS Models
+
+    Walsall Model Industries
+
+}}
+}}
+
+
+^page{G1North}{^T{Gauge One North}}{^eventsPrimary}{^g1NorthSecondary}{
+
+^cbox{^tbox{^h1{Gauge 1 North}
+
+^PAR{The first Gauge 1 North show was organised by the Yorkshire Group in 2010 . The event has gone from strength to strength since then. 
+
+The 2026 show is on ^bf{Saturday 11 July} from 10.00 to 16.00 at the ^link{Agricultural Business Centre}{https://www.derbyshiredales.gov.uk/business/agricultural-business-centre} in Bakewell, Derbyshire, ^postcode{DE45}{1AH}; entry is £8.
+
+Gauge 1 North is open to the public, and offers particularly good support from the trade, with around 25-30 suppliers attending every year.
+
+        ^cbox{
+           ^PAR{^link{Bakewell}{https://www.bakewell.co.uk} is a charming small town on the banks of the River Wye in the Derbyshire White Peaks. ^link{Chatsworth}{https://www.chatsworth.org} and ^link{Haddon Hall}{https://www.haddonhall.co.uk} are nearby, and it makes an ideal location for a weekend away. For more information about the area, see ^link{this site.}{https://visitpeakdistrict.com/}
+}
+           ^hgap
+           ^image{BakewellPanorama.jpg}{Panoramic view of Bakewell: image credit - Peter McDermott under licence CC BY-SA 2.0}
+           ^hgap	
+        }
+
+
+The Agricultural Business Centre is a compact venue, all on one level with extensive ^link{parking}{https://www.derbyshiredales.gov.uk/parking-roads-and-travel/parking/car-park-locations#h3} on site. Please make sure to follow any parking notices: the area to the front of the hall is reserved for coach drop off and blue badge holders. The centre of Bakewell is a ten minute walk from the hall.
+
+Refreshments are available on site on Saturday at the ^link{Farmers' Feast}{https://farmersfeastbakewell.co.uk/} cafe next to the show hall. 
+}
+
+^PAR{
+^hrule
+^h1{Exhibits}
+^hrule
+
+Ridings layout – Yorkshire Group’s flagship live steam layout
+
+Moordale end-to-end track – Yorkshire Group
+
+G1MRA membership and sales
+
+Gauge One 3D Circle
+
+Peak Railway Association
+
+Friends of Wensleydale Railway
+
+^hrule
+^h1{Trade support}
+^hrule
+
+Barrett Steam Models Ltd
+
+Black Cat Bridges
+
+Brunel Models
+
+Chris Devenish
+
+Claudia Carter
+
+Cromford Designs
+
+CUP Alloys
+
+Fosworks
+
+Jon Stewart-Milne (private sales)
+
+Just the Ticket
+
+Mel’s Models (formerly Ken West Models)
+
+Metalsmith (Leeds) Ltd
+
+Model Engineers Nameplates
+
+Peter Korzilius
+
+RC Trains
+
+Slaters Plastikard
+
+SLR Models
+
+SM Models
+
+Squires Models
+
+Steve Golding Models
+
+Tenmille Products
+
+TMS Models
+
+Uncommon Kits (demonstration)
+
+Walsall Model Industries
+}}
+}}
+
+^page{AGM}{^T{Annual General Meeting}}{^eventsPrimary}{^agmSecondary}{
+^cbox{^tbox{^h1{Autumn Show and AGM}
+
+^PAR{
+The 2026 autumn show and AGM take place on ^bf{Saturday 7 November} from 10.00 to 16.00 at the ^link{British Motor Museum}{https://www.britishmotormuseum.co.uk/}, Gaydon, Warwickshire ^postcode{CV35}{0BJ}, just off Junction 12 of the M40 motorway.
+
+Entry is £10 discounted to £8 for G1MRA members. Accompanied children (16 and under) have free entry.
+
+Travel information to the venue may be found ^link{here}{https://www.britishmotormuseum.co.uk/plan-your-visit/getting-here}
+
+^hrule^h1{Exhibits}^hrule
+
+^h3{To be confirmed}
+
+^hrule^h1{Trade support}^hrule
+
+^h3{To be confirmed}
+
+^bf{If you are a trader or club and would like to take part in the Autumn show, please contact our event organiser as ^g1mail{events}.}
+
+}}
+}}
+
+
