@@ -15,6 +15,9 @@ homePageEvents{
 
 ^eventDate{12 May 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
+^eventDate{16 May 2026} 
+^event{^link{Gauge 3 Spring show and AGM}{https://www.gauge3.org.uk/}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}^nl^g1mail{events}}{Electric and live steam layouts plus trade support}
+
 ^eventDate{23-25 May 2026}
 ^event{Model Railway Exhibition Burgdof}{Tennishalle Burgdorf AG, Zähringerstrasse 39, 3400 Burgdorf, Switzerland}{Swiss Group with children’s activities}
 
@@ -40,6 +43,13 @@ futureEvents{
 
 ^eventDate{13 October 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
+^eventDate{24 October 2026} 
+^event{^link{Exeter Garden Railway Show}{http://www.exetergardenrailwayshow.com}}{The Matford Centre
+Matford Park Road
+Marsh Barton Ind Estate
+Exeter ^postcode{EX2}{8FD}}{}
+
+
 ^eventDate{7 November 2026} 
 ^event{^link{G1MRA AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}^nl^g1mail{events}}{Running track plus trade support}
 
@@ -64,7 +74,7 @@ Trade stands}
 ^event{^link{Midlands Model Enginering Exhibition}{https://www.meridienneexhibitions.co.uk/events/midlands-model-engineering-exhibition}}{Warwickshire Event Centre ^postcode{CV31}{1FE}}{Static locomotive display by the Midland Group^nl
 3D Circle display and talk}
  
-^eventDate{ 24 October 2026} 
+^eventDate{ 25 October 2025} 
 ^event{^link{Exeter Garden Railway Show}{http://www.exetergardenrailwayshow.com}}{The Matford Centre
 Matford Park Road
 Marsh Barton Ind Estate
