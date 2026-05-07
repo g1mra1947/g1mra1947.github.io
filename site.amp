@@ -901,9 +901,10 @@ supplier(name info webAddress emailAddress){
 
 (* Showcase page **************************************************************)
 ^page{^T{Showcase}}{^empty}{^showcasePrimary}{^empty}{^cbox{^tbox{
-^h1{^T{Tom Barrat New South Wales Class C32 3237}}
-^PAR{Beyer Peacock built 3237 in 1892 for the New South Wales Government Railway. It earned its keep for 78 years before being withdrawn in 1971. 
-Tom Barrat built this fine model.
+^h1{^T{Tom Barratt New South Wales Class C32 3237}}
+^PAR{Beyer Peacock built 3237 in 1892 for the New South Wales Government Railway. It earned its keep for 78 years before being withdrawn in 1971 and it is now preserved - you can read more ^link{here}{https://en.wikipedia.org/wiki/3237}.
+
+Tom Barratt built this fine model.
 
 ^cbox{^image{TB3237_1.png}{ }}
 
