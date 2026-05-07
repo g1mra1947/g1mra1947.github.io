@@ -6,7 +6,7 @@ headlineEvents{
 ^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 
 ^eventDate{7 November 2026} 
-^event{G1MRA AGM}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}^nl^g1mail{events}}{Running track plus trade support}
+^event{^link{G1MRA AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}^nl^g1mail{events}}{Running track plus trade support}
 }
 
 homePageEvents{
@@ -39,6 +39,9 @@ futureEvents{
 
 
 ^eventDate{13 October 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
+
+^eventDate{7 November 2026} 
+^event{^link{G1MRA AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}^nl^g1mail{events}}{Running track plus trade support}
 
 ^eventDate{10 November 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 

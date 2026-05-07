@@ -54,6 +54,7 @@ link(label target){<a href="^target">^label</a>}
 imagePlain(img txt){<img src="^img" alt="^txt" title="^txt">}
 img(img txt){<img src="images/thumbs/^img" alt="^txt" title="^txt">}
 image(img txt){<a href="images/^img"><img src="images/thumbs/^img" alt="^txt" title="^txt"></a>}
+imageBar(b1 b2 b3){<div class="imageBar">^b1 ^b2 ^b3 </div><!-- close imageBar -->}
 g1domain{g1mra.com}
 g1mail(address){<a href="mailto:^address@^g1domain">^address@^g1domain</a>}
 mail(address){<a href="mailto:^address">^address</a>}
@@ -95,7 +96,6 @@ navBar(name menuPrim menuSec){
 </div><!-- close navbar	 -->
 }
 
-imageBar(b1 b2 b3){<div class="imageBar">^b1 ^b2 ^b3 </div><!-- close imageBar -->}
 
 page(name description menuPrim menuSec body){^OUT{^name^us^lang.html}{
 ^pagePrelude{^name}{^description}
