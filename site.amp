@@ -903,7 +903,7 @@ supplier(name info webAddress emailAddress){
 ^page{^T{Showcase}}{^empty}{^showcasePrimary}{^empty}{^cbox{^tbox{
 ^cbox{^PAR{These showcase pages feature some of the best Gauge 1 models, tracks and events.}}
 
-^cbox{^PAR{As elsewhere on this site, click on the pictures for a full reolution verison.}}
+^cbox{^PAR{As elsewhere on this site, click on the pictures for a full resolution verison.}}
 
 ^hrule^cbox{^h1{^T{Tom Barratt New South Wales Class C32 3237}}}^hrule
 ^PAR{Beyer Peacock built 3237 in 1892 for the New South Wales Government Railway. It earned its keep for 78 years before being withdrawn in 1971 and it is now preserved - you can read more ^link{here}{https://en.wikipedia.org/wiki/3237}.
