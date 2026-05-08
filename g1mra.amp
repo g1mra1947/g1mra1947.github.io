@@ -110,11 +110,8 @@ pageWithImages(name description menuPrim menuSec image1 image2 image3 body){^OUT
 }}
 
 connection(webAddress name info){
-^hrule
 ^PAR{
-^link{^name}{^webAddress}
-
-^info
+^link{^bf{^name}}{^webAddress} ^info
 }
 }
 
