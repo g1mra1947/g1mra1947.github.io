@@ -21,6 +21,10 @@ a:hover {background-color: #ddd; }
 .sbox h1 {margin:12px 0px 0px 0px;}
 .sbox h2 {font-size: 14px; margin:10px 0px 0px 0px;}
 .sbox p  {font-size: 13px; margin:3px 0px 3px 0px;}
+.zbox    {flex-direction:column; max-width:290px; min-width:200px; padding: 0px 10px; background-color:#fefddf; line-height:1.4}
+.zbox h1 {margin:12px 0px 0px 0px;}
+.zbox h2 {font-size: 14px; margin:10px 0px 0px 0px;}
+.zbox p  {font-size: 13px; margin:3px 0px 3px 0px;}
 
 /* Navigation bar styling */
 .navbar  {background-color: #165f4b; display: flex; padding: 2px 2px;}

@@ -46,6 +46,7 @@ cbox*(body){<div class=cbox>^body</div><!-- close cbox -->} // Centred box
 wbox*(body){<div class=wbox>^body</div><!-- close wbox -->} // Wide text block 350-1000 px
 tbox*(body){<div class=tbox>^body</div><!-- close tbox -->} // Standad text block 350-700 px
 sbox(body){<div class=sbox>^body</div><!-- close sbox -->}  // Sidebar box 300px
+zbox(body){<div class=zbox>^body</div><!-- close zbox -->}  // Sidebar box 300px
 
 fill{<div class="fill"></div>}
 
@@ -141,17 +142,15 @@ homePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resour
 
 eventsPrimary{^menElA{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
 
-eventsSecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menEl{^T{Past events}}{Past}^menEl{^T{Galleries}}{Galleries}}
+eventsSecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menEl{^T{Galleries}}{Galleries}}
 
-springSecondary{^menElA{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menEl{^T{Past events}}{Past}^menEl{^T{Galleries}}{Galleries}}
+springSecondary{^menElA{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menEl{^T{Galleries}}{Galleries}}
 
-g1NorthSecondary{^menEl{^T{Spring show}}{Spring}^menElA{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menEl{^T{Past events}}{Past}^menEl{^T{Galleries}}{Galleries}}
+g1NorthSecondary{^menEl{^T{Spring show}}{Spring}^menElA{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menEl{^T{Galleries}}{Galleries}}
 
-agmSecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menElA{^T{AGM}}{AGM}^menEl{^T{Past events}}{Past}^menEl{^T{Galleries}}{Galleries}}
+agmSecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menElA{^T{AGM}}{AGM}^menEl{^T{Galleries}}{Galleries}}
 
-pastSecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menElA{^T{Past events}}{Past}^menEl{^T{Galleries}}{Galleries}}
-
-gallerySecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menEl{^T{Past events}}{Past}^menElA{^T{Galleries}}{Galleries}}
+gallerySecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{AGM}}{AGM}^menElA{^T{Galleries}}{Galleries}}
 
 groupsPrimary{^menEl{^T{Events}}{Events}^menElA{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
 groupsSecondary{

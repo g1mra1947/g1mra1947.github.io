@@ -26,11 +26,11 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
    }
      
   ^fill       
-  ^sbox{
-   ^h1{^link{Events}{Events_^lang.html}}
+   ^sbox{
    ^hrule
+   ^zbox{
    ^cbox{^h2{Headline events}}
-   ^headlineEvents
+   ^headlineEvents}
    ^hrule
    ^cbox{^h2{Upcoming events}}
 
@@ -59,8 +59,6 @@ You will find information about recent past events on} ^link{^T{this page}}{Past
 ^hrule^cbox{^h1{Diary}}
 ^homePageEvents^futureEvents}
 }}
-
-^page{^T{Past}}{^T{Gauge One Model Railway Association past events page}}{^eventsPrimary}{^pastSecondary}{^cbox{^tbox{^h1{^T{Past events}}^pastEvents}}}
 
 ^page{^T{Galleries}}{^T{Gauge One Model Railway Association past galleries page}}{^eventsPrimary}{^gallerySecondary}{^cbox{^tbox{
 ^h1{^T{Click on an image for the full sized version}}
@@ -681,6 +679,7 @@ G1MRA also has around a dozen ^em{portable} tracks (though 'transportable' might
 ^track{Carding Road}{Midland Group}{midland-group}
 ^trackFull{Dobson Bridge}{South East Group}{south-east-group}{14.63 x 7.39m}{48' x 24'3"}{}{}
 ^trackFull{Invicta}{South East Group}{south-east-group}{13.72m x 5.82m}{45' x 18'13"}{}{}
+^trackFull{Old London Test Track}{South Oxfordshire Group}{south-oxfordshire-group}{12.5m x 5.26m}{41' x 17'3"}{}{}
 ^track{Ridings}{Yorkshire Group}{yorkshire-group}
 ^track{Surrey Oval}{Surrey Group}{surrey-group}
 ^track{Stanley Midland}{Midland Group}{midland-group}
