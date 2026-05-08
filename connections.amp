@@ -14,7 +14,7 @@ connections{
 ^h1{Places to visit}
 ^connection{https://www.bekonscot.co.uk/}{Bekonscot}{The famous Bekonscot Model Village with G1 model railway}
 ^connection{https://www.hara-mrm.com/english/}{Hara Model Train Museum}{A large model railway museum in Yokohama, Japan}
-^connection{https://mehev.de/de/index.html}{Mehev}{The Gauge 1 layout at the Hamburg Museum}
+^connection{https://mehev.de/en/index.html}{Mehev}{The Gauge 1 layout at the Hamburg Museum}
 ^connection{https://www.technik-museum.de/}{Technik Museum}{Sinsheim, Germany.}
 
 ^h1{Other gauge and scale societies}
@@ -34,5 +34,4 @@ connections{
 
 ^h1{Protoype and standards information}
 ^connection{http://www.markwoodwheels.co.uk/wheels/standardschoice.htm}{Mark Wood’s wheel site}{Thoughtful comments on Gauge One scales and standards}
-^connection{http://www.stationcolours.info/}{Station Colours}{A valuable resource for those modelling station buildings in the steam era.}
 }
