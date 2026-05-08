@@ -14,8 +14,7 @@ connections{
 ^h1{Places to visit}
 ^connection{https://www.bekonscot.co.uk/}{Bekonscot}{The famous Bekonscot Model Village with G1 model railway}
 ^connection{https://www.hara-mrm.com/english/}{Hara Model Train Museum}{A large model railway museum in Yokohama, Japan}
-^connection{https://mehev.de/en/index.html}{Mehev}{The Gauge 1 layout at the Hamburg Museum}
-^connection{https://www.technik-museum.de/}{Technik Museum}{Sinsheim, Germany.}
+^connection{https://www.technik-museum.de/en/}{Technik Museum}{Sinsheim, Germany.}
 
 ^h1{Other gauge and scale societies}
 ^connection{https://www.gaugeoguild.com/}{The Gauge ‘O’ Guild}{All forms of railway modelling in 7mm. scale and on 0 gauge track.}
