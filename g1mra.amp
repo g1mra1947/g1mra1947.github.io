@@ -109,6 +109,16 @@ pageWithImages(name description menuPrim menuSec image1 image2 image3 body){^OUT
 ^pagePostlude
 }}
 
+connection(webAddress name info){
+^hrule
+^PAR{
+^link{^name}{^webAddress}
+
+^info
+}
+}
+
+
 (* Forms *********************************************************************)
 bookOrderForm{https://forms.gle/Fot4wiQ8e3i7xqyV8}
 componentOrderForm{https://forms.gle/V3hVzuCv4xFFULKq8}

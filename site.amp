@@ -741,16 +741,6 @@ In Spring 1947 a small group of enthusiasts came together to keep the spirit of 
 ^page{^T{Gauge2}}{^empty}{^resourcesPrimary}{^gauge2Secondary}{^cbox{^tbox{^h1{^T{Gauge 2}}^NA}}}
 
 (* Connections page **********************************************************)
-connection(webAddress name info){
-^hrule
-^h2{^name}
-^PAR{
-^link{^webAddress}{https://^webAddress}
-
-^info
-}
-}
-
 ^page{^T{Connections}}{^empty}{^resourcesPrimary}{^connectionsSecondary}{^cbox{^tbox{^connections}}}
 
 (* Features page *************************************************************)
