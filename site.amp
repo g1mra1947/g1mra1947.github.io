@@ -917,23 +917,17 @@ Tom Barratt built this fine model.
 
 ^T{Treasurer}: ^g1mail{treasurer}
 
+^T{Newletter and Journal editor}: ^g1mail{nljeditor}
+
 ^T{Technical officer}: ^g1mail{technical}
 
 ^T{Supplier liaison officer}: ^g1mail{suppliers}
 
 ^T{Group liason officer}: ^g1mail{groups}
 
-^T{Newletter and Journal editor}: ^g1mail{nljeditor}
+^T{Show organisation and liason}: ^g1mail{eventsmanagement}
 
-^T{Diary and event listing}: ^g1mail{diary}
-
-^T{Show organisation and liason}: ^g1mail{events}
-
-^T{Member to member sales}: ^g1mail{marketplace}
-
-^T{Book sales}: ^g1mail{books}
-
-^T{Other sales}: ^g1mail{sales}
+^T{Sales}: ^g1mail{sales}
 
 ^T{Membership enquiries}: ^g1mail{membership}
 
