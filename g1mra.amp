@@ -23,8 +23,8 @@ h3(str){<h3>^str</h3>}
 
 (* Text layout *)
 nl{<br>}                                       // new line
-vgap{<p style="padding-bottom:40px"></p>}      // padding space
-vskip{<p></p>}
+vgap{<p style="padding-bottom:40px"></p>}      // vertical padding space
+vskip{<p></p>}                                 // paragraph space
 us{_}                                          // underscore
 identity(body){^body}                          // identity macro for contiguous text after constant macro
 hgap{<p style="padding-right:20px"></p>}       // padding space
@@ -63,9 +63,9 @@ postcode(maj min){^link{^maj ^min}{https://www.google.co.uk/maps/search/^maj+^mi
 caption(txt){alt="^txt" title="^txt"}
 
 (* Events *)
-eventDate(date){^hrule^h2{^date}}
-event(title location text){<p>^bf{^title}^nl^location^nl^em{^text}</p>}
-eventMO(title location text){<p>^bf{^title (Members only)}^nl^location^nl^em{^text}	</p>}
+eventDate(date){^h2{^date}}
+event(title location text){^bf{^title}^nl^location^nl^em{^text}^hrule}
+eventMO(title location text){^bf{^title (Members only)}^nl^location^nl^em{^text}^hrule}
 
 (* G1MRA page setup *)
 pagePrelude(name description){

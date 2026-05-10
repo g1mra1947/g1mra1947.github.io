@@ -27,15 +27,12 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
      
   ^fill       
    ^sbox{
-   ^hrule
-   ^zbox{
-   ^cbox{^h2{Headline events}}
-   ^headlineEvents}
-   ^hrule
-   ^cbox{^h2{Diary}}
-
+   ^zbox{^cbox{^h2{Headline events}}
+   ^hrule^headlineEvents}
+ 
+^cbox{^h2{Diary}}
+  ^hrule
    ^homePageEvents
-   ^hrule
    ^h1{^link{Full event listing}{Events_^lang.html}}
   }
  }
@@ -52,10 +49,10 @@ G1MRA groups also arrange numerous members-only meetings, many of which are in p
 ^bf{^T{If you have an event that you would like to add to this list, please complete} ^link{^T{this form}}{^newEventForm}}.
 ^vskip
 }
-^hrule^cbox{^h1{Headline events}}
+^hrule^cbox{^h1{Headline events}}^hrule
 ^headlineEvents
 
-^hrule^cbox{^h1{Diary}}
+^cbox{^h1{Diary}}^hrule
 ^homePageEvents^futureEvents}
 }}
 
