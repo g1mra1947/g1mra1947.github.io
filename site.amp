@@ -23,7 +23,9 @@
 We are a very sociable bunch. Much of our activity centres on running sessions held in members' gardens where you will meet both newcomers and experienced hands: an enthusiastic and knowledgeable community which shares expertise ranging from 130 year old clockwork design and live steam through to the most modern 3D printing and computer-based control techniques.}
 
 ^bf{^T{New members are always welcome: see} ^link{^T{this page}}{Join^us^lang.html} ^T{for details.}}}}
-   }
+   
+^cbox{^image{agm26Wide.png}{AGM 26 poster}}
+}
      
   ^fill       
    ^sbox{
@@ -675,17 +677,20 @@ G1MRA also has around a dozen ^em{portable} tracks (though 'transportable' might
 ^track{Carding Road}{Midland Group}{midland-group}
 ^trackFull{Dobson Bridge}{South East Group}{south-east-group}{14.63 x 7.39m}{48' x 24'3"}{}{}
 ^trackFull{Invicta}{South East Group}{south-east-group}{13.72m x 5.82m}{45' x 18'13"}{}{}
-^trackFull{Old London Test Track}{South Oxfordshire Group}{south-oxfordshire-group}{12.5m x 5.26m}{41' x 17'3"}{}{}
+^trackFull{The London Portable}{South Oxfordshire Group}{south-oxfordshire-group}{12.5m x 5.26m}{41' x 17'3"}{}{}
 ^track{Ridings}{Yorkshire Group}{yorkshire-group}
 ^track{Surrey Oval}{Surrey Group}{surrey-group}
 ^track{Stanley Midland}{Midland Group}{midland-group}
 ^track{Thompson Halt}{Midland Group}{midland-group}
-^track{Vintage tinplate and Gauge 2}{Vintage group}{vintage-group}
 ^track{Withnell Junction}{North West Group}{north-west-group}
 
 ^hrule^h1{^T{G1MRA portable end-to-end tracks}}^hrule
 ^track{Moordale}{Yorkshire Group}{yorkshire-group}
-^track{Baghot Sidings}{(Under construction)}{events}
+^track{Baghot Sidings}{(Under construction)}{eventsmanagement	}
+
+^hrule^h1{^T{G1MRA table-top tracks}}^hrule
+^track{Vintage tinplate and Gauge 2}{Vintage group}{vintage-group}
+^track{3D circle printed track}{3D circle}{3d-circle-group}
 
 
 ^hrule^h1{^T{UK Clubs with Gauge One activity}}^hrule
@@ -818,6 +823,22 @@ As elsewhere on this site, click on an image to see the full resolution version.
 
 ^PAR{^T{To order models and kits, please fill in} ^link{^T{this form}}{^modelOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
 }}
+
+^h1{G1MRA 75th anniversary tanker - £75}
+^imageBar{^image{g1mraTanker1.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker2.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker3.jpg}{The G1MRA anniversary tanker}}
+
+^h1{Greenly starter engine fully built but unpainted - £250}
+^cbox{^image{g1mraTanker1.jpg}{The G1MRA anniversary tanker}}
+
+^h1{Greenly starter engine KIT - £150}
+^cbox{^image{g1mraTanker1.jpg}{The G1MRA anniversary tanker}}
+
+^h1{Wagon (unpainted) - coming soon}
+^cbox{^image{ghostRCHWagon.JPG}{The G1MRA anniversary tanker}}
+
+^h1{Brake van (unpainted) - coming soon	}
+^cbox{^image{ghostBrakeVan.JPG}{The G1MRA anniversary tanker}}
+
 }}}
 
 book(title blurb cover preview){
