@@ -77,7 +77,7 @@ groups{
 ^group{Somerset Group}{somerst}{}
 ^group{South East Group}{south-east}{}
 ^group{South Oxfordshire Group}{south-oxfordshire}{}
-^group{Surrey Group}{surrey}{https://www.cs.rhul.ac.uk/~adrian/steam/surreyG1MRA}
+^groupWeb{Surrey Group}{surrey}{https://www.cs.rhul.ac.uk/~adrian/steam/surreyG1MRA}
 ^group{West Oxfordshire Group}{west-oxfordshire}{}
 ^group{Yorkshire Group}{yorkshire}{}
 }

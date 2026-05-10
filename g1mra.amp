@@ -68,6 +68,16 @@ eventDate(date){^h2{^date}}
 event(title location text){^bf{^title}^nl^location^nl^em{^text}^hrule}
 eventMO(title location text){^bf{^title (Members only)}^nl^location^nl^em{^text}^hrule}
 
+(* Groups *)
+groupWeb(name email web){
+
+^bf{^link{^name}{^web}}^quad^g1mail{^email-group}}
+
+group(name email web){
+^page{^email-group}{^name}{^groupsPrimary}{^groupsSecondary}{^cbox{^tbox{^h1{^name}
+^PAR{This is a placeholder; for information please email ^g1mail{^email-group}}}}}
+^bf{^link{^name}{^email-group^us^lang.html}}^quad^g1mail{^email-group}^nl}
+
 (* G1MRA page setup *)
 pagePrelude(name description){
 <!-- G1MRA page by Adrian Johnstone a.johnstone@rhul.ac.uk built ^NOW -->
@@ -99,7 +109,7 @@ navBar(name menuPrim menuSec){
 }
 
 
-page(name description menuPrim menuSec body){^OUT{^name^us^lang.html}{
+page*(name description menuPrim menuSec body){^OUT{^name^us^lang.html}{
 ^pagePrelude{^name}{^description}
 ^vbox{^navBar{^name}{^menuPrim}{^menuSec}^body}
 ^pagePostlude
@@ -137,7 +147,7 @@ feedbackForm{https://forms.gle/xEcU3sGNAyX48yJd9}
 active(body){<div style="color:mediumseagreen;">^body</div>}
 menEl(label target){^link{^label}{^target^us^lang.html}}        
 menElA(label target){^link{^active{^label}}{^target^us^lang.html}}  // Menu element active
-menFlag(target icon hover){<a href="^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
+menFlag(target icon hover){<a href="	^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
 
 homePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
 
