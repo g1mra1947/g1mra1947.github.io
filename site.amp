@@ -45,7 +45,7 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
 ^pageWithImages{Events}{^T{Gauge One Model Railway Association events page}}{^eventsPrimary}{^eventsSecondary}{^image{events1_^lang.jpg}{1}}{^image{events2_^lang.jpg}{2}}{^image{events3_^lang.jpg}{3}}{	
 ^cbox{^tbox{^h1{^T{Events}}^PAR{^T{G1MRA organises a public Spring meeting and an Autumn AGM and exhibition each year. We attend other public shows by invitation, often with one of our portable tracks.
 
-G1MRA groups also arrange numerous members-only meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events here. To find out about activities in your area, locate your nearest group from ^link{this list}{Groups_^lang.html} and then email that group's contact. You may also email the G1MRA groups coordinator as ^g1mail{groups}.
+G1MRA groups also arrange numerous members-only meetings, many of which are in private gardens. This is a public website, so we do not publish names or addresses for these events here. To find out about activities in your area, locate your nearest group from ^link{this list}{Groups^us^lang.html} and then email that group's contact. You may also email the G1MRA groups coordinator as ^g1mail{groups}.
 }
 
 ^bf{^T{If you have an event that you would like to add to this list, please complete} ^link{^T{this form}}{^newEventForm}}.
@@ -150,7 +150,7 @@ nlj(number){^link{^number}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_^nu
 ^h1{^T{Members-only downloads page}}
 ^T{This members' area contains encrypted files. To access them, click on the link to download a copy to your device, and then open the file. 
 
-When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent Newsletter & Journal issue, or request the password by emailing} ^g1mail{web}.
+When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent Newsletter & Journal issue (see issue 289, bottom of page 11) or request the password by emailing} ^g1mail{web}.
 
 If you want to download a lot of files, you may find it easier to request non-encrypted versions of the files in blocks using ^link{this form}{^newsletterOrderForm}. The files will be supplied to you using the WeTransfer service, which does not require you to have an account: you will simply receive an email containing a link from us.
 
