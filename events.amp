@@ -10,9 +10,6 @@ headlineEvents{
 }
 
 homePageEvents{
-^eventDate{9-10 May 2026}
-^event{Model Engineering Show}{Statfold Country Park ^postcode{B79}{0BU}}{Stanley Midland courtesy of the Midland Group}
-
 ^eventDate{16 May 2026} 
 ^event{^link{Gauge 3 Spring show and AGM}{https://www.gauge3.org.uk/}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}}{Electric and live steam layouts G3 plus trade support^nl Carding Road, courtesy of the Midland Group}
 
@@ -163,6 +160,9 @@ Palace of Sweets and Nougat
 
 ^eventDate{25 April 2026}
 ^event{^link{National Garden Railway Show}{https://www.nationalgardenrailwayshow.org.uk/}}{National Agricultural Centre, Stoneleigh ^postcode{CV8}{2RG}}{ Anglia Roads courtesy of the East Anglian Group}
+
+^eventDate{9-10 May 2026}
+^event{Model Engineering Show}{Statfold Country Park ^postcode{B79}{0BU}}{Stanley Midland courtesy of the Midland Group}
 
 }
 
