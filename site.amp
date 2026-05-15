@@ -815,7 +815,6 @@ As elsewhere on this site, click on an image to see the full resolution version.
 ^h1{G1MRA sponsored models and kits}
 
 ^PAR{^T{To order models and kits, please fill in} ^link{^T{this form}}{^modelOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
-}}
 
 ^h1{G1MRA 75th anniversary tanker - £75}
 ^imageBar{^image{g1mraTanker1.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker2.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker3.jpg}{The G1MRA anniversary tanker}}
@@ -824,23 +823,38 @@ Last few remaining - order now before they are all gone.
 
 ^h1{Greenly starter engine fully built but unpainted - £250}
 
-These ready-to-run engines are constructed by a team of volunteers at our occasional `build days'. As a result stock levels are very variable, and when a batch is sold there may be a lead time of some weeks before we can supply you. As a result, please do place an order, but do not make payment until we request it.
-
 ^cbox{^image{ghostGreenly.JPG}{Greenly starter engine built}}
+
+These ready-to-run engines are constructed by a team of volunteers at our occasional 'build days'. As a result stock levels are very variable, and when a batch is sold there may be a lead time of some weeks before we can supply you. As a result, please do place an order, but ^bf{do not make a payment until we request it}.
+
+You can learn more about the design, and read a detailed build guide on our ^link{^T{designs page}}{Designs^us^lang.html}.
 
 ^h1{Greenly starter engine KIT - £150}
 
-These kits are assembled by a team of volunteers at our occasional `build days'. As a result stock levels are very variable, and when a batch is sold there may be a lead time of some weeks before we can supply you. As a result, please do place an order, but do not make payment until we request it.
-
 ^cbox{^image{ghostGreenly.JPG}{Greenly starter engine kit}}
 
+These kits are assembled by a team of volunteers at our occasional 'build days'. As a result stock levels are very variable, and when a batch is sold there may be a lead time of some weeks before we can supply you. As a result, please do place an order, but ^bf{do not make a payment until we request it}. 
+
+The kit build requires soldering and assembly skills. 
+
+You can learn more about the design, and read a detailed build guide on our ^link{^T{designs page}}{Designs^us^lang.html}.
+
+
 ^h1{Wagon (unpainted) - coming soon - price to be confirmed}
+
 ^cbox{^image{ghostRCHWagon.JPG}{The G1MRA anniversary tanker}}
 
+This wagon comes as a single piece print which includes brake gear and axle boxes.You also receive two axles, four wheels and coupling hooks. The wheels are slipped onto the axle - built in sleeves set the back-to-back wheel spacing correctly. You then ease the axle into the axle boxes, and fit coupling hooks.
+
+
 ^h1{Brake van (unpainted) - coming soon	 - price to be confirmed}
+
 ^cbox{^image{ghostBrakeVan.JPG}{The G1MRA anniversary tanker}}
 
-}}}
+This BR brake van comes as a single piece print which includes brake gear and axle boxes and handrails.You also receive two axles, four wheels and coupling hooks. The wheels are slipped onto the axle - built in sleeves set the back to back correctly. You then ease the axle into the axle boxes, and fit handrails and coupling hooks.
+
+
+}}}}}
 
 book(title blurb cover preview){
 ^h2{^title}
