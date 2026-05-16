@@ -108,7 +108,7 @@ We also have global special interest groups such as the Gauge One 3D Circle whic
 
 Our} ^link{^T{safety}}{Safety^us^lang.html} ^T{advice includes a discussion of the risks arising from poor fuel management, boiler testing and diagnostic diagrams for use when an engine is misbehaving. 
 
-Track and wheel standards are vital for reliable operation, especially in the garden where track alignments may be imperfect. Our} ^link{^T{standards}}{Standards^us^lang.html}^T{page includes drawings illustrating our traditional and fine-scale standards.
+Track and wheel standards are vital for reliable operation, especially in the garden where track alignments may be imperfect. Our} ^link{^T{standards}}{Standards^us^lang.html}^T{ page includes drawings illustrating our traditional and fine-scale standards.
 
 Some folk collect G1 models that remain pristine in display cases, but most of us want to see our engines run. The} ^link{^T{tracks}}{Tracks^us^lang.html}
 ^T{page lists our portable tracks which appear at exhibitions and group running days. For exhibition managers wanting to book a G1 running track, we give the footprint of each portable track and a contact email address. 
@@ -637,7 +637,22 @@ In Newsletter 173 (April 1997)} Dick Moger ^T{and} Barry Applegate ^T{(with supp
 }}}
 
 club(name url){^PAR{^link{^name}{^url}}}	
-^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^h1{Designs}^NA}}}
+^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^PAR{^h1{Designs}
+
+In 1971 Bob Hines and Ron Poulter wrote: ^em{During our various exhibitions quite a number of visiting members have said  "I'd like to build a G1 engine but I just don't know where to start".} Bob and Ron went to describe the construction of an 0-6-0 live steam engine universally known as ^em{The Project}. Many, many Project locos have been constructed, and a great variety of other 0-6-0 outline locos have been made which internally use the Project design. Ron and Bob's original slim text has gine through five major editions, and it is still our best selling book.
+
+^h1{Live steam - Project, Dee and ARM1G}
+
+^h1{The G1MRA train set}
+
+^h2{The Greenly starter engine}
+
+^h2{Rolling stock}
+
+^h1{AG1LE}
+
+^h1{The Gauge One 3D circle}
+}}}}
 
 trackFull(name owner email metricFootprint imperialFootprint chat picture){
 ^PAR{

@@ -74,10 +74,10 @@ groups{
 ^group{Salisbury & Stonehenge Group}{salisbury-stonehenge}{}
 ^group{Scottish Group (Central)}{scottish-central}{}
 ^group{Scottish Group (North East)}{scottish-north-east}{}
-^group{Somerset Group}{somerst}{}
 ^group{South East Group}{south-east}{}
 ^group{South Oxfordshire Group}{south-oxfordshire}{}
 ^groupWeb{Surrey Group}{surrey}{https://www.cs.rhul.ac.uk/~adrian/steam/surreyG1MRA}
+^group{Wessex Group}{wessex}{}
 ^group{West Oxfordshire Group}{west-oxfordshire}{}
 ^group{Yorkshire Group}{yorkshire}{}
 }
