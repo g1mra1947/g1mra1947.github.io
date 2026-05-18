@@ -886,22 +886,31 @@ book(title blurb cover preview){
 ^PAR{
 ^T{G1MRA has a long tradition of publishing designs, most famously with} ^em{^T{The Project}}, ^T{a highly detailed text describing the construction of a live steam Gauge 1 locomotive from scratch. First published around 1970 and now in its fifth edition, this book is our best seller. Hundreds of Project locomotives have been constructed, and the boiler and chassis have been used in many other designs.
 
-You can read a sample extract for each book by clicking on the cover image. 
+You can read a sample extract for most books by clicking on the cover image. 
 
 To order books, please fill in} ^link{^T{this form}}{^bookOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
 
+Postage and packing has become a significant cost in recent years.
+
+1-2 items - UK £3.00; EU £5.00; Rest of the World £7.00
+
+3-4 items - UK £6.00; EU £10.00; Rest of the World £14.00
+
+5+ items - please await an email giving postage cost before making a payment
 }}
 ^vgap
-^book{^T{The Project book}}{^T{Beginners starting from scratch can opt for the original meths-ﬁred ‘Project’ for which some parts are available from G1MRA suppliers. 84 pages including full drawings and instructions to build a live-steam, single cylinder LMS ‘4F’ 0-6-0 tender engine.}}{Project.jpg}{Project-preview.pdf}
-^book{^T{The Dee Book}}{^T{Members who already have constructional skills can move on to the ‘Dee’. 96 pages including full drawings and instructions to build a live-steam SR ‘D’ class twin inside cylinder tender engine.}}{Dee.jpg}{Dee-preview.pdf}
-^book{ARM1G - ^T{the other way round}}{^T{If you do not have the time to scratchbuild you can choose the gas-ﬁred ARM1G, for which most parts are available oﬀ the shelf. A live-steam working model that involves very little engineering and is simple to run. 70 pages including full drawings and instructions to build a twin cylinder 0-4-4T.}}{ARM1G.jpg}{ARMIG-preview.pdf}
-^book{^T{The Multipurpose Model Steam Turbine a guide to successful scratch building}}{Werner Jeggli, ^T{a member of the Swiss Group, has built 4 G1 turbine locos.  This book tells you how to build yours. It is spiral bound with 66 pages.}}{Turbine.jpg}{Turbine-preview.pdf}
-^book{^T{Scratchbuilding the GWR ‘Bulldog’ No. 3343 ‘Camelot’}}{^T{A new book demonstrates how to build from scratch an electric version of the GWR ‘Bulldog. 92 pages with many coloured photographs and lots of detail.}}{Bulldog.jpg}{Bulldog-preview.pdf}
-^book{^T{Modelling in Gauge 1 - Book 2 – JVR’s Contribution to Gauge 1}}{^T{Articles and letters by the legendary John van Riemsdijk from more than 200 Newsletters, over 50 years. Many know of his design input to many Aster locomotives. 100 pages including photos and drawings}}{JVR.jpg}{JVR-preview.pdf}
-^book{^T{Modelling in Gauge 1 – Book 3 – Freight Stock}}{^T{Compilation of articles on freight stock building from NL&Js since 1963. 96 pages.}}{Freight.jpg}{Freight-preview.pdf}
-^book{^T{Modelling in Gauge 1 – Book 4 – Coaching Stock}}{^T{Compilation of articles on coaching stock construction from NL&Js since 1963. 102 pages.}}{Coaches.jpg}{Coaches-preview.pdf}
-^book{^T{Modelling in Gauge 1 – Book 5 – Coal Firing}}{^T{Notes on coal-ﬁring and 14 articles based on practical experiences. Many chapters inspired by the GIMRA Swiss Group, and Charles Simon, with contributions from other GIMRA members. 82 pages with colour photos.}}{Coal.jpg}{Coal-preview.pdf}
-^book{^T{A Pictorial History of G1MRA 1947 – 2022}}{A hardcover, 163 page, celebration of G1MRA’s 75th Anniversary. An amazing selection of photographs from the G1MRA archives, showing garden get-togethers and exhibitions between 1947 and 2022.}{Illustrated.jpg}{Illustrated.jpg}
+^book{^T{The Project book - £10.00}}{^T{Beginners starting from scratch can opt for the original meths-ﬁred ‘Project’ for which some parts are available from G1MRA suppliers. 84 pages including full drawings and instructions to build a live-steam, single cylinder LMS ‘4F’ 0-6-0 tender engine.}}{Project.jpg}{Project-preview.pdf}
+^book{^T{The Dee Book - £7.50}}{^T{Members who already have constructional skills can move on to the ‘Dee’. 96 pages including full drawings and instructions to build a live-steam SR ‘D’ class twin inside cylinder tender engine.}}{Dee.jpg}{Dee-preview.pdf}
+^book{^T{The Dee Metric Drawings - £5.00}}{^T{The Dee book uses UK imperial measurements - this book provides metric eqivalents}}{Dee-metric.png}{Dee-metric.png}
+
+^book{ARM1G - ^T{the other way round} - £7.50}{^T{If you do not have the time to scratchbuild you can choose the gas-ﬁred ARM1G, for which most parts are available oﬀ the shelf. A live-steam working model that involves very little engineering and is simple to run. 70 pages including full drawings and instructions to build a twin cylinder 0-4-4T.}}{ARM1G.jpg}{ARMIG-preview.pdf}
+^book{^T{The Multipurpose Model Steam Turbine a guide to successful scratch building} - £10.00}{Werner Jeggli, ^T{a member of the Swiss Group, has built four Gauge 1 turbine locos.  This book tells you how to build yours.}}{Turbine.jpg}{Turbine-preview.pdf}
+^book{^T{Scratchbuilding the GWR ‘Bulldog’ No. 3343 ‘Camelot’} - £10.00}{^T{A new book demonstrates how to build from scratch an electric version of the GWR ‘Bulldog. 92 pages with many coloured photographs and lots of detail.}}{Bulldog.jpg}{Bulldog-preview.pdf}
+^book{^T{Modelling in Gauge 1 - Book 2 – JVR’s Contribution to Gauge 1} - £7.50}{^T{Articles and letters by the legendary John van Riemsdijk from more than 200 Newsletters, over 50 years. Many know of his design input to many Aster locomotives. 100 pages including photos and drawings}}{JVR.jpg}{JVR-preview.pdf}
+^book{^T{Modelling in Gauge 1 – Book 3 – Freight Stock} - £7.50}{^T{Compilation of articles on freight stock building from NL&Js between 1963 and 2007. 96 pages.}}{Freight.jpg}{Freight-preview.pdf}
+^book{^T{Modelling in Gauge 1 – Book 4 – Coaching Stock} - £7.50}{^T{Compilation of articles on coaching stock construction from NL&Js between 1963 and 2008. 102 pages.}}{Coaches.jpg}{Coaches-preview.pdf}
+^book{^T{Modelling in Gauge 1 – Book 5 – Coal Firing} - £10.00}{^T{Notes on coal-ﬁring and 14 articles based on practical experiences. Many chapters inspired by the GIMRA Swiss Group, and Charles Simon, with contributions from other GIMRA members. 82 pages with colour photos.}}{Coal.jpg}{Coal-preview.pdf}
+^book{^T{A Pictorial History of G1MRA 1947 – 2022} - £35.00}{A hardcover, 163 page, celebration of G1MRA’s 75th Anniversary. An amazing selection of photographs from the G1MRA archives, showing garden get-togethers and exhibitions between 1947 and 2022.}{Illustrated.jpg}{Illustrated.jpg}
 }}}
 
 
