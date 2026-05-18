@@ -831,22 +831,23 @@ As elsewhere on this site, click on an image to see the full resolution version.
 
 ^PAR{^T{To order models and kits, please fill in} ^link{^bf{^T{this form}}}{^modelOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
 
+^hrule
 ^h1{G1MRA 75th anniversary tanker - £75}
 ^imageBar{^image{g1mraTanker1.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker2.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker3.jpg}{The G1MRA anniversary tanker}}
 
-Last few remaining - order now before they are all gone.
+Made for us by Accucraft as a variant of their very successful 1:32 14-ton tanker model. The anniversary transfers can be removed with a bit of work if you want a plain tanker... Very nice runners. Last few remaining - order now before they are all gone.
 
-^h1{Greenly starter engine fully built but unpainted - £250}
-
-^cbox{^image{ghostGreenly.JPG}{Greenly starter engine built}}
+^hrule
+^h1{Greenly starter engine fully built and ready to run but unpainted - £250}
+^imageBar{^image{ghostGreenly1.JPG}{Greenly RTR engine}}{^image{ghostGreenly2.JPG}{Greenly RTR engine}}{^image{ghostGreenly3.JPG}{Greenly RTR engine}}
 
 These ready-to-run engines are constructed by a team of volunteers at our occasional 'build days'. As a result stock levels are very variable, and when a batch is sold there may be a lead time of some weeks before we can supply you. As a result, please do place an order using ^link{^bf{^T{this form}}}{^modelOrderForm}, but ^bf{do not make a payment until we request it}.
 
 You can learn more about the design, and read a detailed build guide on our ^link{^T{designs page}}{Designs^us^lang.html}.
 
+^hrule
 ^h1{Greenly starter engine KIT - £150}
-
-^cbox{^image{ghostGreenly.JPG}{Greenly starter engine kit}}
+^imageBar{^image{kitGreenly1.JPG}{Greenly kit contents}}{^image{kitGreenly2.JPG}{An assembled gearbox}}{^image{kitGreenly3.JPG}{Battery fitting}}
 
 These kits are assembled by a team of volunteers at our occasional 'build days'. As a result stock levels are very variable, and when a batch is sold there may be a lead time of some weeks before we can supply you. As a result, please do place an order using ^link{^bf{^T{this form}}}{^modelOrderForm}, but ^bf{do not make a payment until we request it}. 
 
@@ -854,21 +855,21 @@ The kit build requires soldering and assembly skills.
 
 You can learn more about the design, and read a detailed build guide on our ^link{^T{designs page}}{Designs^us^lang.html}.
 
-
+^hrule
 ^h1{Wagon (unpainted) - coming soon - price to be confirmed}
 
-^cbox{^image{ghostRCHWagon.JPG}{The G1MRA anniversary tanker}}
+^cbox{^image{ghostRCHWagon.JPG}{Forthcoming RCH wagon}}
 
 This wagon comes as a single piece print which includes brake gear and axle boxes.You also receive two axles, four wheels and coupling hooks. The wheels are slipped onto the axle - built in sleeves set the back-to-back wheel spacing correctly. You then ease the axle into the axle boxes, and fit coupling hooks.
 
-
+^hrule
 ^h1{Brake van (unpainted) - coming soon	 - price to be confirmed}
 
-^cbox{^image{ghostBrakeVan.JPG}{The G1MRA anniversary tanker}}
+^cbox{^image{ghostBrakeVan.JPG}{Forthcoming BR brake van}}
 
 This BR brake van comes as a single piece print which includes brake gear and axle boxes and handrails.You also receive two axles, four wheels and coupling hooks. The wheels are slipped onto the axle - built in sleeves set the back to back correctly. You then ease the axle into the axle boxes, and fit handrails and coupling hooks.
 
-
+^hrule
 }}}}}
 
 book(title blurb cover preview){
@@ -927,6 +928,24 @@ Postage and packing has become a significant cost in recent years which can be a
 ^h1{G1MRA branded merchandise}
 
 ^PAR{^T{To order merchandise, please fill in} ^link{^T{this form}}{^merchandiseOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.
+
+^hrule
+^h1{Classic design garments}
+^cbox{^image{classicFleece1.png}{Classic garment design}}
+
+^hrule
+^h1{New style garments}
+^imageBar{^image{newFleece1.png}{New style garment}}{^image{newFleece2.png}{New style garment}}{^image{newFleece3.png}{New style garment}}
+
+^hrule
+^h1{G1MRA 75th anniversary glasses}
+^imageBar{^image{g1mraGlass1.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass2.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass3.jpg}{G1MRA anniversary glass}}
+
+^hrule
+^h1{G1MRA lapel badge}
+^cbox{^image{G1MRABadge.png}{G1MRA lapel badge}}
+
+^hrule
 }}
 }}}
 
