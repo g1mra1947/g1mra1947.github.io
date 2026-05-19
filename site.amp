@@ -697,8 +697,10 @@ G1MRA also has around a dozen ^em{portable} tracks (though 'transportable' might
 ^track{Baghot Sidings}{(Under construction)}{eventsmanagement	}
 
 ^hrule^h1{^T{G1MRA table-top tracks}}^hrule
-^track{Vintage tinplate and Gauge 2}{Vintage group}{vintage-group}
+^track{Surrey Tiny Oval}{Surrey Group}{surrey-group}
 ^track{3D circle printed track}{3D circle}{3d-circle-group}
+
+^track{Vintage tinplate and Gauge 2}{Vintage group}{vintage-group}
 
 
 ^hrule^h1{^T{UK Clubs with Gauge One activity}}^hrule
@@ -923,7 +925,7 @@ Postage and packing has become a significant cost in recent years which can be a
 ^book{^T{Modelling in Gauge 1 – Book 5 – Coal Firing} - £10.00}{^T{Notes on coal-ﬁring and 14 articles based on practical experiences. Many chapters inspired by the GIMRA Swiss Group. 82 pages with colour photos.}}{Coal.jpg}{Coal-preview.pdf}
 ^book{^T{A Pictorial History of G1MRA 1947 – 2022} - £35.00}{A hardcover, 163 page, celebration of G1MRA’s 75th Anniversary. A glorious selection of photographs from the G1MRA archives, showing garden get-togethers and exhibitions between 1947 and 2022.}{Pictorial-history.jpg}{Pictorial-history-preview.pdf}
 
-^book{^T{Binder for the Newsletter and Journal - £12.00}}{A ring binder for up to 12 issues of the NLJ complete with plastic inserts - you do not need to punch holes!}{binder.jpg}{binder.jpg}
+^book{^T{Binder for the Newsletter and Journal - £12.00}}{A ring binder for up to 12 issues of the NLJ complete with plastic inserts - you do not need to punch holes!}{Binder.jpg}{Binder.jpg}
 }}}
 
 component(title blurb pic){
@@ -1046,6 +1048,12 @@ Designed by Freddie Wrighton for a Midland Compound 4-4-0
 ^T{To order merchandise, please fill in} ^link{^bf{^T{this form}}}{^merchandiseOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form. Items on this page are only available to members.
 
 ^hrule
+^h1{G1MRA 75th anniversary glasses - £1.50 each - collection at shows only}
+^imageBar{^image{g1mraGlass1.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass2.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass3.jpg}{G1MRA anniversary glass}}
+
+These very nice one pint glasses were engraved for the 75th anniversary. We still have significant stocks, hence the low price. They are too fragile to ship economically, so please collect from a show or email ^g1mail{web} to see if we can find a member near you who can collect for you.
+
+^hrule
 ^h1{Classic design garments}
 ^cbox{^image{classicFleece1.png}{Classic garment design}}
 
@@ -1070,12 +1078,6 @@ UK post and packing is £4.00 per two items, or collect from a show.
 The G1MRA Midland Group have worked with a local supplier to provide personalised garments featuring the G1MRA wheel logo, a group affiliation and a name. As shown above, the Surrey Group used the same supplier; they provide a very wide range of garments and colours at reasonable prices.
 
 If you are part of a G1MRA group that would like to provide garments for your members, please email ^g1mail{web} for more information.
-
-^hrule
-^h1{G1MRA 75th anniversary glasses - £1.50 each - collection at shows only}
-^imageBar{^image{g1mraGlass1.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass2.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass3.jpg}{G1MRA anniversary glass}}
-
-These very nice one pint glasses were engraved for the 75th anniversary. We still have significant stocks, hence the low price. They are too fragile to ship economically, so please collect from a show or email ^g1mail{web} to see if we can find a member near you who can collect for you.
 
 ^hrule
 ^h1{G1MRA lapel badge - £1.00 each}
