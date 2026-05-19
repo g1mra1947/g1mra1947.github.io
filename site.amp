@@ -637,8 +637,11 @@ In Newsletter 173 (April 1997)} Dick Moger ^T{and} Barry Applegate ^T{(with supp
 }}}
 
 club(name url){^PAR{^link{^name}{^url}}}	
-^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^PAR{^h1{Designs}
+^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^PAR{^h1{Designs}^NA}
 
+}}}
+
+dummy{
 In 1971 Bob Hines and Ron Poulter wrote: ^em{During our various exhibitions quite a number of visiting members have said  "I'd like to build a G1 engine but I just don't know where to start".} Bob and Ron went to describe the construction of an 0-6-0 live steam engine universally known as ^em{The Project}. Many, many Project locos have been constructed, and a great variety of other 0-6-0 outline locos have been made which internally use the Project design. Ron and Bob's original slim text has gine through five major editions, and it is still our best selling book.
 
 ^h1{Live steam - Project, Dee and ARM1G}
@@ -652,7 +655,7 @@ In 1971 Bob Hines and Ron Poulter wrote: ^em{During our various exhibitions quit
 ^h1{AG1LE}
 
 ^h1{The Gauge One 3D circle}
-}}}}
+}
 
 trackFull(name owner email metricFootprint imperialFootprint chat picture){
 ^PAR{
@@ -947,7 +950,9 @@ componentH(title blurb pic){
 ^page{^T{Components}}{^empty}{^salesPrimary}{^componentsSecondary}{^cbox{^tbox{
 ^h1{Consumables and components for scratch builders}
 
-^PAR{^T{To order consumables and components, please fill in} ^link{^bf{^T{this form}}}{^componentOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form. Items on this page are only available to members.
+^PAR{^T{To order consumables and components, please fill in} ^link{^bf{^T{this form}}}{^componentOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form. 
+
+^cbox{^bf{Items on this page are only available to members.}}
 
 
 ^hrule
@@ -986,10 +991,18 @@ In use, cut to length and comb out the chord. Fill burner cups so that the wick 
 ^component{#3C Split check-rail chairs - £0.11 each (P&P £2.00 for up to 400; £4.00 for 400+)}{}{comp_3C.jpg}
 ^component{#3D Crossing nose clamp - £0.11 each (P&P £2.00 for up to 400; £4.00 for 400+)}{}{comp_3D.jpg}
 ^hrule
+}
+}}}}
+
+^page{^T{Drawings}}{^empty}{^salesPrimary}{^drawingsSecondary}{^cbox{^tbox{^PAR{
+
 ^h1{Drawings}
-Please order drawings on a separate form from castings and chairs. 
+^PAR{^T{To order drawings, please fill in} ^link{^bf{^T{this form}}}{^drawingOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form.}
+
+^cbox{^bf{Items on this page are only available to members.}}
 
 Add UK P&P £2.50 per order
+}
 ^hrule
 ^h1{Trackwork}
 ^hrule
@@ -1033,14 +1046,18 @@ Add UK P&P £2.50 per order
 ^h2{NER Worsdell Class ‘R1’ 4-4-0 Tender locomotive - £24.00}
 ^h2{LNWR 4-6-2T ‘Prince of Wales’ Tank, with vertical hand pump in cab - £24.00}
 ^h2{GCR Robinson ‘Glenalmond’ 4-6-0 [LNER B8] - £24.00}
-}}
+}
 }}}
+
+
 
 ^page{^T{Merchandise}}{^empty}{^salesPrimary}{^merchandiseSecondary}{^cbox{^tbox{
 ^PAR{
 ^h1{G1MRA branded merchandise}
 
-^T{To order merchandise, please fill in} ^link{^bf{^T{this form}}}{^merchandiseOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form. Items on this page are only available to members.
+^T{To order merchandise, please fill in} ^link{^bf{^T{this form}}}{^merchandiseOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form. 
+
+^cbox{^bf{Items on this page are only available to members.}}
 
 ^hrule
 ^h1{G1MRA 75th anniversary glasses - £1.50 each - collection at shows only}
