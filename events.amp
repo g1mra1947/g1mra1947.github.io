@@ -21,9 +21,7 @@ homePageEvents{
 
 ^eventDate{11 July 2026} 
 ^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
-}
 
-futureEvents{
 ^eventDate{8 August 2026} ^eventMO{2026 Tom Barratt Memorial Day}{^g1mail{east-anglia-group}}{National GTG for G1MRA members: all locomotives welcome but especially those built by Tom Barratt. Tea and coffee provided but bring own lunch.}
 
 ^eventDate{11 October 2026}
@@ -36,6 +34,9 @@ futureEvents{
 ^eventDate{17 October 2026} 
 ^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
+}
+
+futureEvents{
 ^eventDate{24 October 2026} 
 ^event{^link{Exeter Garden Railway Show}{http://www.exetergardenrailwayshow.com}}{The Matford Centre
 Matford Park Road

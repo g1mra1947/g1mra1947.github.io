@@ -637,7 +637,7 @@ In Newsletter 173 (April 1997)} Dick Moger ^T{and} Barry Applegate ^T{(with supp
 }
 }}}
 
-club(name url){^PAR{^link{^name}{^url}}}	
+club(name url pc1 pc2){^PAR{^link{^name}{^url}^quad^postcode{^pc1}{^pc2}}}	
 ^page{Designs}{^empty}{^resourcesPrimary}{^designsSecondary}{^cbox{^tbox{^PAR{^h1{Designs}
 
 In 1971 Bob Hines and Ron Poulter wrote: ^em{During our various exhibitions quite a number of visiting members have said  "I'd like to build a G1 engine but I just don't know where to start".} Bob and Ron went to describe the construction of an 0-6-0 live steam engine universally known as ^em{The Project}. Many, many Project locos have been constructed, and a great variety of other 0-6-0 outline locos have been made which internally use the Project design. Ron and Bob's original slim text has gone through five major editions, and it is still our best selling book.
@@ -730,43 +730,43 @@ G1MRA also has around a dozen ^em{portable} tracks (though 'transportable' might
 
 
 ^hrule^h1{^T{UK Clubs with Gauge One activity}}^hrule
-^club{Andover & District Model Engineering Society}{https://www.admes.uk/}
-^club{Basingstoke & District Model Engineering Society Ltd}{http://www.basingstoke-dmes.co.uk/Garden_Railway.html}
-^club{Birmingham Society of Model Engineers}{https://www.birminghamsme.co.uk/}
-^club{Bromsgrove Society Of Model Engineers}{https://bromsgrovesme.co.uk/home24/index.php}
-^club{Cambridge and District Model Engineering Society}{https://www.cdmes.uk/}
-^club{Cheddar Steam Club}{https://www.cheddarsteamclub.co.uk/}
-^club{Chelmsford Society Of Model Engineers Ltd}{https://csme.org.uk/}
-^club{Chesterfield and District Model Engineering Society Ltd}{https://www.cdmes.co.uk/}
-^club{Chichester Society of Model Engineers}{https://www.cdsme.co.uk/}
-^club{City Of Oxford Society Of Model Engineers Ltd}{https://cosme.org.uk/}
-^club{Colchester Society Of Model and Experimental Engineers Ltd}{https://csmee.co.uk/}
-^club{Coventry Model Engineering Society Ltd}{http://www.coventrymes.co.uk/}
-^club{Guildford Model Engineering Society Ltd}{http://www.gmes.org.uk/}
-^club{Harlington Locomotive Society}{http://www.harlingtonlocomotivesociety.org.uk/?HLS_Home_page}
-^club{Hereford Society Of Model Engineers}{https://hsme.co.uk/}
-^club{Ickenham and District Society Of Model Engineers Ltd}{https://www.idsme.co.uk/}
-^club{Ipswich Model Engineering Society}{https://www.imes.org.uk/}
-^club{Isle Of Wight Model Engineering Society}{https://iwmes.org.uk/}
-^club{Lancaster & Morecambe}{https://lmmes.co.uk/}
-^club{Leicester S.M.E. Ltd}{https://www.lsmeabbeypark.com/}
-^club{Mount Edgcumbe Railway and Model Society}{https://merms.co.uk/}
-^club{North London Society Of Model Engineers}{http://www.nlsme.co.uk/}
-^club{Northampton S.M.E. Ltd.}{https://www.nsme.co.uk/}
-^club{North West Leicestershire Society Of Model Engineers Ltd}{https://www.nwlsme.club/}
-^club{Nottingham Society Of Model and Experimental Engineers Ltd}{https://nsmee.org.uk/}
-^club{Romney Marsh Model Engineering Society Ltd}{https://rmmes.co.uk/}
-^club{Sheffield & District S.M.E.E. Ltd}{https://www.sheffieldmodelengineers.com/}
-^club{South Devon Garden Railway Group}{http://www.sdgrg.org.uk}
-^club{South Cheshire Model Engineering Society}{https://southcheshiremes.co.uk/}
-^club{Southport Model Engineering Club}{https://www.southportmec.com/}
-^club{Sutton Model Engineering Club Ltd}{https://suttonmec.org/}
-^club{Stafford & District M.E.S}{http://www.sdmes.co.uk/}
-^club{Vale Of Aylesbury Model Engineering Society}{https://www.vames.co.uk/}
-^club{Welling & District Model Engineering Society}{https://wdmes.co.uk/}
-^club{West Riding Small Locomotive Society Ltd}{https://sites.google.com/site/westridingsmallloco/home}
-^club{Wimborne and District Model Engineers}{https://www.wimbornedsme.co.uk/}
-^club{York City and District Society Of Model Engineers Ltd}{https://www.yorkmodelengineers.co.uk/}
+^club{Andover & District Model Engineering Society}{https://www.admes.uk}{SP11}{7HT}
+^club{Basingstoke & District Model Engineering Society Ltd}{http://www.basingstoke-dmes.co.uk/Garden_Railway.html}{}{}
+^club{Birmingham Society of Model Engineers}{https://www.birminghamsme.co.uk}{}{}
+^club{Bromsgrove Society Of Model Engineers}{https://bromsgrovesme.co.uk/home24/index.php}{}{}
+^club{Cambridge and District Model Engineering Society}{https://www.cdmes.uk}{}{}
+^club{Cheddar Steam Club}{https://www.cheddarsteamclub.co.uk}{}{}
+^club{Chelmsford Society Of Model Engineers Ltd}{https://csme.org.uk}{}{}
+^club{Chesterfield and District Model Engineering Society Ltd}{https://www.cdmes.co.uk}{}{}
+^club{Chichester Society of Model Engineers}{https://www.cdsme.co.uk}{}{}
+^club{City Of Oxford Society Of Model Engineers Ltd}{https://cosme.org.uk}{}{}
+^club{Colchester Society Of Model and Experimental Engineers Ltd}{https://csmee.co.uk}{}{}
+^club{Coventry Model Engineering Society Ltd}{http://www.coventrymes.co.uk}{}{}
+^club{Guildford Model Engineering Society Ltd}{http://www.gmes.org.uk}{}{}
+^club{Harlington Locomotive Society}{http://www.harlingtonlocomotivesociety.org.uk}{}{}
+^club{Hereford Society Of Model Engineers}{https://hsme.co.uk}{}{}
+^club{Ickenham and District Society Of Model Engineers Ltd}{https://www.idsme.co.uk}{}{}
+^club{Ipswich Model Engineering Society}{https://www.imes.org.uk}{}{}
+^club{Isle Of Wight Model Engineering Society}{https://iwmes.org.uk}{}{}
+^club{Lancaster & Morecambe}{https://lmmes.co.uk}{}{}
+^club{Leicester S.M.E. Ltd}{https://www.lsmeabbeypark.com}{}{}
+^club{Mount Edgcumbe Railway and Model Society}{https://merms.co.uk}{}{}
+^club{North London Society Of Model Engineers}{http://www.nlsme.co.uk}{}{}
+^club{Northampton S.M.E. Ltd.}{https://www.nsme.co.uk}{}{}
+^club{North West Leicestershire Society Of Model Engineers Ltd}{https://www.nwlsme.club}{}{}
+^club{Nottingham Society Of Model and Experimental Engineers Ltd}{https://nsmee.org.uk}{}{}
+^club{Romney Marsh Model Engineering Society Ltd}{https://rmmes.co.uk}{}{}
+^club{Sheffield & District S.M.E.E. Ltd}{https://www.sheffieldmodelengineers.com}{}{}
+^club{South Devon Garden Railway Group}{http://www.sdgrg.org.uk}{}{}
+^club{South Cheshire Model Engineering Society}{https://southcheshiremes.co.uk}{}{}
+^club{Southport Model Engineering Club}{https://www.southportmec.com}{}{}
+^club{Sutton Model Engineering Club Ltd}{https://suttonmec.org}{}{}
+^club{Stafford & District M.E.S}{http://www.sdmes.co.uk}{}{}
+^club{Vale Of Aylesbury Model Engineering Society}{https://www.vames.co.uk}{}{}
+^club{Welling & District Model Engineering Society}{https://wdmes.co.uk}{}{}
+^club{West Riding Small Locomotive Society Ltd}{https://sites.google.com/site/westridingsmallloco/home}{}{}
+^club{Wimborne and District Model Engineers}{https://www.wimbornedsme.co.uk}{}{}
+^club{York City and District Society Of Model Engineers Ltd}{https://www.yorkmodelengineers.co.uk}{}{}
 }}}
 ^page{^T{History}}{^empty}{^resourcesPrimary}{^historySecondary}{
 ^cbox{^tbox{^h1{^T{History}}
@@ -800,7 +800,7 @@ In Spring 1947 a small group of enthusiasts came together to keep the spirit of 
 
 ^h2{^T{Collectors}}
 
-^link{^bf{^T{An enthusiast writes, with much G1 material}}}{https://sncf231e.nl/} ^T{Fred van der Lubbe runs electric and live steam Gauge 1, and has collected models in many scales and gauges}. His ^link{^T{website}}{https://sncf231e.nl/} ^T{is a mine of useful information - see in particular his} ^link{^T{Unauthorised History of ASTER}}{https://sncf231e.nl/aster/} ^T{and} ^link{^T{Gauge and scale}}{https://sncf231e.nl/gauge-and-scale/}.
+^link{^bf{^T{An enthusiast writes, with much G1 material}}}{https://sncf231e.nl} ^T{Fred van der Lubbe runs electric and live steam Gauge 1, and has collected models in many scales and gauges}. His ^link{^T{website}}{https://sncf231e.nl} ^T{is a mine of useful information - see in particular his} ^link{^T{Unauthorised History of ASTER}}{https://sncf231e.nl/aster} ^T{and} ^link{^T{Gauge and scale}}{https://sncf231e.nl/gauge-and-scale}.
 }}}}
 
 
