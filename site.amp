@@ -707,7 +707,7 @@ G1MRA also has around a dozen ^em{portable} tracks (though 'transportable' might
 }
 
 ^hrule^h1{^T{G1MRA portable running tracks}}^hrule
-^track{Anglia Roads}{East Anglia Group}{east-anglia-group}
+^trackFull{Anglia Roads}{East Anglia Group}{east-anglia-group}{17.7m x 7.4}{58' x 24'}
 ^track{Carding Road}{Midland Group}{midland-group}
 ^trackFull{Dobson Bridge}{South East Group}{south-east-group}{14.63 x 7.39m}{48' x 24'3"}
 ^trackFull{Invicta}{South East Group}{south-east-group}{13.72m x 5.82m}{45' x 18'13"}
