@@ -680,7 +680,7 @@ Thus began G1MRA's tradition of self-build model guides, supported by suppliers 
 
 }}}
 
-trackFull(name owner email metricFootprint imperialFootprint chat picture){
+trackFull(name owner email metricFootprint imperialFootprint){
 ^PAR{
 ^bf{^name} ^owner ^g1mail{^email} 
 ^nl
@@ -709,11 +709,12 @@ G1MRA also has around a dozen ^em{portable} tracks (though 'transportable' might
 ^hrule^h1{^T{G1MRA portable running tracks}}^hrule
 ^track{Anglia Roads}{East Anglia Group}{east-anglia-group}
 ^track{Carding Road}{Midland Group}{midland-group}
-^trackFull{Dobson Bridge}{South East Group}{south-east-group}{14.63 x 7.39m}{48' x 24'3"}{}{}
-^trackFull{Invicta}{South East Group}{south-east-group}{13.72m x 5.82m}{45' x 18'13"}{}{}
-^trackFull{The London Portable}{South Oxfordshire Group}{south-oxfordshire-group}{12.5m x 5.26m}{41' x 17'3"}{}{}
+^trackFull{Dobson Bridge}{South East Group}{south-east-group}{14.63 x 7.39m}{48' x 24'3"}
+^trackFull{Invicta}{South East Group}{south-east-group}{13.72m x 5.82m}{45' x 18'13"}
+^trackFull{The London Portable}{South Oxfordshire Group}{south-oxfordshire-group}{12.5m x 5.26m}{41' x 17'3"}
 ^track{Ridings}{Yorkshire Group}{yorkshire-group}
-^trackFull{^link{Surrey Oval}{images/surreyOvalPlan.pdf}}{Surrey Group}{surrey-group}{14m x 6.5m}{46' x 21'4"}{}{}
+^trackFull{Surrey Oval}{Surrey Group}{surrey-group}{14m x 6.5m}{46' x 21'4"}
+^imageBar{^image{surreyOvalPlan.png}{Surrey Oval track plan}}{^image{surreyOval2.jpg}{The Surrey Oval at Royal Holloway}}{^image{surreyOval1.jpg}{The Surrey Oval at Royal Holloway}}
 ^track{Stanley Midland}{Midland Group}{midland-group}
 ^track{Thompson Halt}{Midland Group}{midland-group}
 ^track{Withnell Junction}{North West Group}{north-west-group}
