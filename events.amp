@@ -10,14 +10,8 @@ headlineEvents{
 }
 
 homePageEvents{
-^eventDate{23-25 May 2026}
-^event{Model Railway Exhibition Burgdof}{Tennishalle Burgdorf AG, Zähringerstrasse 39, 3400 Burgdorf, Switzerland}{Swiss Group with children’s activities}
-
-^eventDate{20-31 May 2026}
-^event{^link{Arbon Classics 2026}{https://arbon-classics.ch/}}{Arbon, Switzerland}{G1MRA Bern group layout}
-
-^eventDate{31 May 2026} 
-^event{^link{Train Collectors' Society Summer show}{https://traincollector.co.uk/event/2026-gaydon-tcs-summer-show/}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}}{G1MRA Vintage Group layout in attendance}
+^eventDate{27 June 2026} 
+^event{UK National Get Together}{The Laurels, Staplehurst^nl^g1mail{south-east-group}}{Informal gathering for G1MRA members}
 
 ^eventDate{11 July 2026} 
 ^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
@@ -365,5 +359,14 @@ Palace of Sweets and Nougat
 
 ^eventDate{16-17 May 2026}
 ^event{^link{Roxley Models 40th Anniversary Show}{https://www.roxleymodels.co.uk/article_info.php?articles_id=24}}{Denbeigh's Vinyard, Dorking ^postcode{RH5}{6AA}}{N, OO9, OO, O, L-gauge layouts, Blackgang (G3) Free parking, adults £5, children £3^nl G1MRA Surrey Group display with live steam on rolling road, 3D printing demonstration and Greenly starter engine on table top track}
+
+^eventDate{23-25 May 2026}
+^event{Model Railway Exhibition Burgdof}{Tennishalle Burgdorf AG, Zähringerstrasse 39, 3400 Burgdorf, Switzerland}{Swiss Group with children’s activities}
+
+^eventDate{20-31 May 2026}
+^event{^link{Arbon Classics 2026}{https://arbon-classics.ch/}}{Arbon, Switzerland}{G1MRA Bern group layout}
+
+^eventDate{31 May 2026} 
+^event{^link{Train Collectors' Society Summer show}{https://traincollector.co.uk/event/2026-gaydon-tcs-summer-show/}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}}{G1MRA Vintage Group layout in attendance}
 
 }
