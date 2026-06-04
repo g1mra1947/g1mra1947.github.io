@@ -31,7 +31,7 @@ hgap{<p style="padding-right:20px"></p>}       // padding space
 quad{&emsp;}                                   // fixed space
 hrule{<div style="flex-basis:100%"><hr></div>} // horizontal rule
 em(body){<em>^body</em>}                       // emphasise (usually italics depending on browser and style)	
-bf(body){<b>^body</b>}                         // bold font
+bf*(body){<b>^body</b>}                         // bold font
 
 (* Displays *)
 itemise(body){<ul>^body</ul>}
@@ -51,7 +51,8 @@ zbox(body){<div class=zbox>^body</div><!-- close zbox -->}  // Sidebar box 300px
 fill{<div class="fill"></div>}
 
 (* Links *)
-link(label target){<a href="^target">^label</a>}
+link(label target){<a href="^target">^bf{^label}</a>}
+tlink(label target){<a href="^target">^label</a>}
 imagePlain(img txt){<img src="^img" alt="^txt" title="^txt">}
 img(img txt){<img src="images/thumbs/^img" alt="^txt" title="^txt">}
 image(img txt){<a href="images/^img"><img src="images/thumbs/^img" alt="^txt" title="^txt"></a>}
@@ -146,8 +147,8 @@ feedbackForm{https://forms.gle/xEcU3sGNAyX48yJd9}
 
 (* Menus *********************************************************************)
 active(body){<div style="color:mediumseagreen;">^body</div>}
-menEl(label target){^link{^label}{^target^us^lang.html}}        
-menElA(label target){^link{^active{^label}}{^target^us^lang.html}}  // Menu element active
+menEl(label target){^tlink{^label}{^target^us^lang.html}}        
+menElA(label target){^tlink{^active{^label}}{^target^us^lang.html}}  // Menu element active
 menFlag(target icon hover){<a href="	^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
 
 homePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
