@@ -131,17 +131,8 @@ The} ^link{^T{features}}{Features^us^lang.html} ^T{section includes descriptions
 
 ^T{Our quarterly Newsletter and Journal is a substantial newstand-quality magazine, filled with technical articles, reports of meetings and supplier information. A complete article index of the G1MRA newsletter, covering all issues from 1947 to the present is} ^link{^T{here}}{images/index.xls}.
 
-^T{G1MRA members can download backnumbers as encrypted Zip files from} ^link{^T{downloads}}{Downloads^us^lang.html} ^T{page. When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent newsletter issue, or request the password by emailing} ^g1mail{web}.
+^T{G1MRA members can download backnumbers as encrypted Zip files from} ^link{^T{downloads}}{Downloads^us^lang.html} ^T{page.}
 
-^cbox{
-^link{^img{TN285.png}{G1MRA NLJ 285}}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_285.pdf.zip}
-^hgap
-^link{^img{TN286.png}{G1MRA NLJ 286}}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_286.pdf.zip}
-^hgap
-^link{^img{TN287.png}{G1MRA NLJ 287}}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_287.pdf.zip}
-^hgap
-^link{^img{TN288.png}{G1MRA NLJ 288}}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_288.pdf.zip}
-}
 }}}}
 
 (* Downloads page ***************************************************************)
@@ -150,9 +141,9 @@ nlj(number){^link{^number}{https://www.cs.rhul.ac.uk/~adrian/encrypted/G1MRA_^nu
 ^page{Downloads}{^empty}{^resourcesPrimary}{^downloadsSecondary}{
 ^cbox{^tbox{^PAR{
 ^h1{^T{Members-only downloads page}}
-^T{This members' area contains encrypted files. To access them, click on the link to download a copy to your device, and then open the file. 
+^T{This members' area contains encrypted files. To access them, click on the link to download a copy to your device, and then open the downloaded file. 
 
-When you open the download you will be prompted for a password that you can find in your hard-copy of the most recent Newsletter & Journal issue (see issue 289, bottom of page 11) or request the password by emailing} ^g1mail{web}.
+When you open the downloaded file you will be prompted for a password that you can find in your hard-copy of the most recent Newsletter & Journal issue (see issue 289, bottom of page 11) or request the password by emailing} ^g1mail{web}.
 
 If you want to download a lot of files, you may find it easier to request non-encrypted versions of the files in blocks using ^link{this form}{^newsletterOrderForm}. The files will be supplied to you using the WeTransfer service, which does not require you to have an account: you will simply receive an email containing a link from us.
 
@@ -172,7 +163,7 @@ In 2004 Geff Hammond created a compilation of articles from previous editions of
 
 ^h1{Newsletter and Journal issues}
 
-^PAR{A complete article index covering all issues from 1947 to the present may be downladed as an Excel spreadsheet ^link{here}{images/index.xls}.}
+^PAR{A complete article index covering all issues from 1947 to the present may be downloaded as an Excel spreadsheet ^link{here}{images/index.xls}.}
 
 ^h2{1947-49}
 ^PAR{
