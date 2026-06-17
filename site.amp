@@ -24,7 +24,7 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
 
 ^cbox{^bf{^T{New members are always welcome: see} ^link{^T{this page}}{Join^us^lang.html} ^T{for details.}}}}}
 ^h1{Quick links
-^cbox{^tlink{Membership}{Join^us^lang.html}^quad^tlink{Book sales}{Books^us^lang.html}^quad^tlink{Greenly starter engine}{Designs^us^lang.html}
+^cbox{^tlink{Marketplace}{Marketplace^us^lang.html}^quad^tlink{Books}{Books^us^lang.html}^quad^tlink{Greenly starter engine}{Designs^us^lang.html}^quad^tlink{Membership}{Join^us^lang.html}
 }}
 ^cbox{^image{agm26Wide.png}{AGM 26 poster}}
 }
@@ -810,11 +810,30 @@ If you'd like to join us then please see ^link{this page}{Join^us^lang.html} for
 }}}}
 
 marketAd1(number description price){
+^PAR{^hrule
+^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
+<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>
+}}
+
+marketAd2(number description price){
+^PAR{
 ^hrule
 ^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
-
 <a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>
-}
+
+<a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg"></a>
+}}
+
+marketAd3(number description price){
+^PAR{
+^hrule
+^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
+<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>
+
+<a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg"></a>
+
+<a href="marketplace/^number^us^identity{3}.jpg"><img src="marketplace/thumbs/^number^us^identity{3}.jpg"></a>
+}}
 
 ^page{^T{Marketplace}}{^empty}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{
 ^h1{^T{G1MRA member to member marketplace}}
@@ -834,19 +853,8 @@ Prices shown here do not include shipping.
 As elsewhere on this site, click on an image to see the full resolution version.
 }}
 
-^hrule
-^h1{^T{Locomotives}}
-^marketAd1{2601}{Live steam Project LMS 4F}{£1,100}
-^hrule
-^h1{^T{Other rolling stock}}
-^marketAd1{2602}{Fred Newman Ocean Mail Coach 1203 (front item in picture)}{£300}
-^marketAd1{2603}{Fred Newman Teak Luggage Van 833 (rear item in picture)}{£300}
-^marketAd1{2604}{(Unknown maker) GWR Teak Mail Van}{£100}
-^hrule
-^h1{^T{Track}}
-^hrule
-^h1{^T{Books}}
-^hrule
+^marketPlaceListing
+
 }}}
 
 ^page{^T{Models}}{^empty}{^salesPrimary}{^modelsSecondary}{^cbox{^tbox{
