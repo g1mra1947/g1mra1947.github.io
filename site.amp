@@ -1200,7 +1200,10 @@ Tom Barratt built this fine model.
 
 ^vskip
 ^bf{^T{If you are not sure who to direct your enquiry to, then please complete} ^link{^T{this form}}{^generalEnquiryForm}.}
-}}}}}}
+
+^h1{^T{Member-to-member contact}}
+^PAR{^T{G1MRA will not give out member addresses or other member-specific information. If you want to contact another member then please fill in ^link{^T{this form}}{^memberEnquiryForm}. If we can locate the member then we will forward your enquiry to them and they can then make their own decision as to whether to respond to you.
+}}}}}}}}
 
 (* Join/renew page ***********************************************************)
   ^page{^T{Join}}{^empty}{^joinPrimary}{^empty}{
