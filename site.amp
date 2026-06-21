@@ -812,28 +812,32 @@ If you'd like to join us then please see ^link{this page}{Join^us^lang.html} for
 marketAd1(number description price){
 ^PAR{^hrule
 ^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
+
+<div class="imageBar">
 <a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>
+</div>
 }}
 
 marketAd2(number description price){
 ^PAR{
 ^hrule
 ^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
-<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>
 
+<div class="imageBar">
+<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>^hgap
 <a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg"></a>
-}}
+</div>}}
 
 marketAd3(number description price){
 ^PAR{
 ^hrule
 ^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
-<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>
 
-<a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg"></a>
-
+<div class="imageBar">
+<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>^hgap
+<a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg"></a>^hgap
 <a href="marketplace/^number^us^identity{3}.jpg"><img src="marketplace/thumbs/^number^us^identity{3}.jpg"></a>
-}}
+</div>}}
 
 ^page{^T{Marketplace}}{^empty}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{
 ^h1{^T{G1MRA member to member marketplace}}
