@@ -2,7 +2,6 @@ marketPlaceListing{^hrule
 ^h1{^T{Locomotives}}
 ^marketAd1{2601}{Live steam Project LMS 4F}{£1,100}
 ^marketAd2{2605}{44999 Finescale Brass Black Five 4-6-0 2-rail electric locomotive factory built}{£1,800 ono}
-^marketAd3{2606}{80119 Finescale Brass Standard 4MT 2-6-4t 2-rail electric locomotive factory built}{£1,700 ono}
 ^marketAd2{2607}{Accucraft A3 Royal Lancer in British Rail Green, used, but in in mint condition with very little use, gas fired including its transport box}{£3,350 no offers}
 ^marketAd3{2608}{Aster BoB  Winston Churchill (methylated spirit fired) locomotive in lovely condition: steams freely. Includes transport box and current boiler certificate}{£3,350 no offers}
 ^marketAd3{2610}{LMS Jubilee 4-6-0, scratch built to 10mm scale, meths fired}{£1,800 ono}
@@ -28,4 +27,8 @@ complete with transport box. ^bf{UK sale only.}
 ^hrule
 ^h1{^T{Books}}
 ^hrule
+}
+
+^marketPlaceRemoved{
+^marketAd3{2606}{80119 Finescale Brass Standard 4MT 2-6-4t 2-rail electric locomotive factory built}{£1,700 ono}
 }
