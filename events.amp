@@ -1,20 +1,10 @@
 headlineEvents{
-^eventDate{27 June 2026} 
-^event{UK National Get Together}{The Laurels, Staplehurst^nl^g1mail{south-east-group}}{Informal gathering for G1MRA members}
-
-^eventDate{11 July 2026} 
-^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 
 ^eventDate{7 November 2026} 
 ^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track plus trade support}
 }
 
 homePageEvents{
-^eventDate{27 June 2026} 
-^event{UK National Get Together}{The Laurels, Staplehurst^nl^g1mail{south-east-group}}{Informal gathering for G1MRA members}
-
-^eventDate{11 July 2026} 
-^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 
 ^eventDate{18-19 July 2026}
 ^event{Midland Group at the Severn Valley Railway}{Kidderminster ^postcode{DY10}{1QX}}{Carding Road Track -  anyone wishing to run must email bob@cmail.co.uk with details of the day they wish to attend together with locomotives, including details of the boiler certification dates, and rolling stock they would like to run. Boiler testing at the event will not be possible.}
@@ -369,4 +359,9 @@ Palace of Sweets and Nougat
 ^eventDate{31 May 2026} 
 ^event{^link{Train Collectors' Society Summer show}{https://traincollector.co.uk/event/2026-gaydon-tcs-summer-show/}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ}}{G1MRA Vintage Group layout in attendance}
 
+^eventDate{27 June 2026} 
+^event{UK National Get Together}{The Laurels, Staplehurst^nl^g1mail{south-east-group}}{Informal gathering for G1MRA members}
+
+^eventDate{11 July 2026} 
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 }
