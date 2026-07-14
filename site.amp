@@ -809,6 +809,11 @@ Our own items are priced to cover our costs, not to make a profit, since our mem
 If you'd like to join us then please see ^link{this page}{Join^us^lang.html} for details.
 }}}}
 
+marketAd0(number description price){
+^PAR{^hrule
+^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
+}}
+
 marketAd1(number description price){
 ^PAR{^hrule
 ^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
