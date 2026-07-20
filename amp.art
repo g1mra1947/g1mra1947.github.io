@@ -157,7 +157,7 @@ import java.util.Stack;
   }
 !!
 
-!traceLevel 0
+!set trace 0
 !whitespace &SIMPLE_WHITESPACE, &COMMENT_NEST_ART, &COMMENT_LINE_C 
 !interpreter attributeAction
 

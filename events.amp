@@ -6,9 +6,6 @@ headlineEvents{
 
 homePageEvents{
 
-^eventDate{18-19 July 2026}
-^event{Midland Group at the Severn Valley Railway}{Kidderminster ^postcode{DY10}{1QX}}{Carding Road Track -  anyone wishing to run must email bob@cmail.co.uk with details of the day they wish to attend together with locomotives, including details of the boiler certification dates, and rolling stock they would like to run. Boiler testing at the event will not be possible.}
-
 ^eventDate{8 August 2026} ^eventMO{2026 Tom Barratt Memorial Day}{^g1mail{east-anglia-group}}{National GTG for G1MRA members: all locomotives welcome but especially those built by Tom Barratt. Tea and coffee provided but bring own lunch.}
 
 ^eventDate{11 October 2026}
@@ -20,10 +17,6 @@ homePageEvents{
 
 ^eventDate{17 October 2026} 
 ^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
-
-}
-
-futureEvents{
 ^eventDate{24 October 2026} 
 ^event{^link{Exeter Garden Railway Show}{http://www.exetergardenrailwayshow.com}}{The Matford Centre
 Matford Park Road
@@ -34,6 +27,10 @@ Exeter ^postcode{EX2}{8FD}}{}
 ^eventDate{7 November 2026} 
 ^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track plus trade support}
 
+
+}
+
+futureEvents{
 ^eventDate{13 December 2026}
 ^eventMO{Midland Group Christmas running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; Christmas buffet; tea and coffee all day}
 
@@ -364,4 +361,8 @@ Palace of Sweets and Nougat
 
 ^eventDate{11 July 2026} 
 ^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8.00 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
+
+^eventDate{18-19 July 2026}
+^event{Midland Group at the Severn Valley Railway}{Kidderminster ^postcode{DY10}{1QX}}{Carding Road Track -  anyone wishing to run must email bob@cmail.co.uk with details of the day they wish to attend together with locomotives, including details of the boiler certification dates, and rolling stock they would like to run. Boiler testing at the event will not be possible.}
+
 }
