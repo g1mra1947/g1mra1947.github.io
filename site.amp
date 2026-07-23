@@ -1170,6 +1170,7 @@ supplier(name info webAddress emailAddress){
 ^cbox{^PAR{As elsewhere on this site, click on the pictures for a full resolution verison.}}
 
 ^hrule^cbox{^h1{^T{Tom Barratt New South Wales Class C32 3237}}}^hrule
+
 ^PAR{Beyer Peacock built 3237 in 1892 for the New South Wales Government Railway. It earned its keep for 78 years before being withdrawn in 1971 and it is now preserved - you can read more ^link{here}{https://en.wikipedia.org/wiki/3237}.
 
 Tom Barratt built this fine model.
@@ -1178,6 +1179,22 @@ Tom Barratt built this fine model.
 
 ^cbox{^image{TB3237_2.png}{ }^quad^image{TB3237_3.png}{ }}
 }
+
+
+
+^hrule^cbox{^h1{^T{John Dixon's brake van from a 3D printable design by Tref Willingham}}}^hrule
+
+^PAR{
+
+British Rail built more than 5,000 brake vans. Over in the Gauge One 3D circle, member Tref Willingham has produced a highly detailed model (it even includes a stove inside the cabin!) which is designed to be printed on home 3D printers and goes together easilythrough clever use of dovetail joints. You can read more about the design, and download the printable files at the ^link{Gauge One 3D Circle archive site}{https://www.g1-3d.uk/model/br-standard-20t-brake-van-0}. You might also be amused by the story of one of these vans which is currently ^link{touring the world}{https://www.g1-3d.uk/article/br-brake-van-world-tour}.
+
+John Dixon built and painted this lovely example in ^link{Rail Express Systems}{https://en.wikipedia.org/wiki/Rail_Express_Systems} livery. 
+
+^cbox{^image{JohnDixonBrakeVan_1.jpg}{ }^quad^image{JohnDixonBrakeVan_2.jpg}{ }^quad^image{JohnDixonBrakeVan_3.jpg}{ }^quad^image{JohnDixonBrakeVan_4.jpg}{ }}
+
+}
+
+
 
 }}}
 
