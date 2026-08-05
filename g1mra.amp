@@ -53,9 +53,9 @@ fill{<div class="fill"></div>}
 (* Links *)
 link(label target){<a href="^target">^bf{^label}</a>}
 tlink(label target){<a href="^target">^label</a>}
-imagePlain(img txt){<img src="^img" alt="^txt" title="^txt">}
+imagePlain(img txt){<img src="^img" alt="^txt" title="^txt" width=100%; height=auto>}
 img(img txt){<img src="images/thumbs/^img" alt="^txt" title="^txt">}
-image(img txt){<a href="images/^img"><img src="images/thumbs/^img" alt="^txt" title="^txt"></a>}
+image(img txt){<a href="images/^img"><img src="images/thumbs/^img" alt="^txt" title="^txt" width= 100%; height=auto></a>}
 imageBar(b1 b2 b3){<div class="imageBar">^b1 ^b2 ^b3 </div><!-- close imageBar -->}
 imageBar1(b){<div class="imageBar">^b</div><!-- close imageBar -->}
 g1domain{g1mra.com}

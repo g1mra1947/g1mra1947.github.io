@@ -23,7 +23,7 @@
 We are a very sociable bunch. Much of our activity centres on running sessions held in members' gardens where you will meet both newcomers and experienced hands: an enthusiastic and knowledgeable community which shares expertise ranging from 130 year old clockwork design and live steam through to the most modern 3D printing and computer-based control techniques.}
 
 ^cbox{^bf{^T{New members are always welcome: see} ^link{^T{this page}}{Join^us^lang.html} ^T{for details.}}}}}
-^h1{Quick link}
+^h1{Quick links}
 ^h1{
 ^tlink{Marketplace}{Marketplace^us^lang.html}^quad
 ^tlink{Greenly starter engine}{Designs^us^lang.html}^quad
@@ -824,7 +824,7 @@ marketAd1(number description price){
 ^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
 
 <div class="imageBar">
-<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>
+<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"  width=100%; height=auto></a>
 </div>
 }}
 
@@ -834,8 +834,8 @@ marketAd2(number description price){
 ^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
 
 <div class="imageBar">
-<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>^hgap
-<a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg"></a>
+<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"  width=100%; height=auto></a>^hgap
+<a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg"  width=100%; height=auto></a>
 </div>}}
 
 marketAd3(number description price){
@@ -844,9 +844,9 @@ marketAd3(number description price){
 ^hbox{^bf{#^number}^hgap^bf{^price}^hgap^description}
 
 <div class="imageBar">
-<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"></a>^hgap
-<a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg"></a>^hgap
-<a href="marketplace/^number^us^identity{3}.jpg"><img src="marketplace/thumbs/^number^us^identity{3}.jpg"></a>
+<a href="marketplace/^number^us^identity{1}.jpg"><img src="marketplace/thumbs/^number^us^identity{1}.jpg"  width=100%; height=auto></a>^hgap
+<a href="marketplace/^number^us^identity{2}.jpg"><img src="marketplace/thumbs/^number^us^identity{2}.jpg" width=100%; height=auto></a>^hgap
+<a href="marketplace/^number^us^identity{3}.jpg"><img src="marketplace/thumbs/^number^us^identity{3}.jpg" width=100%; height=auto></a>
 </div>}}
 
 ^page{^T{Marketplace}}{^empty}{^salesPrimary}{^marketplaceSecondary}{^cbox{^tbox{
