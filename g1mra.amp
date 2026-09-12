@@ -152,9 +152,9 @@ menEl(label target){^tlink{^label}{^target^us^lang.html}}
 menElA(label target){^tlink{^active{^label}}{^target^us^lang.html}}  // Menu element active
 menFlag(target icon hover){<a href="	^target"><img src="images/^icon" style="height: 30px; padding: 4px 2px;" ^caption{^hover}></a>}
 
-homePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+homePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}^menEl{^T{Privacy}}{Privacy}}
 
-eventsPrimary{^menElA{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+eventsPrimary{^menElA{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}^menEl{^T{Privacy}}{Privacy}}
 
 eventsSecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{Autumn show and AGM}}{AGM}^menEl{^T{Galleries}}{Galleries}}
 
@@ -166,7 +166,7 @@ agmSecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^m
 
 gallerySecondary{^menEl{^T{Spring show}}{Spring}^menEl{^T{Gauge 1 North}}{G1North}^menEl{^T{Autumn show and AGM}}{AGM}^menElA{^T{Galleries}}{Galleries}}
 
-groupsPrimary{^menEl{^T{Events}}{Events}^menElA{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+groupsPrimary{^menEl{^T{Events}}{Events}^menElA{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}^menEl{^T{Privacy}}{Privacy}}
 groupsSecondary{
 ^menFlag{#flag_au}{Flag_of_Australia_(converted).svg}{Jump to Australian groups}
 ^menFlag{#flag_ca}{Flag_of_Canada_(Pantone).svg}{Jump to Canadian groups}
@@ -181,7 +181,7 @@ groupsSecondary{
 ^menFlag{#flag_us}{Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg}{Jump to US groups}
 ^menFlag{#flag_ww}{Globe_icon.svg.png}{Jump to global special-interest groups}
 }
-resourcesPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menElA{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+resourcesPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menElA{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}^menEl{^T{Privacy}}{Privacy}}
 resourcesSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
 safetySecondary{^menElA{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
 standardsSecondary{^menEl{^T{Safety}}{Safety}^menElA{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
@@ -193,7 +193,7 @@ connectionsSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^
 featuresSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menElA{^T{Features}}{Features}^menEl{^T{Downloads}}{Downloads}}
 downloadsSecondary{^menEl{^T{Safety}}{Safety}^menEl{^T{Standards}}{Standards}^menEl{^T{Designs}}{Designs}^menEl{^T{Tracks}}{Tracks}^menEl{^T{History}}{History}^menEl{^T{Gauge2}}{Gauge2}^menEl{^T{Connections}}{Connections}^menEl{^T{Features}}{Features}^menElA{^T{Downloads}}{Downloads}}
 
-salesPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menElA{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
+salesPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menElA{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}^menEl{^T{Privacy}}{Privacy}}
 salesSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Drawings}}{Drawings}^menEl{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
 marketplaceSecondary{^menElA{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Drawings}}{Drawings}^menEl{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
 modelsSecondary{^menEl{^T{Marketplace}}{Marketplace}^menElA{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Drawings}}{Drawings}^menEl{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
@@ -203,6 +203,10 @@ drawingsSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}
 merchandiseSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Drawings}}{Drawings}^menElA{^T{Merchandise}}{Merchandise}^menEl{^T{Suppliers}}{Suppliers}}
 suppliersSecondary{^menEl{^T{Marketplace}}{Marketplace}^menEl{^T{Models}}{Models}^menEl{^T{Books}}{Books}^menEl{^T{Components}}{Components}^menEl{^T{Drawings}}{Drawings}^menEl{^T{Merchandise}}{Merchandise}^menElA{^T{Suppliers}}{Suppliers}}
 
-showcasePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menElA{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
-contactPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menElA{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}}
-joinPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menElA{^T{Join}}{Join}}
+showcasePrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menElA{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}^menEl{^T{Privacy}}{Privacy}}
+
+contactPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menElA{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}^menEl{^T{Privacy}}{Privacy}}
+
+joinPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menElA{^T{Join}}{Join}^menEl{^T{Privacy}}{Privacy}}
+
+privacyPrimary{^menEl{^T{Events}}{Events}^menEl{^T{Groups}}{Groups}^menEl{^T{Resources}}{Resources}^menEl{^T{Sales}}{Sales}^menEl{^T{Showcase}}{Showcase}^menEl{^T{Contact}}{Contact}^menEl{^T{Join}}{Join}^menElA{^T{Privacy}}{Privacy}}

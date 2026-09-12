@@ -1291,3 +1291,34 @@ The membership year runs from 1st January to 31st December.
 }
 }
 }
+
+(* Privacy page ***********************************************************)
+  ^page{^T{Privacy}}{^empty}{^privacyPrimary}{^empty}{
+      ^cbox{^tbox{
+        ^h1{^T{Gauge 1 Model Railway Association website privacy notice}}
+        ^PAR{^T{
+
+The Gauge 1 Model Railway Association (G1MRA) website at ^link{https://www.g1mra.com}{https://www.g1mra.com} does not collect any personal information, does not use cookies, collects no statistical data concerning visitors, has no login accounts and contains no personal information. 
+
+Some pages under ^bf{g1mra.com} link to external sites over which we have no control. 
+
+Some pages under ^bf{g1mra.com} link to forms owned by us which are hosted on the Google Forms external site. These forms allow you to supply us with personal information limited to your name and contact details, and to request services. The rest of this privacy notice explains how we process information supplied to us using those forms. You should also read Google’s country-specific privacy statement at ^link{https://policies.google.com/privacy}{https://policies.google.com/privacy}
+
+With the exception below, we do not share your information with any organisation or any person who is not an officer of G1MRA. 
+
+The one exception is that if G1MRA member (A) wishes to contact G1MRA member (B), then A may fill in a form which includes their own contact details. If we can identify G1MRA member B, we will forward a message from A to B with A’s name and email address only. Member B can make their own decision about whether to respond or not and we will take no further part.
+
+We retain the information on any form completed by you for two calendar years after the day that you submitted the form. After two years, for statistical purposes we will keep an anonymised version of your submitted form but with your personal information removed.
+
+You have the right to ask us for copies of your personal information..
+
+You have the right to ask us to correct personal information you think is inaccurate. 
+
+You have the right to ask us to delete your personal information..
+
+To make a data protection rights request, please contact us via an email to ^g1mail{web}
+
+If you make a data protection rights request, we must respond to you within one month.
+
+}}
+}}}
