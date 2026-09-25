@@ -12,30 +12,66 @@ homePageEvents{
 ^eventDate{11 October 2026}
 ^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
 
+^eventDate{11 October 2026}
+^event{Felixstowe Model Railway Show}{Felixstowe Leisure Centre, Seafront, 
+Felixstowe ^postcode{IP11}{2AE}^nl^g1mail{east-anglia-group}}{Anglia Roads track 11:00-17.00}
+
+
 ^eventDate{15-18 October 2026} 
 ^event{^link{Midlands Model Enginering Exhibition}{https://www.meridienneexhibitions.co.uk/events/midlands-model-engineering-exhibition}}{Warwickshire Event Centre ^postcode{CV31}{1FE}}{Static locomotive display by the Midland Group^nl
 3D Circle display}
 
 ^eventDate{17 October 2026} 
 ^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+
+
 ^eventDate{24 October 2026} 
 ^event{^link{Exeter Garden Railway Show}{http://www.exetergardenrailwayshow.com}}{The Matford Centre
 Matford Park Road
 Marsh Barton Ind Estate
 Exeter ^postcode{EX2}{8FD}}{}
 
+^eventDate{31 October-1 November 2026} 
+^event{LowMex 2026 - the Lowestoft Model Engineering and Model Making Exhibition}{Energy Skills Centre of the East Coast College, St Peters Street, Lowestoft ^postcode{NR32}{2NB} ^g1mail{east-anglia-group}}{East Anglia Group end-to-end track}
+
+
+^eventDate{31 October 2026} 
+^event{Surrey Group public running day}{Dorking URC Hall ^postcode{RH4}{1BS}}{Surrey Oval 10:00-16:00; tea and cakes available<br>
+^g1mail{surrey-group}}
+ 
 
 ^eventDate{7 November 2026} 
 ^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track plus trade support}
 
+^eventDate{14 November 2026} 
+^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
-}
+^eventDate{5 December 2026} 
+^event{Yorkshire Group Christmas running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
-futureEvents{
+
 ^eventDate{13 December 2026}
 ^eventMO{Midland Group Christmas running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; Christmas buffet; tea and coffee all day}
 
-}
+} // end current events
+
+futureEvents{
+^eventDate{10 January 2027}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+^eventDate{14 February 2027}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+^eventDate{27-28 February 2027}
+^event{Midlands Garden Rail Show}{Warwickshire Event Centre ^postcode{CV31}{1FE}^nl^g1mail{midland-group}}{Carding Road track}
+
+^eventDate{14 March 2027}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+^eventDate{20-21 March 2027}
+^event{London Festival of Railway Modelling}{Alexandra Palace ^postcode{N22}{7AY}^nl^g1mail{east-anglia-group}}{Anglia Roads track}
+
+} // end future events	
 
 ^page{Spring}{^T{Spring show}}{^eventsPrimary}{^springSecondary}{
 ^cbox{^tbox{^h1{G1MRA Spring Show}
