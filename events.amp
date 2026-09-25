@@ -19,7 +19,7 @@ Felixstowe ^postcode{IP11}{2AE}^nl^g1mail{east-anglia-group}}{Anglia Roads track
 3D Circle display}
 
 ^eventDate{17 October 2026} 
-^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+^eventMO{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 
 ^eventDate{24 October 2026} 
@@ -41,10 +41,10 @@ Exeter ^postcode{EX2}{8FD}}{}
 ^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track plus trade support}
 
 ^eventDate{14 November 2026} 
-^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+^eventMO{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 ^eventDate{5 December 2026} 
-^event{Yorkshire Group Christmas running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+^eventMO{Yorkshire Group Christmas running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 
 ^eventDate{13 December 2026}
@@ -286,7 +286,7 @@ Marsh Barton Ind Estate
 Exeter ^postcode{EX2}{8FD}}{}
 
 ^eventDate{1 November 2025} 
-^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+^eventMO{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 ^event{North West Group running day}{Nazareth Unitarian Church,Church St,Padiham ^postcode{BB12}{8JH}^nl^g1mail{northwest-group}}{Withnell Junction, layouts from other gauges and Hornby Dublo}
 
@@ -304,7 +304,7 @@ Exeter ^postcode{EX2}{8FD}}{}
 ^event{^link{National Festival of Railway Modelling}{https://www.rmweb.co.uk/shows/nfrm/}}{NEC, Birmingham ^postcode{B40}{1NT}}{Ridings track courtesy of the Yorkshire Group}
 
 ^eventDate{29 November 2025} 
-^event{Yorkshire Group Christmas running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+^eventMO{Yorkshire Group Christmas running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 ^eventDate{10 January 2026}
 ^eventMO{Traditional First Steam GTG}{^g1mail{wiggertal-live-steam-group}}{11.00-17.00}
@@ -315,7 +315,7 @@ Exeter ^postcode{EX2}{8FD}}{}
 ^eventDate{13 January 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
 ^eventDate{17 January 2026}
-^event{Yorkshire Group New Year's running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+^eventMO{Yorkshire Group New Year's running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 ^eventDate{8 February 2026}
 ^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
@@ -323,7 +323,7 @@ Exeter ^postcode{EX2}{8FD}}{}
 ^eventDate{10 February 2026} ^eventMO{Surrey Group GTG}{^g1mail{surrey-group}}{}
 
 ^eventDate{21 February 2026}
-^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+^eventMO{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 ^eventDate{21-22 February 2026}
 ^event{^link{Tenterden Model Railway Show}{https://www.mytenterden.co.uk/events/tenterden-model-railway-exhibition-listing-602-124492.aspx}}{Homewood School, Ashford Road ^postcode{TN30}{6LT}}{Invicta track courtesy of South East Group}
@@ -344,7 +344,7 @@ Exeter ^postcode{EX2}{8FD}}{}
 ^eventMO{South East Group running day}{Donnington Hall, Dunton Green ^postcode{TN13}{2UN}^nl^g1mail{south-east-group}}{Invicta track from 08:00 setup; £5 entry towards catering and track maintenance.^nl Please email ^g1mail{south-east-group} in advance to ensure sufficient catering}
 
 ^eventDate{21 March 2026}
-^event{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+^eventMO{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
 
 ^eventDate{21-22 March 2026}
 ^event{London Festival of Model Railways}{Alexandra Palace ^postcode{N22}{7AY}}{G1MRA display and stand}
