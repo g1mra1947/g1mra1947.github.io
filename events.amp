@@ -6,9 +6,6 @@ headlineEvents{
 
 homePageEvents{
 
-^eventDate{19-20 September 2026} 
-^event{Peacock Railway running weekend}{^link{Peacock Railway}{https://southcheshiremes.co.uk/gauge-1-railway/} Nantwich ^postcode{CW5}{6NE}}{Gauge 1 running all weekend with Saturday G1 only and Sunday to include public running on the 5" track.}
-
 ^eventDate{11 October 2026}
 ^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
 
@@ -406,6 +403,9 @@ Palace of Sweets and Nougat
 
 ^eventDate{12-13 September 2026} 
 ^event{Statfold Barn Rail and Ale weekend}{^link{Statfold Country Park}{https://statfold.com} Ashby Road, Tamworth ^postcode{B79}{0BU}}{Gauge 1 running on Stanley Midland.}
+
+^eventDate{19-20 September 2026} 
+^event{Peacock Railway running weekend}{^link{Peacock Railway}{https://southcheshiremes.co.uk/gauge-1-railway/} Nantwich ^postcode{CW5}{6NE}}{Gauge 1 running all weekend with Saturday G1 only and Sunday to include public running on the 5" track.}
 
 
 }
