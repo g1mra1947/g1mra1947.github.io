@@ -29,15 +29,15 @@ Marsh Barton Ind Estate
 Exeter ^postcode{EX2}{8FD}}{}
 
 ^eventDate{31 October-1 November 2026} 
-^event{LowMex 2026 - the Lowestoft Model Engineering and Model Making Exhibition}{Energy Skills Centre of the East Coast College, St Peters Street, Lowestoft ^postcode{NR32}{2NB} ^g1mail{east-anglia-group}}{East Anglia Group end-to-end track}
+^event{LowMex 2026 - the Lowestoft Model Engineering and Model Making Exhibition}{Energy Skills Centre of the East Coast College, St Peters Street, Lowestoft ^postcode{NR32}{2NB} ^nl^g1mail{east-anglia-group}}{East Anglia Group end-to-end track}
 
 
 ^eventDate{31 October 2026} 
-^event{Surrey Group public running day}{Dorking URC Hall ^postcode{RH4}{1BS}}{Surrey Oval 10:00-16:00; tea and cakes available<br>
+^event{Surrey Group public running day}{Dorking URC Hall ^postcode{RH4}{1BS}}{Surrey Oval 10:00-16:00; tea and cakes available^nl
 ^g1mail{surrey-group}}
  
 ^eventDate{7 November 2026} 
-^event{Padiham Model Railway Event}{Unitarian Church Hall, Church Street,Padiham ^postcode{BB12}{8JH}^nl^g1mail{northwest-group}}{Track, refreshments available}
+^event{Padiham Model Railway Event}{Unitarian Church Hall, Church Street,Padiham ^nl^postcode{BB12}{8JH}^nl^g1mail{northwest-group}}{Track, refreshments available}
 
 
 
