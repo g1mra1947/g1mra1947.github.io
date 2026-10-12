@@ -4,7 +4,7 @@ headlineEvents{
 ^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track, Society stands, extensive trade support; click ^link{here}{AGM^us^lang.html} for full details}
 
 ^eventDate{10 July 2027} 
-^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £TBA entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 
 }
 
@@ -78,7 +78,7 @@ futureEvents{
 ^event{London Festival of Railway Modelling}{Alexandra Palace ^postcode{N22}{7AY}^nl^g1mail{east-anglia-group}}{Anglia Roads track}
 
 ^eventDate{10 July 2027} 
-^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £TBA entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 
 } // end future events	
 
@@ -159,36 +159,11 @@ Gauge One 3D Circle
 }}
 }}
 
-
-^page{G1North}{^T{Gauge One North}}{^eventsPrimary}{^g1NorthSecondary}{
-
-^cbox{^tbox{^h1{Gauge 1 North}
-
-^PAR{The first Gauge 1 North show was organised by the Yorkshire Group in 2010 . The event has gone from strength to strength since then. 
-
-The 2027 show is on ^bf{Saturday 10 July} from 10.00 to 16.00 at the ^link{Agricultural Business Centre}{https://www.derbyshiredales.gov.uk/business/agricultural-business-centre} in Bakewell, Derbyshire, ^postcode{DE45}{1AH}; entry is £TBA.
-
-Gauge 1 North is open to the public, and offers particularly good support from the trade, with around 25-30 suppliers attending every year.
-
-        ^cbox{
-           ^PAR{^link{Bakewell}{https://www.bakewell.co.uk} is a charming small town on the banks of the River Wye in the Derbyshire White Peaks. ^link{Chatsworth}{https://www.chatsworth.org} and ^link{Haddon Hall}{https://www.haddonhall.co.uk} are nearby, and it makes an ideal location for a weekend away. For more information about the area, see ^link{this site.}{https://visitpeakdistrict.com/}
-}
-           ^hgap
-           ^image{BakewellPanorama.jpg}{Panoramic view of Bakewell: image credit - Peter McDermott under licence CC BY-SA 2.0}
-           ^hgap	
-        }
-
-
-The Agricultural Business Centre is a compact venue, all on one level with extensive ^link{parking}{https://www.derbyshiredales.gov.uk/parking-roads-and-travel/parking/car-park-locations#h3} on site. Please make sure to follow any parking notices: the area to the front of the hall is reserved for coach drop off and blue badge holders. The centre of Bakewell is a ten minute walk from the hall.
-
-Refreshments are available on site on Saturday at the ^link{Farmers' Feast}{https://farmersfeastbakewell.co.uk/} cafe next to the show hall. 
+G1NorthExhibits{
+TBA
 }
 
-^PAR{
-^hrule
-^h1{Exhibits}
-^hrule
-
+G1NorthExhibitsOld{
 Ridings layout – Yorkshire Group’s flagship live steam layout
 
 Moordale end-to-end track – Yorkshire Group
@@ -200,11 +175,13 @@ Gauge One 3D Circle
 Peak Railway Association
 
 Friends of Wensleydale Railway
+}
 
-^hrule
-^h1{Trade support}
-^hrule
+G1NorthTraders{
+TBA
+}
 
+G1NorthTradersOld{
 Barrett Steam Models Ltd
 
 Black Cat Bridges
@@ -252,6 +229,46 @@ TMS Models
 Uncommon Kits (demonstration)
 
 Walsall Model Industries
+}
+
+
+^page{G1North}{^T{Gauge One North}}{^eventsPrimary}{^g1NorthSecondary}{
+
+^cbox{^tbox{^h1{Gauge 1 North}
+
+^PAR{The first Gauge 1 North show was organised by the Yorkshire Group in 2010 . The event has gone from strength to strength since then. 
+
+The 2027 show is on ^bf{Saturday 10 July} from 10.00 to 16.00 at the ^link{Agricultural Business Centre}{https://www.derbyshiredales.gov.uk/business/agricultural-business-centre} in Bakewell, Derbyshire, ^postcode{DE45}{1AH}; entry is £8.
+
+Gauge 1 North is open to the public, and offers particularly good support from the trade, with around 25-30 suppliers attending every year.
+
+        ^cbox{
+           ^PAR{^link{Bakewell}{https://www.bakewell.co.uk} is a charming small town on the banks of the River Wye in the Derbyshire White Peaks. ^link{Chatsworth}{https://www.chatsworth.org} and ^link{Haddon Hall}{https://www.haddonhall.co.uk} are nearby, and it makes an ideal location for a weekend away. For more information about the area, see ^link{this site.}{https://visitpeakdistrict.com/}
+}
+           ^hgap
+           ^image{BakewellPanorama.jpg}{Panoramic view of Bakewell: image credit - Peter McDermott under licence CC BY-SA 2.0}
+           ^hgap	
+        }
+
+
+The Agricultural Business Centre is a compact venue, all on one level with extensive ^link{parking}{https://www.derbyshiredales.gov.uk/parking-roads-and-travel/parking/car-park-locations#h3} on site. Please make sure to follow any parking notices: the area to the front of the hall is reserved for coach drop off and blue badge holders. The centre of Bakewell is a ten minute walk from the hall.
+
+Refreshments are available on site on Saturday at the ^link{Farmers' Feast}{https://farmersfeastbakewell.co.uk/} cafe next to the show hall. 
+}
+
+^PAR{
+^hrule
+^h1{Exhibits}
+^hrule
+
+^G1NorthExhibits
+
+^hrule
+^h1{Trade support}
+^hrule
+
+^G1NorthTraders
+
 }}
 }}
 
