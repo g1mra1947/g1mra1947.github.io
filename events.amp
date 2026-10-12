@@ -2,6 +2,10 @@ headlineEvents{
 
 ^eventDate{7 November 2026} 
 ^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track, Society stands, extensive trade support; click ^link{here}{AGM^us^lang.html} for full details}
+
+^eventDate{10 July 2027} 
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £TBA entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
+
 }
 
 homePageEvents{
@@ -72,6 +76,9 @@ futureEvents{
 
 ^eventDate{20-21 March 2027}
 ^event{London Festival of Railway Modelling}{Alexandra Palace ^postcode{N22}{7AY}^nl^g1mail{east-anglia-group}}{Anglia Roads track}
+
+^eventDate{10 July 2027} 
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £TBA entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
 
 } // end future events	
 
@@ -159,7 +166,7 @@ Gauge One 3D Circle
 
 ^PAR{The first Gauge 1 North show was organised by the Yorkshire Group in 2010 . The event has gone from strength to strength since then. 
 
-The 2026 show is on ^bf{Saturday 11 July} from 10.00 to 16.00 at the ^link{Agricultural Business Centre}{https://www.derbyshiredales.gov.uk/business/agricultural-business-centre} in Bakewell, Derbyshire, ^postcode{DE45}{1AH}; entry is £8.
+The 2027 show is on ^bf{Saturday 10 July} from 10.00 to 16.00 at the ^link{Agricultural Business Centre}{https://www.derbyshiredales.gov.uk/business/agricultural-business-centre} in Bakewell, Derbyshire, ^postcode{DE45}{1AH}; entry is £TBA.
 
 Gauge 1 North is open to the public, and offers particularly good support from the trade, with around 25-30 suppliers attending every year.
 
