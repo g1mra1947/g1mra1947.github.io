@@ -10,28 +10,6 @@ headlineEvents{
 
 homePageEvents{
 
-^eventDate{11 October 2026}
-^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
-
-^eventDate{11 October 2026}
-^event{Felixstowe Model Railway Show}{Felixstowe Leisure Centre, Seafront, 
-Felixstowe ^postcode{IP11}{2AE}^nl^g1mail{east-anglia-group}}{Anglia Roads track 11:00-17.00}
-
-
-^eventDate{15-18 October 2026} 
-^event{^link{Midlands Model Enginering Exhibition}{https://www.meridienneexhibitions.co.uk/events/midlands-model-engineering-exhibition}}{Warwickshire Event Centre ^postcode{CV31}{1FE}}{Static locomotive display by the Midland Group^nl
-3D Circle display}
-
-^eventDate{17 October 2026} 
-^eventMO{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
-
-
-^eventDate{24 October 2026} 
-^event{^link{Exeter Garden Railway Show}{http://www.exetergardenrailwayshow.com}}{The Matford Centre
-Matford Park Road
-Marsh Barton Ind Estate
-Exeter ^postcode{EX2}{8FD}}{}
-
 ^eventDate{31 October-1 November 2026} 
 ^event{^link{LowMex 2026}{https://www.lowmex.co.uk} - the Lowestoft Model Engineering and Model Making Exhibition}{Energy Skills Centre of the East Coast College, St Peters Street, Lowestoft ^postcode{NR32}{2NB} ^nl^g1mail{east-anglia-group}}{East Anglia Group end-to-end track}
 
@@ -402,7 +380,7 @@ Peacock Railway Nantwich
 
 Tamiya trucks
 
-Children's modelling area – operational at 1030am, 12pm and 2pm
+Children's modelling area – operational at 10.30am, 12.00pm and 2.00pm
 
 }}
 }}
@@ -547,5 +525,27 @@ Palace of Sweets and Nougat
 ^eventDate{19-20 September 2026} 
 ^event{Peacock Railway running weekend}{^link{Peacock Railway}{https://southcheshiremes.co.uk/gauge-1-railway/} Nantwich ^postcode{CW5}{6NE}}{Gauge 1 running all weekend with Saturday G1 only and Sunday to include public running on the 5" track.}
 
+
+^eventDate{11 October 2026}
+^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
+
+^eventDate{11 October 2026}
+^event{Felixstowe Model Railway Show}{Felixstowe Leisure Centre, Seafront, 
+Felixstowe ^postcode{IP11}{2AE}^nl^g1mail{east-anglia-group}}{Anglia Roads track 11:00-17.00}
+
+
+^eventDate{15-18 October 2026} 
+^event{^link{Midlands Model Enginering Exhibition}{https://www.meridienneexhibitions.co.uk/events/midlands-model-engineering-exhibition}}{Warwickshire Event Centre ^postcode{CV31}{1FE}}{Static locomotive display by the Midland Group^nl
+3D Circle display}
+
+^eventDate{17 October 2026} 
+^eventMO{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
+
+
+^eventDate{24 October 2026} 
+^event{^link{Exeter Garden Railway Show}{http://www.exetergardenrailwayshow.com}}{The Matford Centre
+Matford Park Road
+Marsh Barton Ind Estate
+Exeter ^postcode{EX2}{8FD}}{}
 
 }

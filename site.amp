@@ -30,7 +30,7 @@ We are a very sociable bunch. Much of our activity centres on running sessions h
 ^tlink{Books}{Books^us^lang.html}^quad
 ^tlink{Membership}{Join^us^lang.html}
 }
-^cbox{^image{agm26Wide.png}{AGM 26 poster}}
+^cbox{^link{<img src="images/agm26Wide.png" width=100%; height=auto>}{AGM_en.html}}
 }
      
   ^fill       
