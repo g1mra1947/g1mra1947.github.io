@@ -1,23 +1,17 @@
 headlineEvents{
 
 ^eventDate{7 November 2026} 
-^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track, Society stands, extensive trade support; click ^link{here}{AGM^us^lang.html} for full details}
+^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track, Society stands, extensive trade support; click ^link{here}{AGM^us^lang.html} for full details.^nl  Catering and free parking on site.}
+
+^eventDate{17 April 2027}
+^event{^link{G1MRA Spring Show}{Spring^us^lang.html}}{Statfold Country Park ^postcode{B79}{0BU}}{Running track, Society stands, extensive trade support; click ^link{here}{Spring^us^lang.html} for full details.^nl  Catering and free parking on site.}
 
 ^eventDate{10 July 2027} 
-^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8 entry. ^nl^g1mail{yorkshire-group}}{Running track, Society stands, extensive trade support; click ^link{here}{G1North^us^lang.html} for full details. ^nl Catering and (paid) parking on site.}
 
 }
 
 homePageEvents{
-
-^eventDate{31 October-1 November 2026} 
-^event{^link{LowMex 2026}{https://www.lowmex.co.uk} - the Lowestoft Model Engineering and Model Making Exhibition}{Energy Skills Centre of the East Coast College, St Peters Street, Lowestoft ^postcode{NR32}{2NB} ^nl^g1mail{east-anglia-group}}{East Anglia Group end-to-end track}
-
-
-^eventDate{31 October 2026} 
-^event{Surrey Group public running day}{Dorking URC Hall ^postcode{RH4}{1BS}}{Surrey Oval 10:00-16:00; tea and cakes available^nl
-^g1mail{surrey-group}}
- 
 ^eventDate{7 November 2026} 
 ^event{Padiham Model Railway Event}{Unitarian Church Hall, Church Street,Padiham ^nl^postcode{BB12}{8JH}^nl^g1mail{northwest-group}}{New North-West group portable track, 0 and 00 gauge layouts, Meccano,
 Society stands, Playmobil for the children and others; refreshments available}
@@ -25,7 +19,8 @@ Society stands, Playmobil for the children and others; refreshments available}
 
 
 ^eventDate{7 November 2026} 
-^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track plus trade support}
+^event{^link{G1MRA Autumn show and AGM}{AGM^us^lang.html}}{British Motor Museum, Gaydon ^postcode{CV35}{0BJ} Open to public 10.00-16.00, £10.00 entry for public; £8.00 entry for G1MRA members.^nl^g1mail{eventsmanagement}}{Running track, Society stands, extensive trade support; click ^link{here}{AGM^us^lang.html} for full details.^nl  Catering and free parking on site.}
+
 
 ^eventDate{14 November 2026} 
 ^eventMO{Yorkshire Group running day}{Drax Power Station Social Club ^postcode{YO8}{8PJ}^nl^g1mail{yorkshire-group}}{Ridings track 09:00-15.00; bar meals available}
@@ -37,9 +32,6 @@ Society stands, Playmobil for the children and others; refreshments available}
 ^eventDate{13 December 2026}
 ^eventMO{Midland Group Christmas running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; Christmas buffet; tea and coffee all day}
 
-} // end current events
-
-futureEvents{
 ^eventDate{10 January 2027}
 ^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
 
@@ -49,18 +41,63 @@ futureEvents{
 ^eventDate{27-28 February 2027}
 ^event{Midlands Garden Rail Show}{Warwickshire Event Centre ^postcode{CV31}{1FE}^nl^g1mail{midland-group}}{Carding Road track}
 
+} // end current events
+
+futureEvents{
 ^eventDate{14 March 2027}
 ^eventMO{Midland Group running day}{Penkridge Peace Memorial Hall ^postcode{ST19}{5AP}^nl^g1mail{midland-group}}{Thompson Halt track 09:00-16.00; £5 entry + £5 runners; bacon or sausage baps 11.30-13.00; tea and coffee all day}
 
 ^eventDate{20-21 March 2027}
 ^event{London Festival of Railway Modelling}{Alexandra Palace ^postcode{N22}{7AY}^nl^g1mail{east-anglia-group}}{Anglia Roads track}
 
+^eventDate{17 April 2027}
+^event{^link{G1MRA Spring Show}{Spring^us^lang.html}}{Statfold Country Park ^postcode{B79}{0BU}}{Running track, Society stands, extensive trade support; click ^link{here}{Spring^us^lang.html} for full details.^nl  Catering and free parking on site.}
+
 ^eventDate{10 July 2027} 
-^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8 entry. ^nl^g1mail{yorkshire-group}}{Ridings track plus 25-30 traders.^nl Catering and (paid) parking on site.}
+^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8 entry. ^nl^g1mail{yorkshire-group}}{Running track, Society stands, extensive trade support; click ^link{here}{G1North^us^lang.html} for full details. ^nl Catering and (paid) parking on site.}
+
 
 } // end future events	
 
 ^page{Spring}{^T{Spring show}}{^eventsPrimary}{^springSecondary}{
+^cbox{^tbox{^h1{G1MRA Spring Show}
+
+^PAR{
+
+^h3{More detail on the 2027 event will apppear here in due course.}
+
+The 2027 show (organised on behalf of G1MRA by the Midland Group) will be on Saturday 17 April from 10.00 to 16.00 at Statfold Barn, ^link{Statfold Country Park}{https://statfold.com}, Ashby Road, Tamworth ^postcode{B79}{0BU}. 
+
+Alongside our Gauge 1 activities, the Statfold attractions will be open including the new Fairground Museum. The 2′ gauge steam railway and the 12 1/4" light railway will both be in operation.
+
+Travel information to the venue may be found ^link{here}{https://statfold.com/plan-your-visit/#find-us}
+
+^hrule^cbox{^h1{Running at the show}}^hrule
+
+Running slots on any of these layout will be available by booking directly on the day: please bring something to run.
+
+^bf{G1MRA fuel protocols will be in use.} Liquid fuel will be provided but please bring your own gas, coal and water. As the event is open to the public ^bf{live steam locomotives will require a current boiler certificate} which must be available for inspection.
+
+For anyone without a loco and wishing to have a try, the Midland Group's live steam 4F will be available for a run under the guidance of an experienced operator. 
+
+^hrule^cbox{^h1{Exhibits}}^hrule
+
+
+G1MRA sales and membership
+
+Gauge One 3D Circle
+
+TBA
+
+^hrule^cbox{^h1{Trade support}}^hrule
+
+TBA
+
+}}
+}}
+
+
+^page{Spring26}{^T{Spring show}}{^eventsPrimary}{^springSecondary}{
 ^cbox{^tbox{^h1{G1MRA Spring Show}
 
 ^PAR{
@@ -212,7 +249,10 @@ Walsall Model Industries
 
 ^page{G1North}{^T{Gauge One North}}{^eventsPrimary}{^g1NorthSecondary}{
 
+
 ^cbox{^tbox{^h1{Gauge 1 North}
+
+^h3{More detail on the 2027 event will apppear here in due course.}
 
 ^PAR{The first Gauge 1 North show was organised by the Yorkshire Group in 2010 . The event has gone from strength to strength since then. 
 
@@ -548,4 +588,13 @@ Matford Park Road
 Marsh Barton Ind Estate
 Exeter ^postcode{EX2}{8FD}}{}
 
+
+^eventDate{31 October-1 November 2026} 
+^event{^link{LowMex 2026}{https://www.lowmex.co.uk} - the Lowestoft Model Engineering and Model Making Exhibition}{Energy Skills Centre of the East Coast College, St Peters Street, Lowestoft ^postcode{NR32}{2NB} ^nl^g1mail{east-anglia-group}}{East Anglia Group end-to-end track}
+
+
+^eventDate{31 October 2026} 
+^event{Surrey Group public running day}{Dorking URC Hall ^postcode{RH4}{1BS}}{Surrey Oval 10:00-16:00; tea and cakes available^nl
+^g1mail{surrey-group}}
+ 
 }
