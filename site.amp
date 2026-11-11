@@ -886,14 +886,6 @@ As elsewhere on this site, click on an image to see the full resolution version.
 (b) Paypal to g1mra.sales@gmail.com with the appropriate supplement to cover PayPal fees.
 
 ^hrule
-^h1{G1MRA 75th anniversary tanker - £75}
-^cbox{^h2{UK shipping £10 each or collect for free at a show^quad UK PayPal supplement £3}}
-^cbox{^h2{Non-UK shipping and PayPal supplement at cost}}
-^imageBar{^image{g1mraTanker1.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker2.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker3.jpg}{The G1MRA anniversary tanker}}
-
-Made for us by Accucraft as a variant of their very successful 1:32 14-ton tanker model. The anniversary transfers can be removed with a bit of work if you want a plain tanker... Very nice runners. ^cbox{^h2{Only seven left - order now before they are all gone!}}
-
-^hrule
 ^h1{Greenly starter engine Type A^nl Fully built and ready to run but unpainted - £245}
 ^cbox{^h2{UK shipping £10 each or collect for free at a show^quad UK PayPal supplement £8}}
 ^cbox{^h2{Non-UK shipping and PayPal supplement at cost}}
@@ -1318,3 +1310,14 @@ If you make a data protection rights request, we must respond to you within one 
 
 }}
 }}}
+
+deprecated(){
+^hrule
+^h1{G1MRA 75th anniversary tanker - £75}
+^cbox{^h2{UK shipping £10 each or collect for free at a show^quad UK PayPal supplement £3}}
+^cbox{^h2{Non-UK shipping and PayPal supplement at cost}}
+^imageBar{^image{g1mraTanker1.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker2.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker3.jpg}{The G1MRA anniversary tanker}}
+
+Made for us by Accucraft as a variant of their very successful 1:32 14-ton tanker model. The anniversary transfers can be removed with a bit of work if you want a plain tanker... Very nice runners. ^cbox{^h2{Only seven left - order now before they are all gone!}}
+
+}
