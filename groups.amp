@@ -57,7 +57,7 @@ groups{
 ^group{Chiltern Group}{chiltern}{}
 ^group{Cornwall Group}{cornwall}{}
 ^group{Cotswold Group}{cotswold}{}
-^group{East Anglia Group}{east-anglia}{}
+^groupWeb{East Anglia Group}{east-anglia}{https://www.angliag1.com/}
 ^group{East Dorset & New Forest Group}{east-dorset-new-forest}{}
 ^group{East Midlands Group}{east-midlands}{}
 ^group{Essex Group}{essex}{}
