@@ -1014,8 +1014,8 @@ In use, cut to length and comb out the chord. Fill burner cups so that the wick 
 ^hrule
 ^h1{Wheel and axle sets}
 ^hrule
-^component{#13 Coach wheel set - £9.50 (P&P for 1-8 sets £4.50; for 9-16 sets £6.00)}{Two steel disc wheels, 35mm diameter over treads, fixed to axle with 40mm back to back, profiled to G1MRA standard}{comp_13.jpg}
-^component{#16 Wagon wheel set - £9.50 (P&P for 1-8 sets £4.50; for 9-16 sets £6.00)}{Two steel disc wheels with three holes, 30.5mm diameter over treads, fixed to axle with 40mm back to back, profiled to G1MRA standard}{comp_16.jpg}
+^component{#13 Two coach wheels on one axle - £9.50 (P&P for 1-8 sets £4.50; for 9-16 sets £6.00)}{Two steel disc wheels, 35mm diameter over treads, fixed to axle with 40mm back to back, profiled to G1MRA standard}{comp_13.jpg}
+^component{#16 Two wagon wheels on one axle - £9.50 (P&P for 1-8 sets £4.50; for 9-16 sets £6.00)}{Two steel disc wheels with three holes, 30.5mm diameter over treads, fixed to axle with 40mm back to back, profiled to G1MRA standard}{comp_16.jpg}
 ^hrule
 ^h1{White metal castings}
 ^hrule
@@ -1106,12 +1106,6 @@ Add UK P&P £2.50 per order
 ^T{To order merchandise, please fill in} ^link{^bf{^T{this form}}}{^merchandiseOrderForm}. ^T{Payment may be made by direct bank transfer or by PayPal (with a £2.00 supplement to cover PayPal fees); account details are on the form. 
 
 ^cbox{^bf{Items on this page are only available to members.}}
-
-^hrule
-^h1{G1MRA 75th anniversary glasses - £1.50 each - collection at shows only}
-^imageBar{^image{g1mraGlass1.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass2.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass3.jpg}{G1MRA anniversary glass}}
-
-These very nice one pint glasses were engraved for the 75th anniversary. We still have significant stocks, hence the low price. They are too fragile to ship economically, so please collect from a show or email ^g1mail{web} to see if we can find a member near you who can collect for you.
 
 ^hrule
 ^h1{Classic design garments}
@@ -1320,5 +1314,12 @@ deprecated(){
 ^imageBar{^image{g1mraTanker1.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker2.jpg}{The G1MRA anniversary tanker}}{^image{g1mraTanker3.jpg}{The G1MRA anniversary tanker}}
 
 Made for us by Accucraft as a variant of their very successful 1:32 14-ton tanker model. The anniversary transfers can be removed with a bit of work if you want a plain tanker... Very nice runners. ^cbox{^h2{Only seven left - order now before they are all gone!}}
+
+^hrule
+^h1{G1MRA 75th anniversary glasses - £1.50 each - collection at shows only}
+^imageBar{^image{g1mraGlass1.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass2.jpg}{G1MRA anniversary glass}}{^image{g1mraGlass3.jpg}{G1MRA anniversary glass}}
+
+These very nice one pint glasses were engraved for the 75th anniversary. We still have significant stocks, hence the low price. They are too fragile to ship economically, so please collect from a show or email ^g1mail{web} to see if we can find a member near you who can collect for you.
+
 
 }
