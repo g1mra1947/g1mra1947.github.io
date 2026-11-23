@@ -1,4 +1,4 @@
-suppliers{
+	suppliers{
 
 ^PAR{
 ^T{This is a classified list of suppliers to the Gauge 1 enthusiast.
@@ -13,6 +13,7 @@ If you are a supplier and wish to appear on this list or modify your entry, then
 ^h1{Kits and ready-to-run}
 ^supplier{Ace products}{Gauge 1 locomotive kits}{www.aceproducts.org}{}
 ^supplier{Accucraft UK }{1:32 scale live-steam locomotives and rolling stock; RTR and kits}{www.accucraft.uk.com}{info@accucraft.uk.com}
+^supplier{ALD }{Gauge 1 and Gauge 3 locomotives and rolling stock}{aldmodels.co.uk}{}
 ^supplier{Barrett Steam Models }{10mm scale live-steam locomotive kits}{www.barrettsteammodels.co.uk}{info@barrettsteammodels.co.uk}
 ^supplier{Bowande Live Steam}{Live-steam locomotives}{www.bowandeusa.com}{bowande@vip.163.com}
 ^supplier{Bowaters Models }{1:32 and 10mm scale model locomotive and rolling stock kits}{www.bowatersmodels.co.uk}{info@bowatersmodels.co.uk}
