@@ -1,7 +1,7 @@
 headlineEvents{
 
-^eventDate{17 April 2027}
-^event{^link{G1MRA Spring Show}{Spring^us^lang.html}}{Statfold Country Park ^postcode{B79}{0BU}}{Running track, Society stands, extensive trade support; click ^link{here}{Spring^us^lang.html} for full details.^nl  Catering and free parking on site.}
+^eventDate{17-18 April 2027}
+^event{^link{G1MRA 80th anniversary Spring Show}{Spring^us^lang.html}}{Statfold Country Park ^postcode{B79}{0BU}}{Running track, Society stands, extensive trade support; click ^link{here}{Spring^us^lang.html} for full details.^nl  Catering and free parking on site.}
 
 ^eventDate{10 July 2027} 
 ^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8 entry. ^nl^g1mail{yorkshire-group}}{Running track, Society stands, extensive trade support; click ^link{here}{G1North^us^lang.html} for full details. ^nl Catering and (paid) parking on site.}
@@ -37,8 +37,8 @@ futureEvents{
 ^eventDate{20-21 March 2027}
 ^event{London Festival of Railway Modelling}{Alexandra Palace ^postcode{N22}{7AY}^nl^g1mail{east-anglia-group}}{Anglia Roads track}
 
-^eventDate{17 April 2027}
-^event{^link{G1MRA Spring Show}{Spring^us^lang.html}}{Statfold Country Park ^postcode{B79}{0BU}}{Running track, Society stands, extensive trade support; click ^link{here}{Spring^us^lang.html} for full details.^nl  Catering and free parking on site.}
+^eventDate{17-18 April 2027}
+^event{^link{G1MRA 80th anniversary Spring Show}{Spring^us^lang.html}}{Statfold Country Park ^postcode{B79}{0BU}}{Running track, Society stands, extensive trade support; click ^link{here}{Spring^us^lang.html} for full details.^nl  Catering and free parking on site.}
 
 ^eventDate{10 July 2027} 
 ^event{^link{Gauge One North}{G1North^us^lang.html}}{Bakewell Agricultural Business Centre ^postcode{DE45}{1AH} Open to public 10.00-16.00, £8 entry. ^nl^g1mail{yorkshire-group}}{Running track, Society stands, extensive trade support; click ^link{here}{G1North^us^lang.html} for full details. ^nl Catering and (paid) parking on site.}
@@ -47,13 +47,13 @@ futureEvents{
 } // end future events	
 
 ^page{Spring}{^T{Spring show}}{^eventsPrimary}{^springSecondary}{
-^cbox{^tbox{^h1{G1MRA Spring Show}
+^cbox{^tbox{^h1{G1MRA 80th anniversary Spring Show}
 
 ^PAR{
 
-^h3{More detail on the 2027 event will apppear here in due course.}
+^h3{More detail on the 2027 80th anniversary event will apppear here in due course.}
 
-The 2027 show (organised on behalf of G1MRA by the Midland Group) will be on Saturday 17 April from 10.00 to 16.00 at Statfold Barn, ^link{Statfold Country Park}{https://statfold.com}, Ashby Road, Tamworth ^postcode{B79}{0BU}. 
+The 2027 80th anniversary Spring show will be on 17-18 April from 10.00 to 16.00 at Statfold Barn, ^link{Statfold Country Park}{https://statfold.com}, Ashby Road, Tamworth ^postcode{B79}{0BU}. 
 
 Alongside our Gauge 1 activities, the Statfold attractions will be open including the new Fairground Museum. The 2′ gauge steam railway and the 12 1/4" light railway will both be in operation.
 
